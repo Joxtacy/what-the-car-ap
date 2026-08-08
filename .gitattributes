@@ -1,0 +1,6 @@
+# Raw captures from the in-game dumpers -- machine-written, large, and reviewed by
+# regenerating rather than by reading the diff. Collapse them and keep them out of
+# language stats.
+mod/wtc_*.json linguist-generated=true
+what_the_car/levels.json linguist-generated=true
+mod/ids.json linguist-generated=true

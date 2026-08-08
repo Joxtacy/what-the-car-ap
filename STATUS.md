@@ -394,8 +394,40 @@ Design choices worth keeping:
   this; it needed knowing.)
 - Needed a new `UnityEngine.PhysicsModule` reference for `Rigidbody`.
 
-Verified: builds 0/0, loads in-game, no errors. **The actual chest retrieval is untested** — that
-needs the user to drive it.
+**LIVE-VALIDATED 2026-08-08:** user reached the ledge and opened the chest.
+
+### The swim bug itself — diagnosed, not fixed
+
+Useful negative result from that run: **teleporting the car into the river does NOT trigger
+swimming.** That rules out every positional explanation. The entry chain is
+
+```
+BuoyancySource (trigger volume on the water)      -- OnTriggerEnter
+  -> BuoyancyReceiver.HandleEnterBuoyancySource   -- Speed.Gameplay
+  -> OnBuoyancySourceEnter (UnityEvent<GameObject>)
+  -> OverworldPlayerMovementController.ChangeState(swimming)
+```
+
+`OverworldPlayerMovementController` holds `falling / running / swimming / trainSurfing /
+wormRiding` and a `currentState`. Since being physically inside the water changes nothing, the
+receiver is registering **no source** there — so the likely cause is that this stretch of river
+carries no `BuoyancySource` trigger volume at all, or one whose collider or `buoyancySourceLayers`
+mask does not match. Position cannot matter if there is no trigger to enter.
+
+**Testable cheaply:** a read-only probe that, while the car sits in that river, logs
+`BuoyancyReceiver.IsInWater()`, `InWaterPct()` and the `buoyancySources` list, plus any
+`BuoyancySource` objects near the car. Empty list + nearby sources absent would confirm it.
+
+**If confirmed, the fix has to be the thing the nudge deliberately avoided** — calling
+`ChangeState(swimming)` directly — because with no trigger volume there is no supported door to
+use. That is a real behaviour change rather than a camera-and-position helper, so it wants its own
+toggle.
+
+**AP relevance:** chests are not AP locations in the current world (locations are levels +
+overworld completions), so nothing is unreachable in a seed today. But if chests are added later,
+or if an access point sits past that river, this becomes a genuine logic hazard — a seed could
+place a needed item behind terrain the game will not let the player cross. Worth resolving before
+chests become checks.
 
 Dumpers flipped back **off** now that harvesting is done; they cost a visible frame hitch.
 

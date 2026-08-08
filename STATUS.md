@@ -91,6 +91,56 @@ them. Key types:
 - Launch the game with PowerShell `Start-Process "steam://rungameid/2727650"`; the Bash
   `cmd.exe start` trick fails silently.
 
+### MelonLoader works — no BepInEx-style crash
+
+MelonLoader **v0.7.3** (the current release, and the same version golf uses) installed into the
+game dir. First launch generated interop cleanly:
+
+- Cpp2IL handled **metadata v31.1** without complaint — 184,857 methods mapped, 169 interop
+  assemblies produced in ~85 s.
+- The game **passed `GfxDevice: creating device client`** and reached the title screen. That is
+  the precise point where BepInEx's Dobby detour hard-crashed WHAT THE GOLF?. Unlike golf, the
+  game does *not* exit itself after interop generation.
+- Log confirms `Game Name: WHATTHECAR / Developer: Triband / Unity 2022.3.69f1 / Game Version 5.19.0`.
+
+**Game code lives in `Il2CppSpeed.dll` (16 MB), not `Assembly-CSharp.dll` (90 KB).** "Speed" is
+the internal project name — consistent with `SpeedMetaSave.SpeedMetaSave` in the save directory.
+Namespaces are `Speed.*`.
+
+### Reverse engineering — see `mod/REVERSE_ENGINEERING.md`
+
+Decompiled `Il2CppSpeed.dll` to 3,012 C# files with `ilspycmd` (`--version 8.0.0.7345`; plain
+`latest` resolves to a package that isn't a .NET tool). Added `tools/typesummary.py` to render a
+type's base class, real IL2CPP identity, fields and method signatures — the interop proxies are
+otherwise unreadable, being ~200 lines of pointer arithmetic per type.
+
+Two findings that change the design:
+
+1. **The game already has a key system.** `Speed.Saving.OverworldSaveInfo` exposes
+   `HasKeyBeenRedeemed` / `IsKeyOnCar` / `RedeemKey` / `AddKeyOnCar` over `_redeemedKeys` and
+   `_currentKeysOnCar`, and `IslandDef.items : List<ItemData>` where `ItemData` carries a
+   `KeyPrefab` and a `chestModel`. The player physically carries keys and redeems them at chests.
+   That is a near one-to-one fit for AP items and a much cleaner gating lever than golf's
+   force-hold-the-door-plate-every-frame approach. **Unverified in-game** — whether withholding a
+   key really blocks progression still has to be tested.
+2. **The world is a tree of islands, not a flat teleport graph.** `Island` has
+   `OutgoingConnections : List<IslandConnection>` / `IngoingIsland`, and `IslandConnectionGate`
+   has `OnChoicePicked()` / `OnChoiceUnpicked()` — progression appears to *branch* with the
+   player choosing which connection to open. Golf's "every region hangs off Menu" region layout
+   will not transfer unchanged.
+
+Also: completion is a **three-tier medal** (`ELevelCompletedState`: Incomplete/Bronze/Silver/Gold,
+driven by `PlayableContentDef.silverTime`/`goldTime`), not golf's binary clear + crown. Levels are
+`PlayableContentDef` (`contentId` is the stable key); access points (`BaseAccessPoint`) are
+cannons that launch a `Playlist` of them.
+
+**Correction worth keeping:** part of the earlier `global-metadata.dat` string scan was wrong.
+`NormalLevelDef`, `LevelsProvider`, `CardData`, `Chest` and `LevelManager` are string literals,
+not types; `AreaData`/`AreaNode` are `UnityEngine.UIElements` types. `global-metadata.dat` holds
+string literals alongside type names, so it is fine for reconnaissance but must not be planned
+against. Confirm against the interop assemblies.
+
 ### Next
 
-Scaffold done. Next: install MelonLoader, generate interop, port the mod skeleton.
+Port the mod skeleton from golf (`Plugin.cs`, `Mod.cs`, the Archipelago client, `GamePatches.cs`),
+then write the dumpers against `Island` / `PlayableContentDef` / `BaseAccessPoint` / `ItemData`.

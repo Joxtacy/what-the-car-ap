@@ -475,6 +475,24 @@ save, so medal state is internally consistent.
 
 `mod/wtc_cards.json` is committed; the card sweep lives in `Dumpers.SweepCards`.
 
+### Card text colour — `gainedCard` on the resolved record
+
+Follow-up: some gold cards render their text differently, the four repaired ones among them.
+Exactly **20 Controller cards resolve to a record with `gainedCard: false`**, and that set is
+precisely the odd-looking ones — the 4 repaired, the 6 Goat, and 10 more that were already gold
+(including `Who Let The Turtles Out?`, which the user had flagged earlier and which nothing else
+explained). All 20 also resolve to a *variant* record rather than their own, so the two properties
+are perfectly correlated in this save and only an empirical test separates them.
+
+`CardUI` holds `_goldColors` / `_silverColors` / `_bronzeColors` / `_incompleteColors` as
+`List<Color>` applied to `allTexts` via `SetMedalColor(ELevelCompletedState)` — so the medal alone
+cannot distinguish two gold cards, which leaves `gainedCard` as the differentiator. The interop has
+no method bodies, so this stays a hypothesis until the save edit is tried.
+
+`tools/fix_card_medals.py --fonts` sets `gainedCard: true` on the 14 affected records. The 6 Goat
+cards are deliberately excluded: they really are unobtained, and flagging them would claim content
+that cannot currently be played.
+
 ### Next
 
 The mod's `ItemApplier` is still a stub — nothing is gated yet. The promising lever is the game's

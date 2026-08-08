@@ -74,6 +74,28 @@ TARGETS = {
     "95da910098d54074b1b0216796a93e7d": "Someone Left The Lasers On",
 }
 
+# --fonts: records whose card is owned but whose `gainedCard` flag is false,
+# because the card was earned through a DIFFERENT record of the same level.
+# Fourteen cards render their text differently as a result. The six Goat
+# Simulator cards share the symptom but are deliberately absent -- those really
+# are unobtained, and flagging them would claim content that cannot be played.
+GAINED = {
+    "1dc807fd86a04222acb6f96cfa9b5cc0": "3 Wide 4 Counting",
+    "4317a16600d949f289f33840e1609824": "Boost On Springboards",
+    "4e00028627334a03a0f2b4890c418c8a": "Car In Hamster Wheel",
+    "9cc8214d8ff543229bcb670bfa29308b": "Car Is A- Maze- Ing",
+    "04d7ca56c9a54b76abf59193724b9627": "Car Takes A Long Shot",
+    "88d617e1ae8c4c25ae774bee0b10962a": "Car With Giraffes",
+    "54506b36d5a8472a91881e3bdef323e7": "Do Cars Dream Of Giraffe Wheels?",
+    "1ad85cb635294426973de21a20e24a8c": "I Am The Car- Ptain Now",
+    "4b3ab02ccf7a489e9cd13968ccc41928": "Roller Car- Ster",
+    "5e18ee58f0634869999bbd073214d300": "Snotting Hill",
+    "19705767de254ec8b086c12b897bdfba": "So- Ccar It Shoots Balls",
+    "95da910098d54074b1b0216796a93e7d": "Someone Left The Lasers On",
+    "eebf3a1367a741508dc18d0144bfa1d0": "Watercooler Jetpack",
+    "64d594da976842f78418176a03d29a03": "Who Let The Turtles Out?",
+}
+
 
 def load(path):
     with open(path, "rb") as f:
@@ -82,6 +104,7 @@ def load(path):
 
 def main(argv):
     apply_it = "--apply" in argv
+    fonts = "--fonts" in argv
     path = next((a for a in argv if a.endswith(".car")), SAVE)
 
     if not os.path.exists(path):
@@ -93,6 +116,7 @@ def main(argv):
     print(f"save: {path}\nrecords: {len(records)}\n")
 
     pending = []
+    print("medal repair:")
     for rec in records:
         if rec["levelId"] in TARGETS:
             name = TARGETS[rec["levelId"]]
@@ -100,38 +124,57 @@ def main(argv):
             mark = "already Gold" if cur == 3 else f"{STATE[cur]} -> Gold"
             print(f"  {name:<30} best={rec['bestTimeMs']/1000:>7.2f}s   {mark}")
             if cur != 3:
-                pending.append(rec)
+                pending.append(("state", rec))
 
     missing = set(TARGETS) - {r["levelId"] for r in records}
     for m in missing:
         print(f"  {TARGETS[m]:<30} *** record not present in this save ***")
 
+    if fonts:
+        print("\ncard-text repair (--fonts):")
+        for rec in records:
+            if rec["levelId"] in GAINED and not rec.get("gainedCard"):
+                print(f"  {GAINED[rec['levelId']]:<30} gainedCard false -> true")
+                pending.append(("gained", rec))
+        already = sum(1 for r in records if r["levelId"] in GAINED and r.get("gainedCard"))
+        if already:
+            print(f"  ({already} already flagged)")
+
     if not pending:
         print("\nnothing to change.")
         return 0
     if not apply_it:
-        print(f"\n{len(pending)} record(s) would change. Re-run with --apply to write.")
+        print(f"\n{len(pending)} change(s) pending. Re-run with --apply to write.")
+        if not fonts:
+            print("Add --fonts to also normalise the card text colour.")
         return 0
 
     backup = f"{path}.bak-{time.strftime('%Y%m%d-%H%M%S')}"
     shutil.copy2(path, backup)
     print(f"\nbackup -> {backup}")
 
-    for rec in pending:
-        rec["completedState"] = 3
+    for kind, rec in pending:
+        if kind == "state":
+            rec["completedState"] = 3
+        else:
+            rec["gainedCard"] = True
 
     blob = gzip.compress(json.dumps(data, separators=(",", ":")).encode("utf-8"))
     with open(path, "wb") as f:
         f.write(blob)
 
-    # Round-trip: prove it still parses and that only the intended field moved.
+    # Round-trip: prove it still parses and that only the intended fields moved.
     check = load(path)
     by_id = {r["levelId"]: r for r in check["_levelInfosSerialized"]}
     assert len(check["_levelInfosSerialized"]) == len(records), "record count changed!"
     for tid, name in TARGETS.items():
         if tid in by_id:
-            assert by_id[tid]["completedState"] == 3, f"{name} did not take"
-    print(f"wrote {len(blob)} bytes; verified {len(pending)} record(s) now Gold.")
+            assert by_id[tid]["completedState"] == 3, f"{name} medal did not take"
+    if fonts:
+        for tid, name in GAINED.items():
+            if tid in by_id:
+                assert by_id[tid]["gainedCard"] is True, f"{name} gainedCard did not take"
+    print(f"wrote {len(blob)} bytes; applied {len(pending)} change(s).")
     print("\nStart the game and check the card book. To undo:")
     print(f"    copy \"{backup}\" \"{path}\"")
     return 0

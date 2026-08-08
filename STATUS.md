@@ -431,6 +431,50 @@ chests become checks.
 
 Dumpers flipped back **off** now that harvesting is done; they cost a visible frame hitch.
 
+### The "168/174 cards" investigation — SOLVED, and it was not a bug
+
+User reported six cards not showing their gold state. Root cause: **six Goat Simulator collab
+levels have no play record at all** — `CardData.isUnclaimed` is true for exactly those six, so the
+cards were never obtained rather than mis-coloured.
+
+`OverworldDungeon-GoatSimulatorCollab` / "Goatville-Island" holds 9 levels; 7 have **no record** in
+the save and 2 are Gold. Six of the seven have cards; the seventh (`Car With Jetpack But Down`) has
+none, which is why the counter is short by six rather than seven. No save edit needed — playing
+those six levels fixes it.
+
+**The save format is fully readable**, which made this possible: `CarSave0-2.car` is **gzip-wrapped
+plain JSON** (`_saveVersion: 28`). Decompress with `gzip.decompress` and `json.loads`.
+
+Structure worth knowing:
+- `_levelInfosSerialized` — one record per level **instance**, not per level (238 records, 175 of
+  whose `levelId`s resolve to a real `NormalLevelDef`; the rest are variants carrying a real
+  `templateId`). Fields: `levelId`, `templateId`, `bestTimeMs`, `completedState`, `gainedCard`,
+  `finishedCount`.
+- `_overworldInfo` — `_discoveries` (558 ids, none of them level ids), `_redeemedKeys` (7 — the
+  bear/gate keys), `_events`, `_currentKeysOnCar`, `_lastLocation`.
+- `_completedPlaylistsSerialized`, `_extraSaveDatas` (versioned `rawJson` blobs), `_discoveryCardSerialized`.
+
+**Card model:** 192 `CardData` assets — **174 `Controller`** (the counter's denominator, each with a
+`contentId` pointing at the level whose played info drives its colour) and 18 `Overworld` (themed
+collectibles, no `contentId`, all claimed). 4 Controller cards are Driving School licences rather
+than campaign levels, so 170 of the 173 campaign levels carry cards.
+
+**Wrong turns worth recording.** Two hypotheses died on contact with data:
+1. *"contentId != originalContentId causes a lookup mismatch"* — zero levels have that mismatch.
+2. *"stale duplicate records"* — ten records sit below Gold while the same level is Gold under its
+   own id, which looked exactly like the bug. But every one is a **variant instance whose `levelId`
+   is not a level asset at all**, so no card reads them. Plausible and irrelevant.
+
+Also: two levels the user believed were wrong (`Who Let The Turtles Out?`, `I Am The Car- Ptain Now`)
+are Gold in the save both by stored state and by `bestTimeMs` vs `goldTime` (43.83s/44.0s and
+58.43s/59.0s — tight, but gold), with `gainedCard: true`. **Unexplained**; no data supports a
+problem with those two.
+
+Verified separately: stored `completedState` and `bestTimeMs` **never disagree** across the whole
+save, so medal state is internally consistent.
+
+`mod/wtc_cards.json` is committed; the card sweep lives in `Dumpers.SweepCards`.
+
 ### Next
 
 The mod's `ItemApplier` is still a stub — nothing is gated yet. The promising lever is the game's

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using Il2CppSpeed;
 using Il2CppSpeed.Overworld;
+using Il2Cpp;
 using Newtonsoft.Json;
 using UnityEngine;
 
@@ -38,12 +39,14 @@ public static class Dumpers
     private static readonly Dictionary<string, Dictionary<string, object>> _islands = new();
     private static readonly Dictionary<string, Dictionary<string, object>> _accessPoints = new();
     private static readonly Dictionary<string, Dictionary<string, object>> _overworlds = new();
+    private static readonly Dictionary<string, Dictionary<string, object>> _cards = new();
 
     private static string GameRoot => MelonLoader.Utils.MelonEnvironment.GameRootDirectory;
     private static string LevelsPath => Path.Combine(GameRoot, "wtc_levels.json");
     private static string IslandsPath => Path.Combine(GameRoot, "wtc_islands.json");
     private static string AccessPointsPath => Path.Combine(GameRoot, "wtc_accesspoints.json");
     private static string OverworldsPath => Path.Combine(GameRoot, "wtc_overworlds.json");
+    private static string CardsPath => Path.Combine(GameRoot, "wtc_cards.json");
 
     public static void Tick()
     {
@@ -62,13 +65,16 @@ public static class Dumpers
             EnsureLoaded();
             int levelsBefore = _levels.Count, islandsBefore = _islands.Count;
             int apBefore = _accessPoints.Count, owBefore = _overworlds.Count;
+            int cardsBefore = _cards.Count;
 
             SweepLevels();
             SweepOverworlds();
+            SweepCards();
             SweepIslands();
 
             bool grew = _levels.Count != levelsBefore || _islands.Count != islandsBefore
-                        || _accessPoints.Count != apBefore || _overworlds.Count != owBefore;
+                        || _accessPoints.Count != apBefore || _overworlds.Count != owBefore
+                        || _cards.Count != cardsBefore;
             if (grew || verbose)
             {
                 Write();
@@ -76,7 +82,8 @@ public static class Dumpers
                     $"[DUMP] levels={_levels.Count} (+{_levels.Count - levelsBefore}) "
                     + $"overworlds={_overworlds.Count} (+{_overworlds.Count - owBefore}) "
                     + $"islands={_islands.Count} (+{_islands.Count - islandsBefore}) "
-                    + $"accessPoints={_accessPoints.Count} (+{_accessPoints.Count - apBefore}) -> game root");
+                    + $"accessPoints={_accessPoints.Count} (+{_accessPoints.Count - apBefore}) "
+                    + $"cards={_cards.Count} (+{_cards.Count - cardsBefore}) -> game root");
             }
         }
         catch (Exception e) { Plugin.Log.LogError($"Dumpers.Capture: {e}"); }
@@ -121,6 +128,43 @@ public static class Dumpers
             {
                 Plugin.Log.LogError($"[DUMP] level #{i}: {e.Message}");
             }
+        }
+    }
+
+    /// <summary>
+    /// Collectible cards. Each CardData points at the PlayableContentDef whose
+    /// played info drives its colour (`CardData.GetPlayedLevelInfo()`), so this is
+    /// what tells us which level a given card is actually reading -- the question
+    /// behind "I have gold on every level but six cards still aren't gold".
+    /// </summary>
+    private static void SweepCards()
+    {
+        var found = Resources.FindObjectsOfTypeAll<CardData>();
+        if (found == null) return;
+
+        for (int i = 0; i < found.Length; i++)
+        {
+            var card = found[i];
+            if (card == null) continue;
+            try
+            {
+                string assetName = Str(card.name);
+                string content = null;
+                try { content = Str(card.ContentDef?.contentId); } catch { }
+                string key = content ?? assetName;
+                if (key == null) continue;
+
+                MergeInto(_cards, key, new Dictionary<string, object>
+                {
+                    ["assetName"] = assetName,
+                    ["contentId"] = content,
+                    ["cardId"] = CrossId(card.id),
+                    ["overworldId"] = Str(card.OverworldID),
+                    ["type"] = card.Type.ToString(),
+                    ["isUnclaimed"] = card.IsUnclaimed,
+                });
+            }
+            catch (Exception e) { Plugin.Log.LogError($"[DUMP] card #{i}: {e.Message}"); }
         }
     }
 
@@ -503,6 +547,7 @@ public static class Dumpers
         Load(IslandsPath, _islands);
         Load(AccessPointsPath, _accessPoints);
         Load(OverworldsPath, _overworlds);
+        Load(CardsPath, _cards);
         if (_levels.Count > 0 || _islands.Count > 0 || _accessPoints.Count > 0)
             Plugin.Log.LogInfo(
                 $"[DUMP] resumed from disk: {_levels.Count} levels, {_overworlds.Count} overworlds, "
@@ -528,6 +573,7 @@ public static class Dumpers
         Save(IslandsPath, _islands);
         Save(AccessPointsPath, _accessPoints);
         Save(OverworldsPath, _overworlds);
+        Save(CardsPath, _cards);
     }
 
     private static void Save(string path, Dictionary<string, Dictionary<string, object>> data)

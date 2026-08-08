@@ -6,6 +6,77 @@ equivalent turned out to be its single most valuable file, so this one starts on
 
 ---
 
+## How to resume
+
+Everything below is machine-specific and lives outside the repo. Paths as of 2026-08-08.
+
+### Where things are
+
+| | |
+|---|---|
+| Repo | `C:\Users\Joxtacy\Projects\what-the-car-ap` → github.com/Joxtacy/what-the-car-ap |
+| Game | `C:\Program Files (x86)\Steam\steamapps\common\WHAT THE CAR` (appid `2727650`) |
+| Saves | `%USERPROFILE%\AppData\LocalLow\Triband\WHATTHECAR\` (`CarSave0-2.car`, 3 slots) |
+| **Save backup** | `C:\Users\Joxtacy\ap-build\wtc_save_backup` (slot 0 = the ~100% save) |
+| Decompiled game | `C:\Users\Joxtacy\ap-build\wtc_decomp` (3,012 `.cs`, not committed) |
+| AP for generating | `C:\ProgramData\Archipelago` (released 0.6.7, bundled Python) |
+| AP source clone | `C:\Users\Joxtacy\ap-build\Archipelago` (git, at tag 0.6.7) |
+| Seed test bed | `C:\Users\Joxtacy\ap-build\wtc_test\{Players,output}` |
+
+### Commands
+
+Run Python from the repo root with **relative paths** — the `python` on PATH is MSYS and
+cannot take Windows absolute-path arguments.
+
+```bash
+python tools/build_levels.py            # report only
+python tools/build_levels.py --write    # -> what_the_car/levels.json
+python tools/export_ids.py              # -> mod/ids.json (the apworld<->mod contract)
+python tools/typesummary.py C:/Users/Joxtacy/ap-build/wtc_decomp Island BaseAccessPoint
+python tools/typesummary.py C:/Users/Joxtacy/ap-build/wtc_decomp --grep 'chest|card'
+```
+
+Build + deploy the mod (Debug auto-deploys to `<game>\Mods` and `<game>\UserLibs`):
+
+```powershell
+cd mod; dotnet build -c Debug     # CLOSE THE GAME FIRST -- it locks the DLL
+```
+
+Launch the game (PowerShell only; the Bash `cmd.exe start` trick fails silently):
+
+```powershell
+Start-Process "steam://rungameid/2727650"
+```
+
+Package and test the apworld:
+
+```powershell
+# zip what_the_car/ (minus __pycache__/*.pyc) to dist/what_the_car.apworld, then:
+Copy-Item dist\what_the_car.apworld C:\ProgramData\Archipelago\custom_worlds\ -Force
+& "C:\ProgramData\Archipelago\ArchipelagoGenerate.exe" `
+    --player_files_path C:\Users\Joxtacy\ap-build\wtc_test\Players `
+    --outputpath C:\Users\Joxtacy\ap-build\wtc_test\output --seed 777
+```
+
+`wtc_test\Players\wtc_multi.yaml` holds four slots covering every option axis. Host a seed with
+`ArchipelagoServer.exe <seed.zip>` (default port 38281).
+
+### Re-capturing game data
+
+Only needed if the game updates. Set `Mod.DumpersEnabled = true`, `dotnet build -c Debug`, launch,
+**wait at the main menu** (`OverworldData` loads there — no driving required), then copy
+`<game>\wtc_*.json` into `mod\` and set the flag back to `false`. **F7** forces a sweep.
+
+Regenerate the decompile with the `ilspycmd` command in `mod/REVERSE_ENGINEERING.md`
+(pin `--version 8.0.0.7345`; plain `latest` resolves to a package that isn't a .NET tool).
+
+### Before playing an AP seed
+
+**Use save slot 1 or 2, never slot 0.** The mod reports best-ever medal state, so a progressed
+save fires every check on first touch. See the medal-semantics entry below.
+
+---
+
 ## 2026-08-08 — Project started
 
 ### Decisions made

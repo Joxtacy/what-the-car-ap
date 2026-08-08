@@ -5,7 +5,13 @@
     "cardId": null,
     "overworldId": "1b88716c690d9ba4b8e479971c80bdc5",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "385350d3a57504841b659dfa8fde8d5a",
+    "resolvedTemplateId": "385350d3a57504841b659dfa8fde8d5a",
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 9193,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "f9a4d4dc82d0d164888b780628cb3ff5": {
     "assetName": null,
@@ -13,7 +19,13 @@
     "cardId": null,
     "overworldId": "1b88716c690d9ba4b8e479971c80bdc5",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "f9a4d4dc82d0d164888b780628cb3ff5",
+    "resolvedTemplateId": "f9a4d4dc82d0d164888b780628cb3ff5",
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 9811,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "99cd43256191e58418ea3b8eb8da3ece": {
     "assetName": null,
@@ -21,7 +33,13 @@
     "cardId": null,
     "overworldId": "1b88716c690d9ba4b8e479971c80bdc5",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "99cd43256191e58418ea3b8eb8da3ece",
+    "resolvedTemplateId": "99cd43256191e58418ea3b8eb8da3ece",
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 15,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 5
   },
   "16e60c28e0f551046a93bad3df305c39": {
     "assetName": null,
@@ -29,7 +47,13 @@
     "cardId": null,
     "overworldId": "1b88716c690d9ba4b8e479971c80bdc5",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "16e60c28e0f551046a93bad3df305c39",
+    "resolvedTemplateId": "16e60c28e0f551046a93bad3df305c39",
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 7789,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "025a889f2d6977a4fa9e2148ae70f239": {
     "assetName": null,
@@ -37,7 +61,13 @@
     "cardId": null,
     "overworldId": "20a0f7f37c9e61f4dafa1db1990b58a7",
     "type": "Controller",
-    "isUnclaimed": true
+    "isUnclaimed": true,
+    "resolvedLevelId": null,
+    "resolvedTemplateId": null,
+    "resolvedState": 0,
+    "resolvedBestTimeMs": -1,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 0
   },
   "8217edcdcfc7d8b4e8003fa506e7d8ca": {
     "assetName": null,
@@ -45,7 +75,13 @@
     "cardId": null,
     "overworldId": "20a0f7f37c9e61f4dafa1db1990b58a7",
     "type": "Controller",
-    "isUnclaimed": true
+    "isUnclaimed": true,
+    "resolvedLevelId": null,
+    "resolvedTemplateId": null,
+    "resolvedState": 0,
+    "resolvedBestTimeMs": -1,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 0
   },
   "420b01a36bcf71741a0b5446eb417825": {
     "assetName": null,
@@ -53,7 +89,13 @@
     "cardId": null,
     "overworldId": "20a0f7f37c9e61f4dafa1db1990b58a7",
     "type": "Controller",
-    "isUnclaimed": true
+    "isUnclaimed": true,
+    "resolvedLevelId": null,
+    "resolvedTemplateId": null,
+    "resolvedState": 0,
+    "resolvedBestTimeMs": -1,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 0
   },
   "9c631a62f096d504e9dd3bf8f9305ea0": {
     "assetName": null,
@@ -61,7 +103,13 @@
     "cardId": null,
     "overworldId": "20a0f7f37c9e61f4dafa1db1990b58a7",
     "type": "Controller",
-    "isUnclaimed": true
+    "isUnclaimed": true,
+    "resolvedLevelId": null,
+    "resolvedTemplateId": null,
+    "resolvedState": 0,
+    "resolvedBestTimeMs": -1,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 0
   },
   "40d3f975e9382fc4eafb6a762e56a683": {
     "assetName": null,
@@ -69,7 +117,13 @@
     "cardId": null,
     "overworldId": "20a0f7f37c9e61f4dafa1db1990b58a7",
     "type": "Controller",
-    "isUnclaimed": true
+    "isUnclaimed": true,
+    "resolvedLevelId": null,
+    "resolvedTemplateId": null,
+    "resolvedState": 0,
+    "resolvedBestTimeMs": -1,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 0
   },
   "b0f1d371555285045a378aae153001f3": {
     "assetName": null,
@@ -77,7 +131,13 @@
     "cardId": null,
     "overworldId": "20a0f7f37c9e61f4dafa1db1990b58a7",
     "type": "Controller",
-    "isUnclaimed": true
+    "isUnclaimed": true,
+    "resolvedLevelId": null,
+    "resolvedTemplateId": null,
+    "resolvedState": 0,
+    "resolvedBestTimeMs": -1,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 0
   },
   "f5903d71f9875234cac9db3f29aa9036": {
     "assetName": null,
@@ -85,7 +145,13 @@
     "cardId": null,
     "overworldId": "26251fbfce2d5dd44b449edabb09ebeb",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "f5903d71f9875234cac9db3f29aa9036",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 28190,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "1e461cf6370a7b245bb5a6e448b22b5d": {
     "assetName": null,
@@ -93,7 +159,13 @@
     "cardId": null,
     "overworldId": "26251fbfce2d5dd44b449edabb09ebeb",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "1e461cf6370a7b245bb5a6e448b22b5d",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 4762,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 99
   },
   "f3095ec16c8107d47b0ec2d99e6d3af8": {
     "assetName": null,
@@ -101,7 +173,13 @@
     "cardId": null,
     "overworldId": "26251fbfce2d5dd44b449edabb09ebeb",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "f3095ec16c8107d47b0ec2d99e6d3af8",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 29392,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "2b53813e817368d4382f2db546aac4a5": {
     "assetName": null,
@@ -109,7 +187,13 @@
     "cardId": null,
     "overworldId": "26251fbfce2d5dd44b449edabb09ebeb",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "2b53813e817368d4382f2db546aac4a5",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 25612,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "ed22e3c9f1fef6c438781f59820f94be": {
     "assetName": null,
@@ -117,7 +201,13 @@
     "cardId": null,
     "overworldId": "26251fbfce2d5dd44b449edabb09ebeb",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "ed22e3c9f1fef6c438781f59820f94be",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 18243,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "9bdddd42b54755444af1937393a5defb": {
     "assetName": null,
@@ -125,7 +215,13 @@
     "cardId": null,
     "overworldId": "2cbde3840e0497e46bd79df9f7db3e48",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "9bdddd42b54755444af1937393a5defb",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 26050,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "d0aeac69d76c28c44b8ed4add95c8bb2": {
     "assetName": null,
@@ -133,7 +229,13 @@
     "cardId": null,
     "overworldId": "2cbde3840e0497e46bd79df9f7db3e48",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "d0aeac69d76c28c44b8ed4add95c8bb2",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 33270,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 3
   },
   "a3307eaf8aa064749a486599d363528e": {
     "assetName": null,
@@ -141,7 +243,13 @@
     "cardId": null,
     "overworldId": "2cbde3840e0497e46bd79df9f7db3e48",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "a3307eaf8aa064749a486599d363528e",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 21110,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "60d846fb80bb34b49809fa2dbf95f191": {
     "assetName": null,
@@ -149,7 +257,13 @@
     "cardId": null,
     "overworldId": "2cbde3840e0497e46bd79df9f7db3e48",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "60d846fb80bb34b49809fa2dbf95f191",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 18192,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "08cc85bf751a76644ae44c3612783fa5": {
     "assetName": null,
@@ -157,7 +271,13 @@
     "cardId": null,
     "overworldId": "2cbde3840e0497e46bd79df9f7db3e48",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "08cc85bf751a76644ae44c3612783fa5",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 38593,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "170c0b5b80c4fdc459f474348d8867df": {
     "assetName": null,
@@ -165,7 +285,13 @@
     "cardId": null,
     "overworldId": "2cbde3840e0497e46bd79df9f7db3e48",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "170c0b5b80c4fdc459f474348d8867df",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 21564,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 4
   },
   "d7e571a9cb20e4b4089e90e94ddc5474": {
     "assetName": null,
@@ -173,7 +299,13 @@
     "cardId": null,
     "overworldId": "2cbde3840e0497e46bd79df9f7db3e48",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "d7e571a9cb20e4b4089e90e94ddc5474",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 12253,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "f9fb43257a6d6dc43815b63ecdf01689": {
     "assetName": null,
@@ -181,7 +313,13 @@
     "cardId": null,
     "overworldId": "2cbde3840e0497e46bd79df9f7db3e48",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "f9fb43257a6d6dc43815b63ecdf01689",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 29729,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "912a101287e4dd844b8b875249fda8f3": {
     "assetName": null,
@@ -189,7 +327,13 @@
     "cardId": null,
     "overworldId": "2cbde3840e0497e46bd79df9f7db3e48",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "912a101287e4dd844b8b875249fda8f3",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 36807,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "0f9633acfc9355149831165b0ef970b5": {
     "assetName": null,
@@ -197,7 +341,13 @@
     "cardId": null,
     "overworldId": "2cbde3840e0497e46bd79df9f7db3e48",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "0f9633acfc9355149831165b0ef970b5",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 23827,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 3
   },
   "cd6225cc2d852ec4c8ae1d27cec4837d": {
     "assetName": null,
@@ -205,7 +355,13 @@
     "cardId": null,
     "overworldId": "2cbde3840e0497e46bd79df9f7db3e48",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "cd6225cc2d852ec4c8ae1d27cec4837d",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 37252,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "e9ef449fa6bc2ad4eb418e2d198b149a": {
     "assetName": null,
@@ -213,7 +369,13 @@
     "cardId": null,
     "overworldId": "2cbde3840e0497e46bd79df9f7db3e48",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "e9ef449fa6bc2ad4eb418e2d198b149a",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 36097,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "ed3e5c2e4fdf2784896742c562d4052e": {
     "assetName": null,
@@ -221,7 +383,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "ed3e5c2e4fdf2784896742c562d4052e",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 53027,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 3
   },
   "a9d5aebb76d6a2f48be25c494daf71d5": {
     "assetName": null,
@@ -229,7 +397,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "a9d5aebb76d6a2f48be25c494daf71d5",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 20362,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "a624c459f7e46c1478b1a816755448df": {
     "assetName": null,
@@ -237,7 +411,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "a624c459f7e46c1478b1a816755448df",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 44653,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "9d32c52847ccd4244bd56e4bddf54191": {
     "assetName": null,
@@ -245,7 +425,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "9d32c52847ccd4244bd56e4bddf54191",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 26606,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "39a15b8ac7067aa4db26ed6941e6501c": {
     "assetName": null,
@@ -253,7 +439,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "39a15b8ac7067aa4db26ed6941e6501c",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 46035,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "2be741fa4aa2999419905d72dec39a82": {
     "assetName": null,
@@ -261,7 +453,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "2be741fa4aa2999419905d72dec39a82",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 3333,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 4
   },
   "aa17c2a1b46eaf3448d28eee693d5be2": {
     "assetName": null,
@@ -269,7 +467,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "aa17c2a1b46eaf3448d28eee693d5be2",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 55251,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "6268bedcb0567c441bce2e867d17266b": {
     "assetName": null,
@@ -277,7 +481,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "6268bedcb0567c441bce2e867d17266b",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 46375,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "def9c833034a9134bbf9929a3f630d67": {
     "assetName": null,
@@ -285,7 +495,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "def9c833034a9134bbf9929a3f630d67",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 36710,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "b094fd736bb7a584aab9f31b0dafafe9": {
     "assetName": null,
@@ -293,7 +509,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "b094fd736bb7a584aab9f31b0dafafe9",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 59039,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "545d4612473b42646aef69de54e654a7": {
     "assetName": null,
@@ -301,7 +523,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "545d4612473b42646aef69de54e654a7",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 36984,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "7df8ecd0ea24eb24aacc97bd37cae8f0": {
     "assetName": null,
@@ -309,7 +537,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "7df8ecd0ea24eb24aacc97bd37cae8f0",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 42956,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "9ad5a65ef3819c74cb14b052838b6b12": {
     "assetName": null,
@@ -317,7 +551,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "9ad5a65ef3819c74cb14b052838b6b12",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 42054,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "f0672f04c8308f3499e9349951eb9eb2": {
     "assetName": null,
@@ -325,7 +565,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "f0672f04c8308f3499e9349951eb9eb2",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 47014,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "c5e7ecb71aec0c24dab38ee8574a7447": {
     "assetName": null,
@@ -333,7 +579,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "c5e7ecb71aec0c24dab38ee8574a7447",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 47577,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "5744606104ee81d4886431b202d2d6b7": {
     "assetName": null,
@@ -341,7 +593,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "5744606104ee81d4886431b202d2d6b7",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 46492,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "792b365716ae1b74da662ba790169c3d": {
     "assetName": null,
@@ -349,7 +607,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "792b365716ae1b74da662ba790169c3d",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 64877,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "42af04525166a964c8d3d4cdbe58dbeb": {
     "assetName": null,
@@ -357,7 +621,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "42af04525166a964c8d3d4cdbe58dbeb",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 41017,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "4a6f44d8f1f00984e8b59d182d2477b8": {
     "assetName": null,
@@ -365,7 +635,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "4a6f44d8f1f00984e8b59d182d2477b8",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 49295,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "cb41ea70409cc5b4c99818d8413f2ce6": {
     "assetName": null,
@@ -373,7 +649,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "cb41ea70409cc5b4c99818d8413f2ce6",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 58516,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "b15fdf05e04b04f4ea11d5ff3b6ee335": {
     "assetName": null,
@@ -381,7 +663,13 @@
     "cardId": null,
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "b15fdf05e04b04f4ea11d5ff3b6ee335",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 32554,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "4bcfa21da09de7d46924ee3c3e36ad79": {
     "assetName": null,
@@ -389,7 +677,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "4bcfa21da09de7d46924ee3c3e36ad79",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 4880,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "4e94272983a2e9e4f9789df77bd1c4d5": {
     "assetName": null,
@@ -397,7 +691,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "4e94272983a2e9e4f9789df77bd1c4d5",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 49448,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "5ccd32b787c5a3a4cb230774149b6e7d": {
     "assetName": null,
@@ -405,7 +705,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "5ccd32b787c5a3a4cb230774149b6e7d",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 47412,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 5
   },
   "a1de648c88bdaee499736473b7efaf16": {
     "assetName": null,
@@ -413,7 +719,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "a1de648c88bdaee499736473b7efaf16",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 3150,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 4
   },
   "55bf4863723a5ab42962465d9c66baf7": {
     "assetName": null,
@@ -421,7 +733,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "55bf4863723a5ab42962465d9c66baf7",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 17409,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "218bbdfbcd7121f42a1b46e84526c161": {
     "assetName": null,
@@ -429,7 +747,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "218bbdfbcd7121f42a1b46e84526c161",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 41894,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "36dd094e96538d74598c4c0272d87d8f": {
     "assetName": null,
@@ -437,7 +761,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "64d594da976842f78418176a03d29a03",
+    "resolvedTemplateId": "36dd094e96538d74598c4c0272d87d8f",
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 30810,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 1
   },
   "64a6c1d743a30954d9ea87f8a9eb4755": {
     "assetName": null,
@@ -445,7 +775,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "64a6c1d743a30954d9ea87f8a9eb4755",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 11961,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "20704a1fb28a7624cb4e7c0749fd6817": {
     "assetName": null,
@@ -453,7 +789,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "20704a1fb28a7624cb4e7c0749fd6817",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 38154,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "742c495af4e357a4486b7d9eaaec22c1": {
     "assetName": null,
@@ -461,7 +803,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "742c495af4e357a4486b7d9eaaec22c1",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 32617,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "b300a11a7bdf6b044bdb204459419881": {
     "assetName": null,
@@ -469,7 +817,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "b300a11a7bdf6b044bdb204459419881",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 32672,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 3
   },
   "1cf13e2abd4e3684697cf4e55b3f4e3c": {
     "assetName": null,
@@ -477,7 +831,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "1ad85cb635294426973de21a20e24a8c",
+    "resolvedTemplateId": "1cf13e2abd4e3684697cf4e55b3f4e3c",
+    "resolvedState": 2,
+    "resolvedBestTimeMs": 32276,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 1
   },
   "5d442739772d7f64fa8f637808614a45": {
     "assetName": null,
@@ -485,7 +845,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "5d442739772d7f64fa8f637808614a45",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 28519,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "2aaf75cf41a7de24ca38764c29dce94c": {
     "assetName": null,
@@ -493,7 +859,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "2aaf75cf41a7de24ca38764c29dce94c",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 29113,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "73312e0bfd605634f9c3bc2de2f37312": {
     "assetName": null,
@@ -501,7 +873,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "73312e0bfd605634f9c3bc2de2f37312",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 40572,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "b0b990af2840ed74d9e0a6adb20aa618": {
     "assetName": null,
@@ -509,7 +887,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "b0b990af2840ed74d9e0a6adb20aa618",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 22488,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "68965d87ad83dd946aa70764e3ab1d96": {
     "assetName": null,
@@ -517,7 +901,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "68965d87ad83dd946aa70764e3ab1d96",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 46516,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "cd5afc9f7e4b8634d80bcee54ae7c5fa": {
     "assetName": null,
@@ -525,7 +915,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "cd5afc9f7e4b8634d80bcee54ae7c5fa",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 40296,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "e399379af1748e44aa12b59020bf904c": {
     "assetName": null,
@@ -533,7 +929,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "e399379af1748e44aa12b59020bf904c",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 41219,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "7a1dcef944403ba478940d2fc6470d48": {
     "assetName": null,
@@ -541,7 +943,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "7a1dcef944403ba478940d2fc6470d48",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 47294,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "4dc1fbbc150b7e9458a35a14b284ae14": {
     "assetName": null,
@@ -549,7 +957,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "4dc1fbbc150b7e9458a35a14b284ae14",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 23076,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "25c4e04c50aa7ac46bdb21584317498f": {
     "assetName": null,
@@ -557,7 +971,13 @@
     "cardId": null,
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "25c4e04c50aa7ac46bdb21584317498f",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 22097,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "54de5bb5341a7004ca8a92cc1ceba14e": {
     "assetName": null,
@@ -565,7 +985,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "54de5bb5341a7004ca8a92cc1ceba14e",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 47843,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "769cef3e0b48162428270f5fde39166f": {
     "assetName": null,
@@ -573,7 +999,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "769cef3e0b48162428270f5fde39166f",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 58934,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 3
   },
   "76937af4886015b4ab90324c3c8296cf": {
     "assetName": null,
@@ -581,7 +1013,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "76937af4886015b4ab90324c3c8296cf",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 3894,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 3
   },
   "756391ad1dfc0ec4c88d68c5c5964b2f": {
     "assetName": null,
@@ -589,7 +1027,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "756391ad1dfc0ec4c88d68c5c5964b2f",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 42791,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "4bb0e1ceb5429c94f91b4f97039d76fc": {
     "assetName": null,
@@ -597,7 +1041,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "4bb0e1ceb5429c94f91b4f97039d76fc",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 14710,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "a19f37cc85fd4ef43b9c33aa3e72cefc": {
     "assetName": null,
@@ -605,7 +1055,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "a19f37cc85fd4ef43b9c33aa3e72cefc",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 30532,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 4
   },
   "3ee232560b44a664aa202a2b64f442ed": {
     "assetName": null,
@@ -613,7 +1069,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "3ee232560b44a664aa202a2b64f442ed",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 33325,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "fab7e628e93a99a47bea0144ec2b8c84": {
     "assetName": null,
@@ -621,7 +1083,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "fab7e628e93a99a47bea0144ec2b8c84",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 68434,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "cb9c0611a6486cc449890109dcef1dda": {
     "assetName": null,
@@ -629,7 +1097,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "cb9c0611a6486cc449890109dcef1dda",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 52536,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "56b8e99d4d850784aae527065d2ae32a": {
     "assetName": null,
@@ -637,7 +1111,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "56b8e99d4d850784aae527065d2ae32a",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 20373,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 3
   },
   "9f493d410ffc8194690c9f6c61c8ea95": {
     "assetName": null,
@@ -645,7 +1125,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "9f493d410ffc8194690c9f6c61c8ea95",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 13508,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "1f2d9e427e4d1b44eaf4373759616057": {
     "assetName": null,
@@ -653,7 +1139,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "1f2d9e427e4d1b44eaf4373759616057",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 10791,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "9565d8b65d5a22b4b98327d33a0378fd": {
     "assetName": null,
@@ -661,7 +1153,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "9565d8b65d5a22b4b98327d33a0378fd",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 41693,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "beaec686845a8204e896c572bbe4c014": {
     "assetName": null,
@@ -669,7 +1167,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "beaec686845a8204e896c572bbe4c014",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 31373,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "33d376906e51e234eb5aac0a7a2af8b8": {
     "assetName": null,
@@ -677,7 +1181,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "33d376906e51e234eb5aac0a7a2af8b8",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 26737,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "3d146b987bcc70548bedf445a1b8432b": {
     "assetName": null,
@@ -685,7 +1195,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "3d146b987bcc70548bedf445a1b8432b",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 29712,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "853f0350c6cf3b64dbca659402452b8c": {
     "assetName": null,
@@ -693,7 +1209,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "853f0350c6cf3b64dbca659402452b8c",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 21951,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "955d004d807122341802e41ad004bb31": {
     "assetName": null,
@@ -701,7 +1223,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "955d004d807122341802e41ad004bb31",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 29476,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "4c42d29ec1ddab745aa54eb850c732eb": {
     "assetName": null,
@@ -709,7 +1237,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "4c42d29ec1ddab745aa54eb850c732eb",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 39558,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "f9f8b9ed5fc99734facfe0ef8679c6e1": {
     "assetName": null,
@@ -717,7 +1251,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "f9f8b9ed5fc99734facfe0ef8679c6e1",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 22793,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "4e757c3bc4400c44a9d422fa8aa136fc": {
     "assetName": null,
@@ -725,7 +1265,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "4e757c3bc4400c44a9d422fa8aa136fc",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 19748,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "a3c8a612fa9aa3548aafc33b30915dbf": {
     "assetName": null,
@@ -733,7 +1279,13 @@
     "cardId": null,
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "4e00028627334a03a0f2b4890c418c8a",
+    "resolvedTemplateId": "a3c8a612fa9aa3548aafc33b30915dbf",
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 13814,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 1
   },
   "6d97e2cc7f4667b43ae39a8a24bba9c4": {
     "assetName": null,
@@ -741,7 +1293,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "6d97e2cc7f4667b43ae39a8a24bba9c4",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 37968,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "6957d173a8411924e9173ca8a6ba5d67": {
     "assetName": null,
@@ -749,7 +1307,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "6957d173a8411924e9173ca8a6ba5d67",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 42311,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "9a5130d34fe31e84ebac8a993644ddfb": {
     "assetName": null,
@@ -757,7 +1321,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "9a5130d34fe31e84ebac8a993644ddfb",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 13689,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "2933669bdeb031c4e86867f09f2d3404": {
     "assetName": null,
@@ -765,7 +1335,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "2933669bdeb031c4e86867f09f2d3404",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 26254,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "05decf4708917574ba96c0c703371e50": {
     "assetName": null,
@@ -773,7 +1349,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "05decf4708917574ba96c0c703371e50",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 5763,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "a8f67862c64ac7342bf4d665e358e895": {
     "assetName": null,
@@ -781,7 +1363,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "4b3ab02ccf7a489e9cd13968ccc41928",
+    "resolvedTemplateId": "a8f67862c64ac7342bf4d665e358e895",
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 15494,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 1
   },
   "e7ad5a9e54bfb4f4d9dd7bfc5cfafd3e": {
     "assetName": null,
@@ -789,7 +1377,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "54506b36d5a8472a91881e3bdef323e7",
+    "resolvedTemplateId": "e7ad5a9e54bfb4f4d9dd7bfc5cfafd3e",
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 13334,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 1
   },
   "4e9decb7ae4a5504da065a809e61cf4c": {
     "assetName": null,
@@ -797,7 +1391,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "4e9decb7ae4a5504da065a809e61cf4c",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 37132,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 14
   },
   "7b47d454e27523a45911b51d77e94050": {
     "assetName": null,
@@ -805,7 +1405,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "7b47d454e27523a45911b51d77e94050",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 15350,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "e1c113adf2adc0144a346bb7bb9fc6a0": {
     "assetName": null,
@@ -813,7 +1419,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "88d617e1ae8c4c25ae774bee0b10962a",
+    "resolvedTemplateId": "e1c113adf2adc0144a346bb7bb9fc6a0",
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 31004,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 3
   },
   "29640b01fa3e4ce47ab0f8a273eec06b": {
     "assetName": null,
@@ -821,7 +1433,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "29640b01fa3e4ce47ab0f8a273eec06b",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 22388,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "a48108a86301aa547a4c6c369bbd2ecc": {
     "assetName": null,
@@ -829,7 +1447,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "a48108a86301aa547a4c6c369bbd2ecc",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 18483,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "b26f3893294a25d49a47368a90dc8fec": {
     "assetName": null,
@@ -837,7 +1461,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "b26f3893294a25d49a47368a90dc8fec",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 28057,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "56e83c37e7423da49ab9ee5058fe99ee": {
     "assetName": null,
@@ -845,7 +1475,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "56e83c37e7423da49ab9ee5058fe99ee",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 17996,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "3bf80326e55305a458577e3274cc4d24": {
     "assetName": null,
@@ -853,7 +1489,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "1dc807fd86a04222acb6f96cfa9b5cc0",
+    "resolvedTemplateId": "3bf80326e55305a458577e3274cc4d24",
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 23672,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 1
   },
   "6ab68207fb9e6cd46a1fbdf5095b730d": {
     "assetName": null,
@@ -861,7 +1503,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "6ab68207fb9e6cd46a1fbdf5095b730d",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 57850,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "4b4365cadbcc7d54d9d158170efc1491": {
     "assetName": null,
@@ -869,7 +1517,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "9cc8214d8ff543229bcb670bfa29308b",
+    "resolvedTemplateId": "4b4365cadbcc7d54d9d158170efc1491",
+    "resolvedState": 2,
+    "resolvedBestTimeMs": 22368,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 3
   },
   "436a4c7a7ae8d48438226cee3db1f918": {
     "assetName": null,
@@ -877,7 +1531,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "436a4c7a7ae8d48438226cee3db1f918",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 35674,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "82ede39e6fd543a45a10731a256f8748": {
     "assetName": null,
@@ -885,7 +1545,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "82ede39e6fd543a45a10731a256f8748",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 20796,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "bc1e672cefef5b7478403bfb878221cd": {
     "assetName": null,
@@ -893,7 +1559,13 @@
     "cardId": null,
     "overworldId": "1c2d06c1a7bce5c48a9499ad3354ddf3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "bc1e672cefef5b7478403bfb878221cd",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 34672,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "e18eb7ad572323f47a8013a5eff8fd7e": {
     "assetName": null,
@@ -901,7 +1573,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "e18eb7ad572323f47a8013a5eff8fd7e",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 7583,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "015788d28cb7a644da46b75bea60aba0": {
     "assetName": null,
@@ -909,7 +1587,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "19705767de254ec8b086c12b897bdfba",
+    "resolvedTemplateId": "015788d28cb7a644da46b75bea60aba0",
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 7296,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 1
   },
   "ac5355dafa8daeb4fbff93ef921ce16e": {
     "assetName": null,
@@ -917,7 +1601,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "ac5355dafa8daeb4fbff93ef921ce16e",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 25215,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "befaf5547c0b23245ad7265faaaa2c9e": {
     "assetName": null,
@@ -925,7 +1615,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "befaf5547c0b23245ad7265faaaa2c9e",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 38531,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "f170b018e14370f4fad5faa67e68cfea": {
     "assetName": null,
@@ -933,7 +1629,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "f170b018e14370f4fad5faa67e68cfea",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 54979,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "0fc7b41702801a449a21c204e86d1119": {
     "assetName": null,
@@ -941,7 +1643,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "0fc7b41702801a449a21c204e86d1119",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 17173,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "adef9a990b7222d4c9ff96d28d2c9825": {
     "assetName": null,
@@ -949,7 +1657,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "adef9a990b7222d4c9ff96d28d2c9825",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 15350,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "fe37cf0de6dbf16478623b36aef1b535": {
     "assetName": null,
@@ -957,7 +1671,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "fe37cf0de6dbf16478623b36aef1b535",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 6351,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "8951d4a367a363f4da545e57d2f7ccc2": {
     "assetName": null,
@@ -965,7 +1685,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "8951d4a367a363f4da545e57d2f7ccc2",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 4484,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "004f12ff7a4f0d646b7f80902af8a525": {
     "assetName": null,
@@ -973,7 +1699,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "004f12ff7a4f0d646b7f80902af8a525",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 98640,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "0528e5b227ad91249a93a93b049dc003": {
     "assetName": null,
@@ -981,7 +1713,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "0528e5b227ad91249a93a93b049dc003",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 12528,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "38455d288854f03468f157769c136a45": {
     "assetName": null,
@@ -989,7 +1727,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "38455d288854f03468f157769c136a45",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 3453,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "f77f0b67167cfe948bfb211bceaedfa0": {
     "assetName": null,
@@ -997,7 +1741,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "f77f0b67167cfe948bfb211bceaedfa0",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 6969,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "c72b6c0d1b5a868488957a768505670b": {
     "assetName": null,
@@ -1005,7 +1755,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "04d7ca56c9a54b76abf59193724b9627",
+    "resolvedTemplateId": "c72b6c0d1b5a868488957a768505670b",
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 36675,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 3
   },
   "50bfcd869debb984483ebbbf2ce2b814": {
     "assetName": null,
@@ -1013,7 +1769,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "50bfcd869debb984483ebbbf2ce2b814",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 17691,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "f6df5a96014ead744b2e3e6e2b145a82": {
     "assetName": null,
@@ -1021,7 +1783,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "f6df5a96014ead744b2e3e6e2b145a82",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 8042,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "bd1de8b5fedf74467bc8d64d3069bc35": {
     "assetName": null,
@@ -1029,7 +1797,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "bd1de8b5fedf74467bc8d64d3069bc35",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 14282,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "48c7605c41555f54f87cc5d5718ba0fd": {
     "assetName": null,
@@ -1037,7 +1811,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "48c7605c41555f54f87cc5d5718ba0fd",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 3015,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 3
   },
   "0fdbd5c51172cdb4d9458a44a40181a7": {
     "assetName": null,
@@ -1045,7 +1825,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "0fdbd5c51172cdb4d9458a44a40181a7",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 14473,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "757ae04d5024808498d1f79b3733c09f": {
     "assetName": null,
@@ -1053,7 +1839,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "757ae04d5024808498d1f79b3733c09f",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 31114,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "27ccf11673b2f3445816a1502e135670": {
     "assetName": null,
@@ -1061,7 +1853,13 @@
     "cardId": null,
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "27ccf11673b2f3445816a1502e135670",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 22095,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "3c034c1021303114f9c9e32306c041ff": {
     "assetName": null,
@@ -1069,7 +1867,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "3c034c1021303114f9c9e32306c041ff",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 35313,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 5
   },
   "9fba25e930aa99b439ccf91f863672b8": {
     "assetName": null,
@@ -1077,7 +1881,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "9fba25e930aa99b439ccf91f863672b8",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 33277,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "f795b5e4e3b20d3479145f2c087657c2": {
     "assetName": null,
@@ -1085,7 +1895,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "f795b5e4e3b20d3479145f2c087657c2",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 24457,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "27395adf08f97b04db89f1896d82e7ac": {
     "assetName": null,
@@ -1093,7 +1909,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "27395adf08f97b04db89f1896d82e7ac",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 22770,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "fd2efbff868188845999eb97ebeedcf0": {
     "assetName": null,
@@ -1101,7 +1923,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "fd2efbff868188845999eb97ebeedcf0",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 31331,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 3
   },
   "cdf796324b9a9d44589d5132b7faa5e5": {
     "assetName": null,
@@ -1109,7 +1937,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "cdf796324b9a9d44589d5132b7faa5e5",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 23514,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "9db4f64d397bb3244983bf7a47f78b0b": {
     "assetName": null,
@@ -1117,7 +1951,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "9db4f64d397bb3244983bf7a47f78b0b",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 21735,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "91627377fc084064d95e3fe4e94ae49b": {
     "assetName": null,
@@ -1125,7 +1965,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "91627377fc084064d95e3fe4e94ae49b",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 14157,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "56653430aef395547a4ade3e68c8643a": {
     "assetName": null,
@@ -1133,7 +1979,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "56653430aef395547a4ade3e68c8643a",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 7215,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 3
   },
   "28dd60ce9e4131a44a8b105524e9576c": {
     "assetName": null,
@@ -1141,7 +1993,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "28dd60ce9e4131a44a8b105524e9576c",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 50672,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "1e55f645cd652ce41be2e3fe052aa68b": {
     "assetName": null,
@@ -1149,7 +2007,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "5e18ee58f0634869999bbd073214d300",
+    "resolvedTemplateId": "1e55f645cd652ce41be2e3fe052aa68b",
+    "resolvedState": 1,
+    "resolvedBestTimeMs": 16350,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 2
   },
   "20801b8f7a8cd7040bf5921b52e582a9": {
     "assetName": null,
@@ -1157,7 +2021,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "20801b8f7a8cd7040bf5921b52e582a9",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 23492,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "cf093a96033bba644b0c9c5272430d0f": {
     "assetName": null,
@@ -1165,7 +2035,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "cf093a96033bba644b0c9c5272430d0f",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 27272,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "ab0e2cf2ceac9d240a06c9a157762d05": {
     "assetName": null,
@@ -1173,7 +2049,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "eebf3a1367a741508dc18d0144bfa1d0",
+    "resolvedTemplateId": "ab0e2cf2ceac9d240a06c9a157762d05",
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 11637,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 1
   },
   "5d859d824da159d42b313e3a490cefb7": {
     "assetName": null,
@@ -1181,7 +2063,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "5d859d824da159d42b313e3a490cefb7",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 27989,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "4439cc9699fe9e34ba93a596a72a5eab": {
     "assetName": null,
@@ -1189,7 +2077,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "4439cc9699fe9e34ba93a596a72a5eab",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 21388,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "7fbb274cc466dfb44b47bdc16e0de71b": {
     "assetName": null,
@@ -1197,7 +2091,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "7fbb274cc466dfb44b47bdc16e0de71b",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 25508,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 3
   },
   "e22cd7a471af30d46ac999d314440a4a": {
     "assetName": null,
@@ -1205,7 +2105,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "e22cd7a471af30d46ac999d314440a4a",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 23653,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "1aea2651f9ba2ad4286856d25c151a41": {
     "assetName": null,
@@ -1213,7 +2119,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "95da910098d54074b1b0216796a93e7d",
+    "resolvedTemplateId": "1aea2651f9ba2ad4286856d25c151a41",
+    "resolvedState": 1,
+    "resolvedBestTimeMs": 44153,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 3
   },
   "40261652f9e61864f9dad522d22b5426": {
     "assetName": null,
@@ -1221,7 +2133,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "40261652f9e61864f9dad522d22b5426",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 44992,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "c33d4fe0ed26b4b82868eb99ba457ae3": {
     "assetName": null,
@@ -1229,7 +2147,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "c33d4fe0ed26b4b82868eb99ba457ae3",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 21349,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "77922f7dfc263984f909a9f016aaeca5": {
     "assetName": null,
@@ -1237,7 +2161,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "77922f7dfc263984f909a9f016aaeca5",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 11503,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "2ea2438aad247b645980a35d37975ad1": {
     "assetName": null,
@@ -1245,7 +2175,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "2ea2438aad247b645980a35d37975ad1",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 32332,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "a99d36a67bc21c74db840cf8f9771938": {
     "assetName": null,
@@ -1253,7 +2189,13 @@
     "cardId": null,
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "a99d36a67bc21c74db840cf8f9771938",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 26315,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "6e608b37f55fc214ba8cd06d857bf5f9": {
     "assetName": null,
@@ -1261,7 +2203,13 @@
     "cardId": null,
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "6e608b37f55fc214ba8cd06d857bf5f9",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 44091,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "9ea4b5c1eb09d2a4c9aac1ea18432da2": {
     "assetName": null,
@@ -1269,7 +2217,13 @@
     "cardId": null,
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "9ea4b5c1eb09d2a4c9aac1ea18432da2",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 49164,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "e9ad935e831a86d4ba949cc7633f4f7a": {
     "assetName": null,
@@ -1277,7 +2231,13 @@
     "cardId": null,
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "e9ad935e831a86d4ba949cc7633f4f7a",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 11715,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "50514f1cc864c384b97b67336389adb5": {
     "assetName": null,
@@ -1285,7 +2245,13 @@
     "cardId": null,
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "4317a16600d949f289f33840e1609824",
+    "resolvedTemplateId": "50514f1cc864c384b97b67336389adb5",
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 29990,
+    "resolvedGainedCard": false,
+    "resolvedFinishedCount": 1
   },
   "837b855d987e30b489b07ae68f069d37": {
     "assetName": null,
@@ -1293,7 +2259,13 @@
     "cardId": null,
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "837b855d987e30b489b07ae68f069d37",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 17789,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "bbe6df47776712248b70ef1eaac1bfc3": {
     "assetName": null,
@@ -1301,7 +2273,13 @@
     "cardId": null,
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "bbe6df47776712248b70ef1eaac1bfc3",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 14758,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 7
   },
   "37ae8b2d87d17c24f9d00e00b1219eb8": {
     "assetName": null,
@@ -1309,7 +2287,13 @@
     "cardId": null,
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "37ae8b2d87d17c24f9d00e00b1219eb8",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 22054,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "cf732645934d9924fbfc6047ea7c949b": {
     "assetName": null,
@@ -1317,7 +2301,13 @@
     "cardId": null,
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "cf732645934d9924fbfc6047ea7c949b",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 1941,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 6
   },
   "15eecd00ecd98404397ce437c2af6198": {
     "assetName": null,
@@ -1325,7 +2315,13 @@
     "cardId": null,
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "15eecd00ecd98404397ce437c2af6198",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 5518,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "74431425daaa623439e64188398fa206": {
     "assetName": null,
@@ -1333,7 +2329,13 @@
     "cardId": null,
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "74431425daaa623439e64188398fa206",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 24558,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "9c17b05a9fe9bb74898a1fee12a6e9b0": {
     "assetName": null,
@@ -1341,7 +2343,13 @@
     "cardId": null,
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "9c17b05a9fe9bb74898a1fee12a6e9b0",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 23335,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "009d148cfc754fa45ac69cb4429e1b9b": {
     "assetName": null,
@@ -1349,7 +2357,13 @@
     "cardId": null,
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "009d148cfc754fa45ac69cb4429e1b9b",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 37391,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "3c780f32fdbb9084898f985d632bc9fe": {
     "assetName": null,
@@ -1357,7 +2371,13 @@
     "cardId": null,
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "3c780f32fdbb9084898f985d632bc9fe",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 14407,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "36f5550931c0f3d4da76ace65a9a6518": {
     "assetName": null,
@@ -1365,7 +2385,13 @@
     "cardId": null,
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "36f5550931c0f3d4da76ace65a9a6518",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 11190,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "633d6df0d7dd442408012835d347f7f2": {
     "assetName": null,
@@ -1373,7 +2399,13 @@
     "cardId": null,
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "633d6df0d7dd442408012835d347f7f2",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 32235,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 1
   },
   "0204b0e72af3f874e83f743db9997b35": {
     "assetName": null,
@@ -1381,7 +2413,13 @@
     "cardId": null,
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "0204b0e72af3f874e83f743db9997b35",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 10787,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 10
   },
   "87ef10a94a109ad4aa122ba63295bdc1": {
     "assetName": null,
@@ -1389,7 +2427,13 @@
     "cardId": null,
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Controller",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedLevelId": "87ef10a94a109ad4aa122ba63295bdc1",
+    "resolvedTemplateId": null,
+    "resolvedState": 3,
+    "resolvedBestTimeMs": 17794,
+    "resolvedGainedCard": true,
+    "resolvedFinishedCount": 2
   },
   "BigFanCard": {
     "assetName": "BigFanCard",
@@ -1397,7 +2441,8 @@
     "cardId": "afb55fafb8804691acc965328ce8bae7",
     "overworldId": "1e295014545c247118a3fb41a0621045",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   },
   "LaserCow": {
     "assetName": "LaserCow",
@@ -1405,7 +2450,8 @@
     "cardId": "47f12354853b4e40bf8ebecae7d62514",
     "overworldId": "a7f5e5875104cfa48ac4aa4b782f2983",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   },
   "PrinterCard": {
     "assetName": "PrinterCard",
@@ -1413,7 +2459,8 @@
     "cardId": "31c73598a5a74c2c8be4d9bbb898ae14",
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   },
   "Card-GoldenBean-BestOfCarMongUs": {
     "assetName": "Card-GoldenBean-BestOfCarMongUs",
@@ -1421,7 +2468,8 @@
     "cardId": "a98443a6d56e4817b735c81a3aa35e29",
     "overworldId": "f6144b536488c8c44ab101e77eb065ca",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   },
   "HoneyCard": {
     "assetName": "HoneyCard",
@@ -1429,7 +2477,8 @@
     "cardId": "0ba30149c7744f26a2498bd25c4e36ae",
     "overworldId": "84028ee5eaf741c408627363d8a900d9",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   },
   "SneakySasquatch_CollectibleFood3 Card": {
     "assetName": "SneakySasquatch_CollectibleFood3 Card",
@@ -1437,7 +2486,8 @@
     "cardId": "1fdaec01dcd14296a4b3cdd3fbdb8d84",
     "overworldId": "2cbde3840e0497e46bd79df9f7db3e48",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   },
   "SnowBearCard": {
     "assetName": "SnowBearCard",
@@ -1445,7 +2495,8 @@
     "cardId": "0efd7cafdcec49489d777fd2e4ea3268",
     "overworldId": "0dfe2c09911fc464cb29f0c7739018ef",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   },
   "GooseCard": {
     "assetName": "GooseCard",
@@ -1453,7 +2504,8 @@
     "cardId": "0a9a63eb4af64d09bbc2634ebcd691bd",
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   },
   "AquaducktCard": {
     "assetName": "AquaducktCard",
@@ -1461,7 +2513,8 @@
     "cardId": "a3fd5d716e24475d84007777851d1308",
     "overworldId": "9040dbd2b38fb884aa20dd428a645344",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   },
   "BowlingPinsCard": {
     "assetName": "BowlingPinsCard",
@@ -1469,7 +2522,8 @@
     "cardId": "54964e24f980420a9e873f89cfc2a904",
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   },
   "SoccerLegCard": {
     "assetName": "SoccerLegCard",
@@ -1477,7 +2531,8 @@
     "cardId": "9c451d0da2344b5bb5931bf19c74ce9a",
     "overworldId": "280384c2060713b46adf8ae2a22a9bb3",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   },
   "SneakySasquatch_CollectibleFood2 Card": {
     "assetName": "SneakySasquatch_CollectibleFood2 Card",
@@ -1485,7 +2540,8 @@
     "cardId": "a2c6af15c74c4a21afa712e54dcc56c3",
     "overworldId": "2cbde3840e0497e46bd79df9f7db3e48",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   },
   "SwampBearCard": {
     "assetName": "SwampBearCard",
@@ -1493,7 +2549,8 @@
     "cardId": "e85054fd5e52412f8827748b093058da",
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   },
   "WaterCoolerCard": {
     "assetName": "WaterCoolerCard",
@@ -1501,7 +2558,8 @@
     "cardId": "1d6a097139dd41229b54f84783256244",
     "overworldId": "e8afb686cc743614bbdea3f8ecd32a2a",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   },
   "PartyCard": {
     "assetName": "PartyCard",
@@ -1509,7 +2567,8 @@
     "cardId": "b68731cfdcc6450b80f0beda13a2d414",
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   },
   "TurtleCard": {
     "assetName": "TurtleCard",
@@ -1517,7 +2576,8 @@
     "cardId": "69d98bb6d306482fac964efaa7b3ccdc",
     "overworldId": "c895fd814e4a6114096a204837628222",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   },
   "SneakySasquatch_CollectibleFood4 Card": {
     "assetName": "SneakySasquatch_CollectibleFood4 Card",
@@ -1525,7 +2585,8 @@
     "cardId": "bc7c8b1421854f90bfe7f5f52cc2c037",
     "overworldId": "2cbde3840e0497e46bd79df9f7db3e48",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   },
   "SneakySasquatch_CollectibleFood1 Card": {
     "assetName": "SneakySasquatch_CollectibleFood1 Card",
@@ -1533,6 +2594,7 @@
     "cardId": "2448cb0f91bc48d0bc1879ea4957c0a2",
     "overworldId": "2cbde3840e0497e46bd79df9f7db3e48",
     "type": "Overworld",
-    "isUnclaimed": false
+    "isUnclaimed": false,
+    "resolvedError": "System.NullReferenceException: Object reference not set to an instance of an object.\n--- BEGIN IL2CPP STACK TRACE ---\nSystem.NullReferenceException: Object reference not set to an instance of an object.\r\n  at CardData.GetPlayedLevelInfo () [0x00000] in <00000000000000000000000000000000>:0 \n--- END IL2CPP STACK TRACE ---\n"
   }
 }

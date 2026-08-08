@@ -154,7 +154,7 @@ public static class Dumpers
                 string key = content ?? assetName;
                 if (key == null) continue;
 
-                MergeInto(_cards, key, new Dictionary<string, object>
+                var record = new Dictionary<string, object>
                 {
                     ["assetName"] = assetName,
                     ["contentId"] = content,
@@ -162,7 +162,30 @@ public static class Dumpers
                     ["overworldId"] = Str(card.OverworldID),
                     ["type"] = card.Type.ToString(),
                     ["isUnclaimed"] = card.IsUnclaimed,
-                });
+                };
+
+                // Ask the card which PlayedLevelInfo it ACTUALLY resolves to. This is
+                // the only way to settle whether a card reads the record keyed by its
+                // own contentId or something else (e.g. best-of-template) -- the
+                // interop assemblies carry no method bodies, so it cannot be read off
+                // the decompile, and inferring it from the save was already wrong once.
+                try
+                {
+                    var info = card.GetPlayedLevelInfo();
+                    if (info != null)
+                    {
+                        record["resolvedLevelId"] = Str(info.levelId);
+                        record["resolvedTemplateId"] = Str(info.templateId);
+                        record["resolvedState"] = (int)info.completedState;
+                        record["resolvedBestTimeMs"] = info.bestTimeMs;
+                        record["resolvedGainedCard"] = info.gainedCard;
+                        record["resolvedFinishedCount"] = info.finishedCount;
+                    }
+                    else record["resolvedLevelId"] = "<null>";
+                }
+                catch (Exception e) { record["resolvedError"] = e.Message; }
+
+                MergeInto(_cards, key, record);
             }
             catch (Exception e) { Plugin.Log.LogError($"[DUMP] card #{i}: {e.Message}"); }
         }

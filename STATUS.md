@@ -134,11 +134,17 @@ driven by `PlayableContentDef.silverTime`/`goldTime`), not golf's binary clear +
 `PlayableContentDef` (`contentId` is the stable key); access points (`BaseAccessPoint`) are
 cannons that launch a `Playlist` of them.
 
-**Correction worth keeping:** part of the earlier `global-metadata.dat` string scan was wrong.
-`NormalLevelDef`, `LevelsProvider`, `CardData`, `Chest` and `LevelManager` are string literals,
-not types; `AreaData`/`AreaNode` are `UnityEngine.UIElements` types. `global-metadata.dat` holds
-string literals alongside type names, so it is fine for reconnaissance but must not be planned
-against. Confirm against the interop assemblies.
+**Correction worth keeping:** `global-metadata.dat` holds string literals alongside type names,
+so a hit there does not prove a type exists — it is reconnaissance only. `AreaData`/`AreaNode`
+looked like game types but are `UnityEngine.UIElements`; the real area type is `Island`.
+
+**Correction to that correction (same session):** I then claimed `NormalLevelDef`,
+`LevelsProvider`, `CardData` and `LevelManager` were literals rather than types. **Wrong** — all
+four are real declared types, and `NormalLevelDef : PlayableContentDef` is in fact *the* concrete
+campaign-level asset the dumper should target. The check was flawed: it ran `strings` over the
+assembly and matched with `grep -x`, but .NET concatenates type names in the `#Strings` heap with
+no line breaks, so an exact-whole-line match can never hit either way. **Confirm a type by
+finding its declaration in the decompile.** (`Chest` genuinely isn't a class.)
 
 ### Next
 

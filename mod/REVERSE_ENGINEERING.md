@@ -148,16 +148,46 @@ Dailies, user-generated content and the remixer are not campaign content:
 `Speed.DailyMission.*`, `Speed.Remixer.*`, `DailyLevelsProvider`, `LevelContentUGCFromIDLevel`,
 `LevelContentRemix*`.
 
+## Levels: `NormalLevelDef`
+
+`Speed.NormalLevelDef : PlayableContentDef` is the concrete campaign-level asset — this is what
+the level dumper should sweep for. Beyond the inherited fields:
+
+- `_levelGuid`, `contentId`, `originalContentId` — identity
+- `_sceneReference : SceneReference` — the scene it loads
+- `_silver`, `_gold` (and `_overrideSilverTime`) — the medal thresholds
+- **`_giveCardAutomatically`** — ties a level to the card collectible
+- `isUnplayableTemplate` — remixer templates, exclude these
+- `_gameplayMode : EGameplayMode`, `_gameplaySubtype : EGameplaySubtype`
+
+`LevelsProvider` and `Speed.Level.LevelManager` are also real types worth inspecting when the
+dumper is written.
+
+## Gotcha: `LevelWonEvent` is a struct
+
+`Speed.Level.LevelWonEvent` is an `Il2CppSystem.ValueType` wrapping `LevelInstance level`. Any
+method that takes it **by value** is subject to golf's by-value-struct trampoline crash and must
+not be Harmony-patched. Prefer hooking something that takes `LevelInstance` (a reference type),
+or read state out of `LevelInstance` after the fact — reading fields *out* is the safe direction.
+
+`LevelInstance` is the completion payload worth reading: `contentId`,
+`completedStateThisInstance : ELevelCompletedState`, `didJustImproveCompletionState`,
+`didWinThisInstance`, `playable`, `levelData`, `silverTime`/`goldTime`.
+
 ## Corrections to earlier assumptions
 
 Recorded so they don't get re-derived:
 
-- Several names taken from a `global-metadata.dat` string scan turned out to be **string
-  literals, not types** — `NormalLevelDef`, `LevelsProvider`, `CardData`, `Chest`, `LevelManager`
-  exist as strings but not as types in `Il2CppSpeed.dll`. `AreaData`/`AreaNode` are
-  `UnityEngine.UIElements` types, unrelated to this game. The real level type is
-  `PlayableContentDef` and the real area type is `Island`. **Do not plan against a metadata
-  string scan** — confirm against the interop assemblies.
+- **A `global-metadata.dat` string scan is reconnaissance only.** That file holds string literals
+  alongside type names, so a hit does not mean a type exists. `AreaData`/`AreaNode` looked like
+  game types but are `UnityEngine.UIElements`; the real area type is `Island`.
+- **Superseded (2026-08-08):** an earlier note here claimed `NormalLevelDef`, `LevelsProvider`,
+  `CardData` and `LevelManager` were "string literals, not types". **That was wrong** — all four
+  are real declared types. The check behind it was flawed: it ran `strings` over the assembly and
+  matched with `grep -x`, but .NET stores type names concatenated in the `#Strings` metadata heap
+  with no line breaks, so an exact-whole-line match can never hit regardless of whether the type
+  exists. **Verify a type by finding its declaration in the decompile**, not by grepping the
+  binary. (`Chest` really is not a class — the chest types are `ChestStateEnum` and friends.)
 - Golf's "crown" is a single binary challenge flag; here it is a three-tier medal
   (`Bronze`/`Silver`/`Gold`) driven by lap times (`silverTime`/`goldTime`). The apworld's
   location model has to account for that.

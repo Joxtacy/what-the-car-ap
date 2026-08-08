@@ -1,0 +1,44 @@
+# Four WHAT THE CAR? slots spanning every option axis, to prove the world
+# generates solvably under each combination rather than only the defaults.
+name: CarCampaign
+game: "WHAT THE CAR?"
+description: "campaign / separate access / clear only / completions on"
+"WHAT THE CAR?":
+  goal: campaign
+  overworld_access: separate
+  medals: clear_only
+  overworld_completions: true
+  death_link: false
+
+---
+name: CarAllWorlds
+game: "WHAT THE CAR?"
+description: "all_overworlds / bears access / clear+gold"
+"WHAT THE CAR?":
+  goal: all_overworlds
+  overworld_access: bears
+  medals: clear_and_gold
+  overworld_completions: true
+  death_link: true
+
+---
+name: CarAllMedals
+game: "WHAT THE CAR?"
+description: "all_bears / separate / every medal / no completion checks"
+"WHAT THE CAR?":
+  goal: all_bears
+  overworld_access: separate
+  medals: all_medals
+  overworld_completions: false
+  death_link: false
+
+---
+name: CarBearsMax
+game: "WHAT THE CAR?"
+description: "all_bears / bears access / every medal"
+"WHAT THE CAR?":
+  goal: all_bears
+  overworld_access: bears
+  medals: all_medals
+  overworld_completions: true
+  death_link: false

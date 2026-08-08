@@ -52,7 +52,8 @@
     <Reference Include="$(MLDir)\Il2CppAssemblies\Il2Cppmscorlib.dll" Private="false" />
     <Reference Include="$(MLDir)\Il2CppAssemblies\Il2CppSystem.dll" Private="false" />
     <Reference Include="$(MLDir)\Il2CppAssemblies\UnityEngine.CoreModule.dll" Private="false" />
-    <Reference Include="$(MLDir)\Il2CppAssemblies\UnityEngine.IMGUIModule.dll" Private="false" />   <!-- in-game connection UI (GUI/Event) -->
+    <Reference Include="$(MLDir)\Il2CppAssemblies\UnityEngine.IMGUIModule.dll" Private="false" />   <!-- in-game UI + Event.current key reads -->
+    <Reference Include="$(MLDir)\Il2CppAssemblies\UnityEngine.PhysicsModule.dll" Private="false" /> <!-- Rigidbody, for the overworld nudge -->
     <Reference Include="$(MLDir)\Il2CppAssemblies\Il2CppSpeed.dll" Private="false" />               <!-- THE game assembly -->
   </ItemGroup>
 
@@ -67,6 +68,7 @@
     <Reference Include="$(RefDir)/Il2CppSystem.dll" Private="false" />
     <Reference Include="$(RefDir)/UnityEngine.CoreModule.dll" Private="false" />
     <Reference Include="$(RefDir)/UnityEngine.IMGUIModule.dll" Private="false" />
+    <Reference Include="$(RefDir)/UnityEngine.PhysicsModule.dll" Private="false" />
     <Reference Include="$(RefDir)/Il2CppSpeed.dll" Private="false" />
   </ItemGroup>
 

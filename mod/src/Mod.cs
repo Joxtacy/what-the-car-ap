@@ -25,7 +25,7 @@ public class Mod : MelonMod
     // (a sweep over every loaded object) and write JSON, which costs a visible
     // frame hitch -- so they stay OFF except during an explicit capture session.
     // Flip to true, rebuild, play through the areas you want captured, flip back.
-    public static readonly bool DumpersEnabled = true;
+    public static readonly bool DumpersEnabled = false;
 
     // Hotkey to dump on demand during a capture session, read from Event.current
     // in OnGUI so it works regardless of the game's input backend.
@@ -39,7 +39,8 @@ public class Mod : MelonMod
 
         Plugin.Log.LogInfo(
             $"WtcArchipelago loaded (game: {Plugin.GameName}). "
-            + (DumpersEnabled ? $"Dumpers ON -- press {DumpKey} to capture." : "Dumpers off."));
+            + (DumpersEnabled ? $"Dumpers ON -- press {DumpKey} to capture. " : "Dumpers off. ")
+            + "F9 = overworld nudge (manual unstick).");
     }
 
     public override void OnUpdate()
@@ -49,13 +50,17 @@ public class Mod : MelonMod
         Plugin.Client?.Tick();
 
         if (DumpersEnabled) Mapping.Dumpers.Tick();
+        OverworldNudge.Tick();
     }
 
     public override void OnGUI()
     {
-        if (!DumpersEnabled) return;
         var e = Event.current;
-        if (e != null && e.type == EventType.KeyDown && e.keyCode == DumpKey)
+        if (e == null) return;
+
+        OverworldNudge.HandleEvent(e);
+
+        if (DumpersEnabled && e.type == EventType.KeyDown && e.keyCode == DumpKey)
             Mapping.Dumpers.CaptureNow();
     }
 }

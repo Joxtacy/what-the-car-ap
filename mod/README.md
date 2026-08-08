@@ -69,6 +69,33 @@ without that rule silently nulled known fields and corrupted the level data.)
 | `wtc_levels.json` | `Speed.NormalLevelDef` | contentId, levelGuid, levelName, debugTitle, introWords, silver/gold times, gameplay mode + subtype, template + card flags |
 | `wtc_islands.json` | `Speed.Overworld.Island` | id, name, levels, access points, outgoing/ingoing connections, item ids |
 
+## Overworld nudge (manual unstick) — **F9**
+
+A hand-operated escape hatch for places the game will not let you reach. Built for a chest up a
+river where the car never enters its swimming movement state, so it walks instead and cannot climb
+the ledge.
+
+| Key | |
+|---|---|
+| **F9** | toggle on/off |
+| **I / K** | forward / back (camera-relative) |
+| **J / L** | left / right |
+| **O / U** | up / down |
+| **Shift** | 4× step |
+
+While active the rigidbody is made **kinematic** so the car holds still instead of sliding off
+wherever you put it; the original `isKinematic` and `useGravity` are restored on release. Nothing
+is written to the save.
+
+It moves the car through the game's own `OverworldPlayer.Teleport(Vector3, Quaternion)` rather than
+setting a transform directly — the movement states implement `OnTeleport`, so the game gets to
+re-evaluate which state it should be in. It deliberately does **not** force
+`OverworldPlayerMovementSwimming` on: poking a state machine from outside tends to leave it
+inconsistent, and the supported door works.
+
+Keys are read from `Event.current` in `OnGUI`, not `UnityEngine.Input` — the legacy input class is
+unreliable in a game driving itself from another backend.
+
 ## Gotchas
 
 - **Il2CppInterop prefixes namespaced types with `Il2Cpp`**: `Speed.Overworld.Island` →

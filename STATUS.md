@@ -373,6 +373,32 @@ AMONGCAR, GOAT and SNEAKY behind a *single* shared key, so unlocking one physica
 Out-of-logic reachability only — never unwinnable. `bears` mode has no such leak. This is the same
 class of compromise golf shipped with its `section` granularity.
 
+### Overworld nudge (F9) — a manual unstick, added on request
+
+User hit an unreachable chest in one episode: the car is meant to swim up a river but never enters
+its swimming state, walks instead, and cannot climb the ledge. `mod/src/OverworldNudge.cs` freezes
+the car and steps it around by hand (F9 toggle; I/K/J/L move, O/U height, Shift for 4× step).
+
+Design choices worth keeping:
+
+- Moves the car through the game's own **`OverworldPlayer.Teleport(Vector3, Quaternion)`**, not by
+  writing the transform. The movement states implement `OnTeleport(position, direction)`, so the
+  game re-evaluates which state it belongs in. Deliberately does NOT force
+  `OverworldPlayerMovementSwimming` on — poking a state machine from outside leaves it inconsistent
+  and there is a supported door.
+- Rigidbody made **kinematic** while active so the car holds still rather than sliding off wherever
+  it is placed; `isKinematic`/`useGravity` restored on release. Nothing touches the save.
+- Keys tracked from **`Event.current`**, not `UnityEngine.Input`. Legacy Input is unreliable in a
+  game running its own input backend — the same reason golf's F8 panel reads events. (It also
+  compiled fine against `UnityEngine.InputLegacyModule`, so the compiler would not have caught
+  this; it needed knowing.)
+- Needed a new `UnityEngine.PhysicsModule` reference for `Rigidbody`.
+
+Verified: builds 0/0, loads in-game, no errors. **The actual chest retrieval is untested** — that
+needs the user to drive it.
+
+Dumpers flipped back **off** now that harvesting is done; they cost a visible frame hitch.
+
 ### Next
 
 The mod's `ItemApplier` is still a stub — nothing is gated yet. The promising lever is the game's

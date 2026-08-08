@@ -1,0 +1,3952 @@
+{
+  "1e295014545c247118a3fb41a0621045": {
+    "id": "1e295014545c247118a3fb41a0621045",
+    "assetName": "OverworldDungeon-WindWeek Area",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "13586453d37448f29ef9c96ddf39803a1e295014545c247118a3fb41a0621045",
+        "name": "WindWeek Area",
+        "order": 0,
+        "levels": [
+          "ab1f3138d02a3f6418862e85c67317b7",
+          "d60a212a6f3c4d841b38b66a73035dd8",
+          "d973835dc5e44b245a33a470ae0cc8bc",
+          "f0d4c967563b63a4faeaf4544e21bdaf",
+          "04493a5ecaba68948b46f51d39fb47fa",
+          "f7fbb459f57b2424694cdc31976cd8de"
+        ],
+        "items": [
+          "afb55fafb8804691acc965328ce8bae7"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "b7a10a56ba05a864e81458c2465531b1": {
+    "id": "b7a10a56ba05a864e81458c2465531b1",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Friends",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "780a63191e2c4648a02cf9ac79b1c56f",
+    "accessId": "e4781a0d30fa457fb82cb2b2a0471d95",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff0b7a10a56ba05a864e81458c2465531b1",
+        "name": "Dream Island - Friends Variant",
+        "order": 0,
+        "levels": [
+          "54d6480d28f725843bccab26513ade55",
+          "691c8a3c29c049b4fa31e559529b30a5",
+          "3bf80326e55305a458577e3274cc4d24",
+          "ca3f68a95723a6c4bb57c7acaf68bbbb",
+          "e9ef449fa6bc2ad4eb418e2d198b149a",
+          "9565d8b65d5a22b4b98327d33a0378fd"
+        ],
+        "items": [
+          "dd15edcdd5074837a501e9caf1954a3b"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "cc4f514b33440d94bacb3d8ab7a90c90": {
+    "id": "cc4f514b33440d94bacb3d8ab7a90c90",
+    "assetName": "Overworld - Storm Pinball Snack",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "d20311cefee6464190c9ff85676b6205cc4f514b33440d94bacb3d8ab7a90c90",
+        "name": "StormPreview Start Island",
+        "order": 0,
+        "levels": [
+          "e1ca883ace0f2d74da51f47b63d78f02",
+          "61d4ef7e57a98804388de676cdc0ff6e",
+          "89f4e4d9981b77a45823be3ed424c5c4",
+          "cf2f293a665e5bc4f9c567d7ec84c770"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "a7f5e5875104cfa48ac4aa4b782f2983": {
+    "id": "a7f5e5875104cfa48ac4aa4b782f2983",
+    "assetName": "Overworld - BEACH",
+    "pack": "MainGame",
+    "featuredTag": null,
+    "requiredIdToAccess": "3f0562b08f2342418d953a1b3fc58ee7",
+    "completionId": "956888b48aef4b98ba95c572452de674",
+    "carwashId": "db098acfee8c47ceb1a484c815c8aa57",
+    "accessId": "62c14644c3c84f11be4c4f01f6e5b72c",
+    "givesBear": "956888b48aef4b98ba95c572452de674",
+    "bypassRedeemBear": false,
+    "progressAchievement": "OverworldComplete_Beach",
+    "goldAchievement": "OverworldGold_Beach",
+    "islands": [
+      {
+        "id": "d20311cefee6464190c9ff85676b6205a7f5e5875104cfa48ac4aa4b782f2983",
+        "name": "Beach Start Island",
+        "order": 0,
+        "levels": [
+          "25c4e04c50aa7ac46bdb21584317498f",
+          "4dc1fbbc150b7e9458a35a14b284ae14",
+          "7a1dcef944403ba478940d2fc6470d48",
+          "e399379af1748e44aa12b59020bf904c",
+          "cd5afc9f7e4b8634d80bcee54ae7c5fa",
+          "68965d87ad83dd946aa70764e3ab1d96",
+          "b0b990af2840ed74d9e0a6adb20aa618"
+        ],
+        "items": [
+          "956888b48aef4b98ba95c572452de674"
+        ]
+      },
+      {
+        "id": "a3eda3bf58004cf59a79b60092acd86aa7f5e5875104cfa48ac4aa4b782f2983",
+        "name": "Beach Island 1",
+        "order": 1,
+        "levels": [
+          "73312e0bfd605634f9c3bc2de2f37312",
+          "2aaf75cf41a7de24ca38764c29dce94c",
+          "5d442739772d7f64fa8f637808614a45",
+          "1cf13e2abd4e3684697cf4e55b3f4e3c"
+        ],
+        "items": []
+      },
+      {
+        "id": "0b1f6064a5f8475a9f0d54d5f4270d8aa7f5e5875104cfa48ac4aa4b782f2983",
+        "name": "Beach Island 2",
+        "order": 2,
+        "levels": [
+          "b300a11a7bdf6b044bdb204459419881",
+          "742c495af4e357a4486b7d9eaaec22c1",
+          "20704a1fb28a7624cb4e7c0749fd6817",
+          "64a6c1d743a30954d9ea87f8a9eb4755",
+          "36dd094e96538d74598c4c0272d87d8f"
+        ],
+        "items": []
+      },
+      {
+        "id": "b12c2f90e12f4e34b090172eeab7cfb3a7f5e5875104cfa48ac4aa4b782f2983",
+        "name": "Beach Island 2 B",
+        "order": 3,
+        "levels": [
+          "218bbdfbcd7121f42a1b46e84526c161",
+          "55bf4863723a5ab42962465d9c66baf7",
+          "a1de648c88bdaee499736473b7efaf16",
+          "5ccd32b787c5a3a4cb230774149b6e7d"
+        ],
+        "items": []
+      },
+      {
+        "id": "6063182e2078416184b44edab04d9cd0a7f5e5875104cfa48ac4aa4b782f2983",
+        "name": "Beach HiddenCave",
+        "order": 4,
+        "levels": [
+          "4e94272983a2e9e4f9789df77bd1c4d5",
+          "4bcfa21da09de7d46924ee3c3e36ad79"
+        ],
+        "items": []
+      },
+      {
+        "id": "b3c656040b0d418298a32e9d7a4c93f3a7f5e5875104cfa48ac4aa4b782f2983",
+        "name": "Beach HiddenCave 2",
+        "order": 5,
+        "levels": [],
+        "items": [
+          "47f12354853b4e40bf8ebecae7d62514"
+        ]
+      },
+      {
+        "id": "a2ba99682088453cabcec664762dff7da7f5e5875104cfa48ac4aa4b782f2983",
+        "name": "Top UGC levels area ep 6",
+        "order": 6,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": [
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "763a4b2182a44cfab22fc3ffb8e14eafa7f5e5875104cfa48ac4aa4b782f2983",
+          "placementId": "d20311cefee6464190c9ff85676b6205a7f5e5875104cfa48ac4aa4b782f2983",
+          "islandId": "d20311cefee6464190c9ff85676b6205a7f5e5875104cfa48ac4aa4b782f2983"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "68537e0168e548eba1c35ddc27cebb54a7f5e5875104cfa48ac4aa4b782f2983",
+          "placementId": "68537e0168e548eba1c35ddc27cebb54a7f5e5875104cfa48ac4aa4b782f2983",
+          "islandId": "d20311cefee6464190c9ff85676b6205a7f5e5875104cfa48ac4aa4b782f2983"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "52f07ef0fe6f47af81225322deb1cfa3a7f5e5875104cfa48ac4aa4b782f2983",
+          "placementId": "52f07ef0fe6f47af81225322deb1cfa3a7f5e5875104cfa48ac4aa4b782f2983",
+          "islandId": "d20311cefee6464190c9ff85676b6205a7f5e5875104cfa48ac4aa4b782f2983"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "a947aa85ec0d48959b338c486e1a4d6ca7f5e5875104cfa48ac4aa4b782f2983",
+          "placementId": "a947aa85ec0d48959b338c486e1a4d6ca7f5e5875104cfa48ac4aa4b782f2983",
+          "islandId": "a3eda3bf58004cf59a79b60092acd86aa7f5e5875104cfa48ac4aa4b782f2983"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "8839d58c788f48d1bd3833af9285938ea7f5e5875104cfa48ac4aa4b782f2983",
+          "placementId": "8839d58c788f48d1bd3833af9285938ea7f5e5875104cfa48ac4aa4b782f2983",
+          "islandId": "a3eda3bf58004cf59a79b60092acd86aa7f5e5875104cfa48ac4aa4b782f2983"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "783c68d0e3c34776b9d27eef5faf486fa7f5e5875104cfa48ac4aa4b782f2983",
+          "placementId": "783c68d0e3c34776b9d27eef5faf486fa7f5e5875104cfa48ac4aa4b782f2983",
+          "islandId": "a3eda3bf58004cf59a79b60092acd86aa7f5e5875104cfa48ac4aa4b782f2983"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "07e13f4b0d6c40fdb5ef1e6c70d441dfa7f5e5875104cfa48ac4aa4b782f2983",
+          "placementId": "783c68d0e3c34776b9d27eef5faf486fa7f5e5875104cfa48ac4aa4b782f2983",
+          "islandId": "a3eda3bf58004cf59a79b60092acd86aa7f5e5875104cfa48ac4aa4b782f2983"
+        }
+      ],
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "763a4b2182a44cfab22fc3ffb8e14eafa7f5e5875104cfa48ac4aa4b782f2983",
+          "placementId": "d20311cefee6464190c9ff85676b6205a7f5e5875104cfa48ac4aa4b782f2983",
+          "islandId": "d20311cefee6464190c9ff85676b6205a7f5e5875104cfa48ac4aa4b782f2983"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "6b83e9d6f09e4c6e94adaca27d1a0395a7f5e5875104cfa48ac4aa4b782f2983",
+          "placementId": "6b83e9d6f09e4c6e94adaca27d1a0395a7f5e5875104cfa48ac4aa4b782f2983",
+          "islandId": "d20311cefee6464190c9ff85676b6205a7f5e5875104cfa48ac4aa4b782f2983"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "e7f4999148a4432b8c6fbe8f4619ee22a7f5e5875104cfa48ac4aa4b782f2983",
+          "placementId": "e7f4999148a4432b8c6fbe8f4619ee22a7f5e5875104cfa48ac4aa4b782f2983",
+          "islandId": "d20311cefee6464190c9ff85676b6205a7f5e5875104cfa48ac4aa4b782f2983"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "0894104b6f8d472cacdb8d8f17d9497aa7f5e5875104cfa48ac4aa4b782f2983",
+          "placementId": "0894104b6f8d472cacdb8d8f17d9497aa7f5e5875104cfa48ac4aa4b782f2983",
+          "islandId": "0b1f6064a5f8475a9f0d54d5f4270d8aa7f5e5875104cfa48ac4aa4b782f2983"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "04faa7ced10f43c2a798c28dbdef4e15a7f5e5875104cfa48ac4aa4b782f2983",
+          "placementId": "04faa7ced10f43c2a798c28dbdef4e15a7f5e5875104cfa48ac4aa4b782f2983",
+          "islandId": "0b1f6064a5f8475a9f0d54d5f4270d8aa7f5e5875104cfa48ac4aa4b782f2983"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "aedfc68706ce47ad8c9459ca78535591a7f5e5875104cfa48ac4aa4b782f2983",
+          "placementId": "aedfc68706ce47ad8c9459ca78535591a7f5e5875104cfa48ac4aa4b782f2983",
+          "islandId": "0b1f6064a5f8475a9f0d54d5f4270d8aa7f5e5875104cfa48ac4aa4b782f2983"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "b8b4598ce06f4902bbe1ea15adc9c4b5a7f5e5875104cfa48ac4aa4b782f2983",
+          "placementId": "b8b4598ce06f4902bbe1ea15adc9c4b5a7f5e5875104cfa48ac4aa4b782f2983",
+          "islandId": "b12c2f90e12f4e34b090172eeab7cfb3a7f5e5875104cfa48ac4aa4b782f2983"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "35b37db65bc148e3939d2d25bcbaabcfa7f5e5875104cfa48ac4aa4b782f2983",
+          "placementId": "35b37db65bc148e3939d2d25bcbaabcfa7f5e5875104cfa48ac4aa4b782f2983",
+          "islandId": "b12c2f90e12f4e34b090172eeab7cfb3a7f5e5875104cfa48ac4aa4b782f2983"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "3ce900a345094bd3bcfc86bba4d55879a7f5e5875104cfa48ac4aa4b782f2983",
+          "placementId": "3ce900a345094bd3bcfc86bba4d55879a7f5e5875104cfa48ac4aa4b782f2983",
+          "islandId": "b12c2f90e12f4e34b090172eeab7cfb3a7f5e5875104cfa48ac4aa4b782f2983"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "20be519aade34a6983f53fe8c5ae1cbca7f5e5875104cfa48ac4aa4b782f2983",
+          "placementId": "3ce900a345094bd3bcfc86bba4d55879a7f5e5875104cfa48ac4aa4b782f2983",
+          "islandId": "b12c2f90e12f4e34b090172eeab7cfb3a7f5e5875104cfa48ac4aa4b782f2983"
+        }
+      ]
+    ]
+  },
+  "a37d71bf56182ff4281d5110c5ed1371": {
+    "id": "a37d71bf56182ff4281d5110c5ed1371",
+    "assetName": "Overworld - StormPreview",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "OverworldComplete_Storm",
+    "goldAchievement": "OverworldGold_Storm",
+    "islands": [
+      {
+        "id": "d20311cefee6464190c9ff85676b6205a37d71bf56182ff4281d5110c5ed1371",
+        "name": "StormPreview Start Island",
+        "order": 0,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "5063335a29dee90428fb0c7437ef3f8b": {
+    "id": "5063335a29dee90428fb0c7437ef3f8b",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Unicorns",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "e31f337a8e15401da7a0253b67526ebb",
+    "accessId": "332fc13ea4f447dbacef5da043db7eb5",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff05063335a29dee90428fb0c7437ef3f8b",
+        "name": "Dream Island - Rainbows Variant",
+        "order": 0,
+        "levels": [
+          "a3c8a612fa9aa3548aafc33b30915dbf"
+        ],
+        "items": [
+          "0ee25a0c65ce4697888e72519ec539b7"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "37a425c6a1efdc24eb02c7b44052657c": {
+    "id": "37a425c6a1efdc24eb02c7b44052657c",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Cheese",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "c4a900d17b724ce7961221dcfb3e85ef",
+    "accessId": "46cd07a2934e41a382ebd3f503284f3c",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff037a425c6a1efdc24eb02c7b44052657c",
+        "name": "Dream Island - Cheese Variant",
+        "order": 0,
+        "levels": [
+          "769355bf80b9815459c518b102eed938",
+          "50514f1cc864c384b97b67336389adb5",
+          "f795b5e4e3b20d3479145f2c087657c2",
+          "218bbdfbcd7121f42a1b46e84526c161",
+          "5d859d824da159d42b313e3a490cefb7",
+          "3e27e0e93e38fee4aae3c203887a5849"
+        ],
+        "items": [
+          "a121684c31c046b8aa648b3e12f1d574"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "8460fdfec6696bd4ba1ee10b09d634c7": {
+    "id": "8460fdfec6696bd4ba1ee10b09d634c7",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Halloween",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "6eba701b3cb14664abd6b1a9d568b01c",
+    "accessId": "2db50a78bc9948c89470f573eb665395",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff08460fdfec6696bd4ba1ee10b09d634c7",
+        "name": "Dream Island - Halloween Variant",
+        "order": 0,
+        "levels": [
+          "691c8a3c29c049b4fa31e559529b30a5",
+          "9565d8b65d5a22b4b98327d33a0378fd",
+          "2ea2438aad247b645980a35d37975ad1",
+          "33d376906e51e234eb5aac0a7a2af8b8"
+        ],
+        "items": [
+          "94024518dde6455fa63fd2765d545cb5"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "fb2ce6d05bc37034ebdf3db9d072fda1": {
+    "id": "fb2ce6d05bc37034ebdf3db9d072fda1",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Grind",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "8e1564ad62ca4e25b04e6e4a9cdc22a5",
+    "accessId": "e4fc9960e8f440aeadfa2c0161413b8e",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff0fb2ce6d05bc37034ebdf3db9d072fda1",
+        "name": "Dream Island - Grind Variant",
+        "order": 0,
+        "levels": [
+          "a3c8a612fa9aa3548aafc33b30915dbf",
+          "f795b5e4e3b20d3479145f2c087657c2",
+          "1e55f645cd652ce41be2e3fe052aa68b",
+          "2ea2438aad247b645980a35d37975ad1"
+        ],
+        "items": [
+          "08606f14c21e442a946a41886ff25f03"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "e8afb686cc743614bbdea3f8ecd32a2a": {
+    "id": "e8afb686cc743614bbdea3f8ecd32a2a",
+    "assetName": "Overworld - JOB",
+    "pack": "MainGame",
+    "featuredTag": null,
+    "requiredIdToAccess": "b9d088a5f76840868879ff4dfd8c2086",
+    "completionId": "ece883f86cac420cbac093e07ba8d141",
+    "carwashId": "ee427c4bfdcb48919c257b658cf2ba4b",
+    "accessId": "cb49963c14e0468996bf6e60b3766fe6",
+    "givesBear": "ece883f86cac420cbac093e07ba8d141",
+    "bypassRedeemBear": false,
+    "progressAchievement": "OverworldComplete_Jobs",
+    "goldAchievement": "OverworldGold_Jobs",
+    "islands": [
+      {
+        "id": "d20311cefee6464190c9ff85676b6205e8afb686cc743614bbdea3f8ecd32a2a",
+        "name": "Job Start Island",
+        "order": 0,
+        "levels": [],
+        "items": [
+          "ece883f86cac420cbac093e07ba8d141"
+        ]
+      },
+      {
+        "id": "86b6de9c8ad343dca3a76df004c70a03e8afb686cc743614bbdea3f8ecd32a2a",
+        "name": "Bank Job Island",
+        "order": 1,
+        "levels": [
+          "a99d36a67bc21c74db840cf8f9771938",
+          "2ea2438aad247b645980a35d37975ad1"
+        ],
+        "items": []
+      },
+      {
+        "id": "f48d730798ff4b6f839f8e4f001e2e5be8afb686cc743614bbdea3f8ecd32a2a",
+        "name": "Summer Job Island",
+        "order": 2,
+        "levels": [
+          "77922f7dfc263984f909a9f016aaeca5",
+          "c33d4fe0ed26b4b82868eb99ba457ae3",
+          "40261652f9e61864f9dad522d22b5426",
+          "1aea2651f9ba2ad4286856d25c151a41"
+        ],
+        "items": []
+      },
+      {
+        "id": "fdc6208d9d694e4a9005d3be057e17efe8afb686cc743614bbdea3f8ecd32a2a",
+        "name": "Office Job Hub Island",
+        "order": 3,
+        "levels": [
+          "e22cd7a471af30d46ac999d314440a4a",
+          "7fbb274cc466dfb44b47bdc16e0de71b",
+          "4439cc9699fe9e34ba93a596a72a5eab"
+        ],
+        "items": []
+      },
+      {
+        "id": "99873f184ca943aebf0e55cbffd373c0e8afb686cc743614bbdea3f8ecd32a2a",
+        "name": "Break Room Island",
+        "order": 4,
+        "levels": [
+          "ab0e2cf2ceac9d240a06c9a157762d05",
+          "5d859d824da159d42b313e3a490cefb7"
+        ],
+        "items": [
+          "1d6a097139dd41229b54f84783256244"
+        ]
+      },
+      {
+        "id": "673d08c7e6114ad19a751ed46b25ff28e8afb686cc743614bbdea3f8ecd32a2a",
+        "name": "Office Job Island",
+        "order": 5,
+        "levels": [
+          "1e55f645cd652ce41be2e3fe052aa68b",
+          "cf093a96033bba644b0c9c5272430d0f",
+          "20801b8f7a8cd7040bf5921b52e582a9"
+        ],
+        "items": []
+      },
+      {
+        "id": "b942e668488b4e4dad1f4815c530e486e8afb686cc743614bbdea3f8ecd32a2a",
+        "name": "Office Hard Island",
+        "order": 6,
+        "levels": [
+          "28dd60ce9e4131a44a8b105524e9576c"
+        ],
+        "items": []
+      },
+      {
+        "id": "67d3048a8f0d4266a16c0892f01970e6e8afb686cc743614bbdea3f8ecd32a2a",
+        "name": "Drive-Through Island",
+        "order": 7,
+        "levels": [
+          "56653430aef395547a4ade3e68c8643a",
+          "91627377fc084064d95e3fe4e94ae49b",
+          "9db4f64d397bb3244983bf7a47f78b0b",
+          "cdf796324b9a9d44589d5132b7faa5e5"
+        ],
+        "items": []
+      },
+      {
+        "id": "c0a15c795b9a46d5be9db931d80733eae8afb686cc743614bbdea3f8ecd32a2a",
+        "name": "Climbing Building Hard Island",
+        "order": 8,
+        "levels": [
+          "fd2efbff868188845999eb97ebeedcf0"
+        ],
+        "items": []
+      },
+      {
+        "id": "0fb82ab94b7d4fbeaf54686993898e63e8afb686cc743614bbdea3f8ecd32a2a",
+        "name": "Tech Support Island",
+        "order": 9,
+        "levels": [
+          "27395adf08f97b04db89f1896d82e7ac",
+          "f795b5e4e3b20d3479145f2c087657c2"
+        ],
+        "items": [
+          "31c73598a5a74c2c8be4d9bbb898ae14"
+        ]
+      },
+      {
+        "id": "58e6e67bb42049a884fdfc15b5005f6fe8afb686cc743614bbdea3f8ecd32a2a",
+        "name": "Hard Car Thief Island",
+        "order": 10,
+        "levels": [
+          "9fba25e930aa99b439ccf91f863672b8",
+          "3c034c1021303114f9c9e32306c041ff"
+        ],
+        "items": []
+      },
+      {
+        "id": "a2ba99682088453cabcec664762dff7de8afb686cc743614bbdea3f8ecd32a2a",
+        "name": "Top UGC levels area ep 3",
+        "order": 11,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": [
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "763a4b2182a44cfab22fc3ffb8e14eafe8afb686cc743614bbdea3f8ecd32a2a",
+          "placementId": "d20311cefee6464190c9ff85676b6205e8afb686cc743614bbdea3f8ecd32a2a",
+          "islandId": "d20311cefee6464190c9ff85676b6205e8afb686cc743614bbdea3f8ecd32a2a"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "b2a5d5874f414437918a241056a5aec8e8afb686cc743614bbdea3f8ecd32a2a",
+          "placementId": "b2a5d5874f414437918a241056a5aec8e8afb686cc743614bbdea3f8ecd32a2a",
+          "islandId": "86b6de9c8ad343dca3a76df004c70a03e8afb686cc743614bbdea3f8ecd32a2a"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "a8da64dc594e4b23978bd6d5d0f8e764e8afb686cc743614bbdea3f8ecd32a2a",
+          "placementId": "a8da64dc594e4b23978bd6d5d0f8e764e8afb686cc743614bbdea3f8ecd32a2a",
+          "islandId": "86b6de9c8ad343dca3a76df004c70a03e8afb686cc743614bbdea3f8ecd32a2a"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "c8a8052c7d3f498ca3d1eda98ba70b63e8afb686cc743614bbdea3f8ecd32a2a",
+          "placementId": "a8da64dc594e4b23978bd6d5d0f8e764e8afb686cc743614bbdea3f8ecd32a2a",
+          "islandId": "86b6de9c8ad343dca3a76df004c70a03e8afb686cc743614bbdea3f8ecd32a2a"
+        }
+      ],
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "763a4b2182a44cfab22fc3ffb8e14eafe8afb686cc743614bbdea3f8ecd32a2a",
+          "placementId": "d20311cefee6464190c9ff85676b6205e8afb686cc743614bbdea3f8ecd32a2a",
+          "islandId": "d20311cefee6464190c9ff85676b6205e8afb686cc743614bbdea3f8ecd32a2a"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "b1dab9c161e049778f82a5317c4f3216e8afb686cc743614bbdea3f8ecd32a2a",
+          "placementId": "b1dab9c161e049778f82a5317c4f3216e8afb686cc743614bbdea3f8ecd32a2a",
+          "islandId": "fdc6208d9d694e4a9005d3be057e17efe8afb686cc743614bbdea3f8ecd32a2a"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "3b63a82518ab4fd29199b58469bc0056e8afb686cc743614bbdea3f8ecd32a2a",
+          "placementId": "3b63a82518ab4fd29199b58469bc0056e8afb686cc743614bbdea3f8ecd32a2a",
+          "islandId": "fdc6208d9d694e4a9005d3be057e17efe8afb686cc743614bbdea3f8ecd32a2a"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "a787c61be70343af82b562a3d3d047fbe8afb686cc743614bbdea3f8ecd32a2a",
+          "placementId": "a787c61be70343af82b562a3d3d047fbe8afb686cc743614bbdea3f8ecd32a2a",
+          "islandId": "673d08c7e6114ad19a751ed46b25ff28e8afb686cc743614bbdea3f8ecd32a2a"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "80be6b78f6614016b4eff2ee942351eae8afb686cc743614bbdea3f8ecd32a2a",
+          "placementId": "80be6b78f6614016b4eff2ee942351eae8afb686cc743614bbdea3f8ecd32a2a",
+          "islandId": "673d08c7e6114ad19a751ed46b25ff28e8afb686cc743614bbdea3f8ecd32a2a"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "926d1d7d931740eda1a61c22709ce3dde8afb686cc743614bbdea3f8ecd32a2a",
+          "placementId": "80be6b78f6614016b4eff2ee942351eae8afb686cc743614bbdea3f8ecd32a2a",
+          "islandId": "673d08c7e6114ad19a751ed46b25ff28e8afb686cc743614bbdea3f8ecd32a2a"
+        }
+      ],
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "763a4b2182a44cfab22fc3ffb8e14eafe8afb686cc743614bbdea3f8ecd32a2a",
+          "placementId": "d20311cefee6464190c9ff85676b6205e8afb686cc743614bbdea3f8ecd32a2a",
+          "islandId": "d20311cefee6464190c9ff85676b6205e8afb686cc743614bbdea3f8ecd32a2a"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "310e991b042e47a8bfc64f5ac282c6c5e8afb686cc743614bbdea3f8ecd32a2a",
+          "placementId": "310e991b042e47a8bfc64f5ac282c6c5e8afb686cc743614bbdea3f8ecd32a2a",
+          "islandId": "f48d730798ff4b6f839f8e4f001e2e5be8afb686cc743614bbdea3f8ecd32a2a"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "a9b297918994444982dcc1c2bbfc6668e8afb686cc743614bbdea3f8ecd32a2a",
+          "placementId": "a9b297918994444982dcc1c2bbfc6668e8afb686cc743614bbdea3f8ecd32a2a",
+          "islandId": "f48d730798ff4b6f839f8e4f001e2e5be8afb686cc743614bbdea3f8ecd32a2a"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "d3ef3904d8cc4d238a97609f0d19e599e8afb686cc743614bbdea3f8ecd32a2a",
+          "placementId": "d3ef3904d8cc4d238a97609f0d19e599e8afb686cc743614bbdea3f8ecd32a2a",
+          "islandId": "67d3048a8f0d4266a16c0892f01970e6e8afb686cc743614bbdea3f8ecd32a2a"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "99446e62d7f645439e052dce59a0be08e8afb686cc743614bbdea3f8ecd32a2a",
+          "placementId": "99446e62d7f645439e052dce59a0be08e8afb686cc743614bbdea3f8ecd32a2a",
+          "islandId": "67d3048a8f0d4266a16c0892f01970e6e8afb686cc743614bbdea3f8ecd32a2a"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "5daf816ca6a34b1b97919c6c72ef3194e8afb686cc743614bbdea3f8ecd32a2a",
+          "placementId": "99446e62d7f645439e052dce59a0be08e8afb686cc743614bbdea3f8ecd32a2a",
+          "islandId": "67d3048a8f0d4266a16c0892f01970e6e8afb686cc743614bbdea3f8ecd32a2a"
+        }
+      ]
+    ]
+  },
+  "f6144b536488c8c44ab101e77eb065ca": {
+    "id": "f6144b536488c8c44ab101e77eb065ca",
+    "assetName": "OverworldDungeon-BestofCar-mongUs",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "ef3eef6937dd4483b45b25e628cd2638f6144b536488c8c44ab101e77eb065ca",
+        "name": "Island",
+        "order": 0,
+        "levels": [
+          "f62bbc337321e06439bdf6f24515922a",
+          "2b53813e817368d4382f2db546aac4a5",
+          "f5903d71f9875234cac9db3f29aa9036",
+          "f3095ec16c8107d47b0ec2d99e6d3af8"
+        ],
+        "items": [
+          "a98443a6d56e4817b735c81a3aa35e29"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "7f722ce474cf5ec4aa377da4850e34db": {
+    "id": "7f722ce474cf5ec4aa377da4850e34db",
+    "assetName": "OverworldDungeon-AllBoosters",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "80607f59148a4c64ad47adb5a8cdc2667f722ce474cf5ec4aa377da4850e34db",
+        "name": "All Boosters area",
+        "order": 0,
+        "levels": [
+          "769355bf80b9815459c518b102eed938",
+          "298bc754818237e4bb18c25befdd5167",
+          "33933b532514dfe41befd0f276463946"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "0dfe2c09911fc464cb29f0c7739018ef": {
+    "id": "0dfe2c09911fc464cb29f0c7739018ef",
+    "assetName": "OverworldDungeon-Special-IceWeek",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "13586453d37448f29ef9c96ddf39803a0dfe2c09911fc464cb29f0c7739018ef",
+        "name": "Room Area",
+        "order": 0,
+        "levels": [
+          "ec7d82f2429c51c40b22b453731b788e",
+          "41e3145b425572b46a9807da657870c6",
+          "a514b2d8558abb946adffa216c469b47",
+          "ca3f68a95723a6c4bb57c7acaf68bbbb",
+          "c02a0a772213c674faef60ba538836a8",
+          "a73c18fa746cf264d8ea86dbaafef4f6",
+          "390199ab60147f048b9131a6f034bf03",
+          "d7ffea7e617bcbc4fa1cbf5bf3ec34ca",
+          "84007abf0d3843e43a849782c05a3e5a",
+          "33ea884a7fb580b4fa3dc46f8e611165",
+          "853391120d6da2f4194cda935ada995b"
+        ],
+        "items": [
+          "0efd7cafdcec49489d777fd2e4ea3268"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "3c5516ed24e2c4f35b02b1b47d4a98df": {
+    "id": "3c5516ed24e2c4f35b02b1b47d4a98df",
+    "assetName": "OverworldDungeon-SummerBreak Area",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "bd9e11467609438da371712c003702353c5516ed24e2c4f35b02b1b47d4a98df",
+        "name": "SummerBreak Area",
+        "order": 0,
+        "levels": [
+          "bcc802a556def394baeb4bd4a45accfd",
+          "0b10feb6186945a4da56c249a498c1dd",
+          "30a38bb8cb577ad478b41a57268552b6"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "84028ee5eaf741c408627363d8a900d9": {
+    "id": "84028ee5eaf741c408627363d8a900d9",
+    "assetName": "Overworld - STORM",
+    "pack": "MainGame",
+    "featuredTag": null,
+    "requiredIdToAccess": "de33aab219fe49948ce250ec76420699",
+    "completionId": null,
+    "carwashId": "a4003b2a050c4294ba0ec68f32cf937d",
+    "accessId": "c484dcc2e429494da4398f3a752ba57f",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "OverworldComplete_Storm",
+    "goldAchievement": "OverworldGold_Storm",
+    "islands": [
+      {
+        "id": "d20311cefee6464190c9ff85676b620584028ee5eaf741c408627363d8a900d9",
+        "name": "Storm Start Island",
+        "order": 0,
+        "levels": [
+          "b15fdf05e04b04f4ea11d5ff3b6ee335"
+        ],
+        "items": []
+      },
+      {
+        "id": "974dae2b58f14a71ac24d2dba9a0828284028ee5eaf741c408627363d8a900d9",
+        "name": "Storm Start Island - moving",
+        "order": 1,
+        "levels": [],
+        "items": []
+      },
+      {
+        "id": "db8086e381ef4adb8a1631072d81a19f84028ee5eaf741c408627363d8a900d9",
+        "name": "Storm Main Island ",
+        "order": 2,
+        "levels": [],
+        "items": [
+          "48575ebb07a74d26b8d20d5a93501141"
+        ]
+      },
+      {
+        "id": "4fcdba923cc7488daa8f14b5df1e3dc284028ee5eaf741c408627363d8a900d9",
+        "name": "Storm Branch 1-1 Island - MONSTER CAR",
+        "order": 3,
+        "levels": [
+          "cb41ea70409cc5b4c99818d8413f2ce6",
+          "4a6f44d8f1f00984e8b59d182d2477b8",
+          "42af04525166a964c8d3d4cdbe58dbeb",
+          "792b365716ae1b74da662ba790169c3d",
+          "5744606104ee81d4886431b202d2d6b7",
+          "c5e7ecb71aec0c24dab38ee8574a7447"
+        ],
+        "items": []
+      },
+      {
+        "id": "9383ffb621744dccb4065490e874851d84028ee5eaf741c408627363d8a900d9",
+        "name": "Storm Branch 1-2 Island - PORCARPINE",
+        "order": 4,
+        "levels": [
+          "f0672f04c8308f3499e9349951eb9eb2",
+          "9ad5a65ef3819c74cb14b052838b6b12",
+          "7df8ecd0ea24eb24aacc97bd37cae8f0",
+          "545d4612473b42646aef69de54e654a7"
+        ],
+        "items": []
+      },
+      {
+        "id": "326be199c21f48c99e6d65ee59b0202884028ee5eaf741c408627363d8a900d9",
+        "name": "Storm Branch 2-1 Island ",
+        "order": 5,
+        "levels": [
+          "b094fd736bb7a584aab9f31b0dafafe9",
+          "def9c833034a9134bbf9929a3f630d67",
+          "6268bedcb0567c441bce2e867d17266b",
+          "aa17c2a1b46eaf3448d28eee693d5be2",
+          "2be741fa4aa2999419905d72dec39a82"
+        ],
+        "items": []
+      },
+      {
+        "id": "b7528f4250564b898a08ae080af8874184028ee5eaf741c408627363d8a900d9",
+        "name": "Storm Branch 2-2 Island ",
+        "order": 6,
+        "levels": [
+          "39a15b8ac7067aa4db26ed6941e6501c",
+          "9d32c52847ccd4244bd56e4bddf54191",
+          "a624c459f7e46c1478b1a816755448df",
+          "a9d5aebb76d6a2f48be25c494daf71d5"
+        ],
+        "items": []
+      },
+      {
+        "id": "944fe5f14cec4c3da8a21592df74f9fd84028ee5eaf741c408627363d8a900d9",
+        "name": "Storm Hidden Cave",
+        "order": 7,
+        "levels": [],
+        "items": [
+          "0ba30149c7744f26a2498bd25c4e36ae"
+        ]
+      },
+      {
+        "id": "64d2614e2a39487399e3b0a0b8e4c5b084028ee5eaf741c408627363d8a900d9",
+        "name": "Storm Hard Island 1",
+        "order": 8,
+        "levels": [
+          "ed3e5c2e4fdf2784896742c562d4052e"
+        ],
+        "items": []
+      }
+    ],
+    "paths": [
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "d4dd319642364468ab7aacdd75f5d91684028ee5eaf741c408627363d8a900d9",
+          "placementId": "db8086e381ef4adb8a1631072d81a19f84028ee5eaf741c408627363d8a900d9",
+          "islandId": "db8086e381ef4adb8a1631072d81a19f84028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "a3bf24d6fad04614b47c6a01ead2d43a84028ee5eaf741c408627363d8a900d9",
+          "placementId": "a3bf24d6fad04614b47c6a01ead2d43a84028ee5eaf741c408627363d8a900d9",
+          "islandId": "4fcdba923cc7488daa8f14b5df1e3dc284028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "5126f05e8388406d81d91ae69c98585384028ee5eaf741c408627363d8a900d9",
+          "placementId": "5126f05e8388406d81d91ae69c98585384028ee5eaf741c408627363d8a900d9",
+          "islandId": "4fcdba923cc7488daa8f14b5df1e3dc284028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "e112684716db46c8b1299c7adde91b6784028ee5eaf741c408627363d8a900d9",
+          "placementId": "e112684716db46c8b1299c7adde91b6784028ee5eaf741c408627363d8a900d9",
+          "islandId": "4fcdba923cc7488daa8f14b5df1e3dc284028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "cb90327e8f2142989c376355f9e6595e84028ee5eaf741c408627363d8a900d9",
+          "placementId": "cb90327e8f2142989c376355f9e6595e84028ee5eaf741c408627363d8a900d9",
+          "islandId": "4fcdba923cc7488daa8f14b5df1e3dc284028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "586f4f1fb3684fe4a8e9cb553e24a3a584028ee5eaf741c408627363d8a900d9",
+          "placementId": "586f4f1fb3684fe4a8e9cb553e24a3a584028ee5eaf741c408627363d8a900d9",
+          "islandId": "4fcdba923cc7488daa8f14b5df1e3dc284028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "1aa155bcf2c54c5ca320b0be13abc10284028ee5eaf741c408627363d8a900d9",
+          "placementId": "1aa155bcf2c54c5ca320b0be13abc10284028ee5eaf741c408627363d8a900d9",
+          "islandId": "9383ffb621744dccb4065490e874851d84028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "75c53a996a864e19a83736f69f163adc84028ee5eaf741c408627363d8a900d9",
+          "placementId": "75c53a996a864e19a83736f69f163adc84028ee5eaf741c408627363d8a900d9",
+          "islandId": "9383ffb621744dccb4065490e874851d84028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "88a9298a40b7480f95aadbd26a60847284028ee5eaf741c408627363d8a900d9",
+          "placementId": "88a9298a40b7480f95aadbd26a60847284028ee5eaf741c408627363d8a900d9",
+          "islandId": "9383ffb621744dccb4065490e874851d84028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "2f935cf1ec8c4ca788fd3ae2f3c91c8c84028ee5eaf741c408627363d8a900d9",
+          "placementId": "2f935cf1ec8c4ca788fd3ae2f3c91c8c84028ee5eaf741c408627363d8a900d9",
+          "islandId": "9383ffb621744dccb4065490e874851d84028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "2e0042a4453d4bd59e5c03a759af4f4684028ee5eaf741c408627363d8a900d9",
+          "placementId": "2f935cf1ec8c4ca788fd3ae2f3c91c8c84028ee5eaf741c408627363d8a900d9",
+          "islandId": "9383ffb621744dccb4065490e874851d84028ee5eaf741c408627363d8a900d9"
+        }
+      ],
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "d4dd319642364468ab7aacdd75f5d91684028ee5eaf741c408627363d8a900d9",
+          "placementId": "db8086e381ef4adb8a1631072d81a19f84028ee5eaf741c408627363d8a900d9",
+          "islandId": "db8086e381ef4adb8a1631072d81a19f84028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "f7c6003bfc64449286397990190c756e84028ee5eaf741c408627363d8a900d9",
+          "placementId": "f7c6003bfc64449286397990190c756e84028ee5eaf741c408627363d8a900d9",
+          "islandId": "326be199c21f48c99e6d65ee59b0202884028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "7508520211d94567a2b2cfbc835c9def84028ee5eaf741c408627363d8a900d9",
+          "placementId": "7508520211d94567a2b2cfbc835c9def84028ee5eaf741c408627363d8a900d9",
+          "islandId": "326be199c21f48c99e6d65ee59b0202884028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "63a535668df644d7bf9a75a890bd1efb84028ee5eaf741c408627363d8a900d9",
+          "placementId": "63a535668df644d7bf9a75a890bd1efb84028ee5eaf741c408627363d8a900d9",
+          "islandId": "326be199c21f48c99e6d65ee59b0202884028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "ce7d272325494bd3b6ab70e5b8ace6fc84028ee5eaf741c408627363d8a900d9",
+          "placementId": "ce7d272325494bd3b6ab70e5b8ace6fc84028ee5eaf741c408627363d8a900d9",
+          "islandId": "326be199c21f48c99e6d65ee59b0202884028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "05cf6b4cb1b248d589078893e53fcf7d84028ee5eaf741c408627363d8a900d9",
+          "placementId": "05cf6b4cb1b248d589078893e53fcf7d84028ee5eaf741c408627363d8a900d9",
+          "islandId": "326be199c21f48c99e6d65ee59b0202884028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "66e7389f32ac4b0fb754bcca898e72b384028ee5eaf741c408627363d8a900d9",
+          "placementId": "66e7389f32ac4b0fb754bcca898e72b384028ee5eaf741c408627363d8a900d9",
+          "islandId": "b7528f4250564b898a08ae080af8874184028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "7e0a898aa00f4cb4875b5ee3f64e14e284028ee5eaf741c408627363d8a900d9",
+          "placementId": "7e0a898aa00f4cb4875b5ee3f64e14e284028ee5eaf741c408627363d8a900d9",
+          "islandId": "b7528f4250564b898a08ae080af8874184028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "5eaf40b4ecab4faf82123018df728ba184028ee5eaf741c408627363d8a900d9",
+          "placementId": "5eaf40b4ecab4faf82123018df728ba184028ee5eaf741c408627363d8a900d9",
+          "islandId": "b7528f4250564b898a08ae080af8874184028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "38556d8ab7d04959a6830cee7f7d271784028ee5eaf741c408627363d8a900d9",
+          "placementId": "38556d8ab7d04959a6830cee7f7d271784028ee5eaf741c408627363d8a900d9",
+          "islandId": "b7528f4250564b898a08ae080af8874184028ee5eaf741c408627363d8a900d9"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "81a2c4a78c044fc096b5f35b21ef42d684028ee5eaf741c408627363d8a900d9",
+          "placementId": "38556d8ab7d04959a6830cee7f7d271784028ee5eaf741c408627363d8a900d9",
+          "islandId": "b7528f4250564b898a08ae080af8874184028ee5eaf741c408627363d8a900d9"
+        }
+      ]
+    ]
+  },
+  "d93e31cc65f13f747b6a40c29bd668af": {
+    "id": "d93e31cc65f13f747b6a40c29bd668af",
+    "assetName": "OverworldDungeon-DiscordCommunitySpotlight",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "fcadd9598898480b82079f9c94540574d93e31cc65f13f747b6a40c29bd668af",
+        "name": "DiscordSpotlightArea",
+        "order": 0,
+        "levels": [
+          "3ee232560b44a664aa202a2b64f442ed",
+          "4b4365cadbcc7d54d9d158170efc1491",
+          "633d6df0d7dd442408012835d347f7f2",
+          "37ae8b2d87d17c24f9d00e00b1219eb8",
+          "aa17c2a1b46eaf3448d28eee693d5be2",
+          "df404b80252b44b43bad3ca79fea77a1"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "01653ae30d0d59b408b573e7de94f50f": {
+    "id": "01653ae30d0d59b408b573e7de94f50f",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Huge",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "69e0d9d9d79d4f6ea601585a68c40725",
+    "accessId": "98b34df3b1e94fe8bc01b0f19a293557",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff001653ae30d0d59b408b573e7de94f50f",
+        "name": "Dream Island - Huge Variant",
+        "order": 0,
+        "levels": [
+          "c72b6c0d1b5a868488957a768505670b",
+          "84007abf0d3843e43a849782c05a3e5a",
+          "aa17c2a1b46eaf3448d28eee693d5be2",
+          "50514f1cc864c384b97b67336389adb5",
+          "2ea2438aad247b645980a35d37975ad1",
+          "1e55f645cd652ce41be2e3fe052aa68b"
+        ],
+        "items": [
+          "2a42c1e70cc044a0a7026319021ed21e"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "024fb91086f4f584db873a072b2c09b8": {
+    "id": "024fb91086f4f584db873a072b2c09b8",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream- Easter",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "720f706bf950473dbdeda8b1d67a4a9b",
+    "accessId": "dd866e7cd22244d4896ca1f48f0674d9",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff0024fb91086f4f584db873a072b2c09b8",
+        "name": "Dream Island - Easter Variant",
+        "order": 0,
+        "levels": [
+          "e9ef449fa6bc2ad4eb418e2d198b149a",
+          "7e22decae889a3e4194753514b114ad0",
+          "df404b80252b44b43bad3ca79fea77a1",
+          "50514f1cc864c384b97b67336389adb5"
+        ],
+        "items": [
+          "456e560388ac4a668605234e20e9fca5"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "ee42d40072ff22c4ab59164594b68236": {
+    "id": "ee42d40072ff22c4ab59164594b68236",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Legs",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "667fe4a7118147e6a90665f3448fe900",
+    "accessId": "c2a410c018d04a20a460d5b1cc0d432a",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff0ee42d40072ff22c4ab59164594b68236",
+        "name": "Dream Island - Legs Variant",
+        "order": 0,
+        "levels": [
+          "37ae8b2d87d17c24f9d00e00b1219eb8",
+          "df404b80252b44b43bad3ca79fea77a1",
+          "633d6df0d7dd442408012835d347f7f2",
+          "c3a1ce4b2549c9b4081f1cee576661e5",
+          "ab0e2cf2ceac9d240a06c9a157762d05"
+        ],
+        "items": [
+          "4c05eef1171244208275f79bf6c68070"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "4331e73c93c0dc5498ba9d3cb0214a0a": {
+    "id": "4331e73c93c0dc5498ba9d3cb0214a0a",
+    "assetName": "OverworldDungeon-MeetTheDevelopers",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "ef3eef6937dd4483b45b25e628cd26384331e73c93c0dc5498ba9d3cb0214a0a",
+        "name": "Island",
+        "order": 0,
+        "levels": [
+          "5d859d824da159d42b313e3a490cefb7",
+          "769355bf80b9815459c518b102eed938",
+          "633d6df0d7dd442408012835d347f7f2",
+          "cd5afc9f7e4b8634d80bcee54ae7c5fa",
+          "3bf80326e55305a458577e3274cc4d24",
+          "856bb9500b7518c43b327a45770343d6"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "228f207689355d34b8a83f531668ab14": {
+    "id": "228f207689355d34b8a83f531668ab14",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Olympics",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "b614e20cfcfe41ab8976c9520e3a0723",
+    "accessId": "ddef561402a649c483bb1311b2c0bab2",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff0228f207689355d34b8a83f531668ab14",
+        "name": "Dream Island - Olympics Variant",
+        "order": 0,
+        "levels": [
+          "757ae04d5024808498d1f79b3733c09f",
+          "298bc754818237e4bb18c25befdd5167",
+          "c72b6c0d1b5a868488957a768505670b",
+          "33d376906e51e234eb5aac0a7a2af8b8",
+          "015788d28cb7a644da46b75bea60aba0"
+        ],
+        "items": [
+          "f864810f1858410b9fd69bc6e1747e9d"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "9bd62096172261d429e114f6d4bb1cf1": {
+    "id": "9bd62096172261d429e114f6d4bb1cf1",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Chaos",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "4138d869efea4f25a531e9a08e90b81b",
+    "accessId": "0fd72ba151a34441b567e92bd04bbc82",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff09bd62096172261d429e114f6d4bb1cf1",
+        "name": "Dream Island - Chaos Variant",
+        "order": 0,
+        "levels": [
+          "41e3145b425572b46a9807da657870c6",
+          "50514f1cc864c384b97b67336389adb5",
+          "1aea2651f9ba2ad4286856d25c151a41",
+          "015788d28cb7a644da46b75bea60aba0",
+          "d60a212a6f3c4d841b38b66a73035dd8",
+          "cd5afc9f7e4b8634d80bcee54ae7c5fa"
+        ],
+        "items": [
+          "db5272efae0749bb95930ef7f28a7fa0"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "2cbde3840e0497e46bd79df9f7db3e48": {
+    "id": "2cbde3840e0497e46bd79df9f7db3e48",
+    "assetName": "OverworldDungeon-SneakySasquatch",
+    "pack": "MainGame",
+    "featuredTag": null,
+    "requiredIdToAccess": "b9d088a5f76840868879ff4dfd8c2086",
+    "completionId": null,
+    "carwashId": "f0de49160b1548e8a76a0412547b9719",
+    "accessId": "2ea24a341bff41b788e3f4e856287bd5",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "OverworldComplete_Sneaky",
+    "goldAchievement": "OverworldGold_Sneaky",
+    "islands": [
+      {
+        "id": "645bd70ccf634513be58a0c3f73c7f932cbde3840e0497e46bd79df9f7db3e48",
+        "name": "Entrance Island",
+        "order": 0,
+        "levels": [
+          "e9ef449fa6bc2ad4eb418e2d198b149a",
+          "cd6225cc2d852ec4c8ae1d27cec4837d",
+          "0f9633acfc9355149831165b0ef970b5",
+          "912a101287e4dd844b8b875249fda8f3"
+        ],
+        "items": [
+          "2448cb0f91bc48d0bc1879ea4957c0a2"
+        ]
+      },
+      {
+        "id": "47a7cfb5e479465697fb5ef5c09cfdef2cbde3840e0497e46bd79df9f7db3e48",
+        "name": "River Island",
+        "order": 1,
+        "levels": [
+          "f9fb43257a6d6dc43815b63ecdf01689",
+          "d7e571a9cb20e4b4089e90e94ddc5474",
+          "170c0b5b80c4fdc459f474348d8867df",
+          "08cc85bf751a76644ae44c3612783fa5"
+        ],
+        "items": [
+          "a2c6af15c74c4a21afa712e54dcc56c3"
+        ]
+      },
+      {
+        "id": "c18a7ac97aba4a40be17751c34dcbaf82cbde3840e0497e46bd79df9f7db3e48",
+        "name": "BridgesIsland",
+        "order": 2,
+        "levels": [
+          "60d846fb80bb34b49809fa2dbf95f191",
+          "a3307eaf8aa064749a486599d363528e",
+          "d0aeac69d76c28c44b8ed4add95c8bb2",
+          "9bdddd42b54755444af1937393a5defb"
+        ],
+        "items": [
+          "1fdaec01dcd14296a4b3cdd3fbdb8d84"
+        ]
+      },
+      {
+        "id": "a2ba99682088453cabcec664762dff7d2cbde3840e0497e46bd79df9f7db3e48",
+        "name": "Top UGC levels area ep sneaky",
+        "order": 3,
+        "levels": [],
+        "items": []
+      },
+      {
+        "id": "3ce27db4eea64838a01b3a27131fa38d2cbde3840e0497e46bd79df9f7db3e48",
+        "name": "HiddenCaveIsland",
+        "order": 4,
+        "levels": [],
+        "items": [
+          "bc7c8b1421854f90bfe7f5f52cc2c037"
+        ]
+      }
+    ],
+    "paths": [
+      [
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "d7a80c3e166a44b6b142c20dddc120572cbde3840e0497e46bd79df9f7db3e48",
+          "placementId": "d7a80c3e166a44b6b142c20dddc120572cbde3840e0497e46bd79df9f7db3e48",
+          "islandId": "645bd70ccf634513be58a0c3f73c7f932cbde3840e0497e46bd79df9f7db3e48"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "dd37378b0948488e88c4b5ac11e9b93c2cbde3840e0497e46bd79df9f7db3e48",
+          "placementId": "dd37378b0948488e88c4b5ac11e9b93c2cbde3840e0497e46bd79df9f7db3e48",
+          "islandId": "645bd70ccf634513be58a0c3f73c7f932cbde3840e0497e46bd79df9f7db3e48"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "f31644732d9f4b5e82fbe9431b8af65e2cbde3840e0497e46bd79df9f7db3e48",
+          "placementId": "f31644732d9f4b5e82fbe9431b8af65e2cbde3840e0497e46bd79df9f7db3e48",
+          "islandId": "645bd70ccf634513be58a0c3f73c7f932cbde3840e0497e46bd79df9f7db3e48"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "b4f4af7adc3c4815a43e6af2d5ae88d52cbde3840e0497e46bd79df9f7db3e48",
+          "placementId": "b4f4af7adc3c4815a43e6af2d5ae88d52cbde3840e0497e46bd79df9f7db3e48",
+          "islandId": "47a7cfb5e479465697fb5ef5c09cfdef2cbde3840e0497e46bd79df9f7db3e48"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "783ed0f44d4b4b65938fa01af55bbc702cbde3840e0497e46bd79df9f7db3e48",
+          "placementId": "783ed0f44d4b4b65938fa01af55bbc702cbde3840e0497e46bd79df9f7db3e48",
+          "islandId": "47a7cfb5e479465697fb5ef5c09cfdef2cbde3840e0497e46bd79df9f7db3e48"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "05e9e40d67f04d2f8c53d0b65f9d018d2cbde3840e0497e46bd79df9f7db3e48",
+          "placementId": "05e9e40d67f04d2f8c53d0b65f9d018d2cbde3840e0497e46bd79df9f7db3e48",
+          "islandId": "c18a7ac97aba4a40be17751c34dcbaf82cbde3840e0497e46bd79df9f7db3e48"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "25d96fa286d041faa3724495d55c57bd2cbde3840e0497e46bd79df9f7db3e48",
+          "placementId": "25d96fa286d041faa3724495d55c57bd2cbde3840e0497e46bd79df9f7db3e48",
+          "islandId": "c18a7ac97aba4a40be17751c34dcbaf82cbde3840e0497e46bd79df9f7db3e48"
+        }
+      ]
+    ]
+  },
+  "00e858d64ed05d849a17d2cefc8a0c41": {
+    "id": "00e858d64ed05d849a17d2cefc8a0c41",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Flying",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "25d19673c1784cbe96c866f11b0fcbae",
+    "accessId": "eb57ba96d76b480294a236e8d16595d5",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff000e858d64ed05d849a17d2cefc8a0c41",
+        "name": "Dream Island - Flying Variant",
+        "order": 0,
+        "levels": [
+          "df404b80252b44b43bad3ca79fea77a1",
+          "d60a212a6f3c4d841b38b66a73035dd8",
+          "4c42d29ec1ddab745aa54eb850c732eb",
+          "9565d8b65d5a22b4b98327d33a0378fd",
+          "54d6480d28f725843bccab26513ade55"
+        ],
+        "items": [
+          "b1b2ecb82f094740aedb0340e0f86cea"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "592b27ceec7a743f98aa2f0e7c972736": {
+    "id": "592b27ceec7a743f98aa2f0e7c972736",
+    "assetName": "OverworldDungeon-Influencer Area",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "94462b72476c4a67a03c5bf5a339f877f11266594db374d4384848b28747757e",
+        "name": "Influencer Area Variant",
+        "order": 0,
+        "levels": [
+          "593e1c95834d69c45a79066f7a3e77e4",
+          "f703739e0acd0334c850cdc640a38345"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "df187d54e0f9c5946902504ca2981f0a": {
+    "id": "df187d54e0f9c5946902504ca2981f0a",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Birthday",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "96606fa026c0436fbf110c9177d1ca16",
+    "accessId": "2e9c35d061b5424bb4a322f43c640d1a",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff0df187d54e0f9c5946902504ca2981f0a",
+        "name": "Dream Island - Birthday Variant",
+        "order": 0,
+        "levels": [
+          "cd5afc9f7e4b8634d80bcee54ae7c5fa",
+          "757ae04d5024808498d1f79b3733c09f",
+          "50514f1cc864c384b97b67336389adb5",
+          "1aea2651f9ba2ad4286856d25c151a41",
+          "4a6f44d8f1f00984e8b59d182d2477b8",
+          "9565d8b65d5a22b4b98327d33a0378fd"
+        ],
+        "items": [
+          "f829c67523cd4e5eba14c3fbb71fb983"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "65a98353660804f4a8994c425e1b2af2": {
+    "id": "65a98353660804f4a8994c425e1b2af2",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Valentines",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "7fbbfac826d74d8cbdf642661e838021",
+    "accessId": "d685ae1e91e64beb82f6ff68ddf37fc9",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff065a98353660804f4a8994c425e1b2af2",
+        "name": "Dream Island - Valentines Variant",
+        "order": 0,
+        "levels": [
+          "633d6df0d7dd442408012835d347f7f2",
+          "c3a1ce4b2549c9b4081f1cee576661e5",
+          "f703739e0acd0334c850cdc640a38345",
+          "37ae8b2d87d17c24f9d00e00b1219eb8",
+          "3ee232560b44a664aa202a2b64f442ed"
+        ],
+        "items": [
+          "47d6247ece334334aaec7401c852877e"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "250ef88b86e412c43830fb72b5029d8d": {
+    "id": "250ef88b86e412c43830fb72b5029d8d",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Space",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "d223a361409046c688824c29ef83a67a",
+    "accessId": "f5eaa0b9f7fd4979a234af41e18299b7",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff0250ef88b86e412c43830fb72b5029d8d",
+        "name": "Dream Island - Space Variant",
+        "order": 0,
+        "levels": [
+          "f3095ec16c8107d47b0ec2d99e6d3af8",
+          "2b53813e817368d4382f2db546aac4a5",
+          "f5903d71f9875234cac9db3f29aa9036"
+        ],
+        "items": [
+          "11291a6ce43d488084651a513b8f9931"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "116ebb142e6e6db49a823281f31867b7": {
+    "id": "116ebb142e6e6db49a823281f31867b7",
+    "assetName": "OverworldDungeon-Skin Wardrobe",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "f4ea887a492047c2a53a83db0ffec68e116ebb142e6e6db49a823281f31867b7",
+        "name": "Skin Wardrobe",
+        "order": 0,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "ea76ff35d6a1dc84a8df8b110a24e4e1": {
+    "id": "ea76ff35d6a1dc84a8df8b110a24e4e1",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Spring",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "28882919025a46419dbcba8b76b00650",
+    "accessId": "df4fb4a9975f46dc94e1c57658c5ec1e",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff0ea76ff35d6a1dc84a8df8b110a24e4e1",
+        "name": "Dream Island - Spring Variant",
+        "order": 0,
+        "levels": [
+          "37ae8b2d87d17c24f9d00e00b1219eb8",
+          "837b855d987e30b489b07ae68f069d37",
+          "769355bf80b9815459c518b102eed938",
+          "50514f1cc864c384b97b67336389adb5"
+        ],
+        "items": [
+          "32ba379334bc4602baba492d48a8df61"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "9040dbd2b38fb884aa20dd428a645344": {
+    "id": "9040dbd2b38fb884aa20dd428a645344",
+    "assetName": "Overworld - WHEELS",
+    "pack": "MainGame",
+    "featuredTag": null,
+    "requiredIdToAccess": "a84177462ca84fad80bc0efd04b05c50",
+    "completionId": "3f0562b08f2342418d953a1b3fc58ee7",
+    "carwashId": "98ab8ae04cfe46939c83adf0ae79bddc",
+    "accessId": "d8a6069cbdf244bd88ce6ec563702a66",
+    "givesBear": "3f0562b08f2342418d953a1b3fc58ee7",
+    "bypassRedeemBear": false,
+    "progressAchievement": "OverworldComplete_Wheels",
+    "goldAchievement": "OverworldGold_Wheels",
+    "islands": [
+      {
+        "id": "99ecf340c04d442f8456d8233d5b64af9040dbd2b38fb884aa20dd428a645344",
+        "name": "More Wheels Island",
+        "order": 0,
+        "levels": [
+          "a3c8a612fa9aa3548aafc33b30915dbf",
+          "4e757c3bc4400c44a9d422fa8aa136fc",
+          "f9f8b9ed5fc99734facfe0ef8679c6e1",
+          "4c42d29ec1ddab745aa54eb850c732eb"
+        ],
+        "items": []
+      },
+      {
+        "id": "16e3e2cd2a764f1aa03d019efd2dbdfd9040dbd2b38fb884aa20dd428a645344",
+        "name": "The Aquaduct Race Variant",
+        "order": 1,
+        "levels": [],
+        "items": [
+          "a3fd5d716e24475d84007777851d1308"
+        ]
+      },
+      {
+        "id": "d20311cefee6464190c9ff85676b62059040dbd2b38fb884aa20dd428a645344",
+        "name": "Car Island",
+        "order": 2,
+        "levels": [],
+        "items": [
+          "3f0562b08f2342418d953a1b3fc58ee7"
+        ]
+      },
+      {
+        "id": "d393194cf8434d4f9afe896358ef78a79040dbd2b38fb884aa20dd428a645344",
+        "name": "Jetpack Island",
+        "order": 3,
+        "levels": [
+          "955d004d807122341802e41ad004bb31",
+          "853f0350c6cf3b64dbca659402452b8c",
+          "3d146b987bcc70548bedf445a1b8432b",
+          "33d376906e51e234eb5aac0a7a2af8b8",
+          "beaec686845a8204e896c572bbe4c014",
+          "9565d8b65d5a22b4b98327d33a0378fd"
+        ],
+        "items": []
+      },
+      {
+        "id": "3006855cd6d148a8b71df60beacf33f49040dbd2b38fb884aa20dd428a645344",
+        "name": "Scarlextric Island",
+        "order": 4,
+        "levels": [
+          "1f2d9e427e4d1b44eaf4373759616057",
+          "9f493d410ffc8194690c9f6c61c8ea95",
+          "56b8e99d4d850784aae527065d2ae32a"
+        ],
+        "items": []
+      },
+      {
+        "id": "f37a8c8d217341be8fa0a25d5b5c8cdb9040dbd2b38fb884aa20dd428a645344",
+        "name": "Hot Wheels Island",
+        "order": 5,
+        "levels": [
+          "cb9c0611a6486cc449890109dcef1dda",
+          "fab7e628e93a99a47bea0144ec2b8c84",
+          "3ee232560b44a664aa202a2b64f442ed",
+          "a19f37cc85fd4ef43b9c33aa3e72cefc"
+        ],
+        "items": []
+      },
+      {
+        "id": "a675b2370cb44a22b39029d9ab47f1689040dbd2b38fb884aa20dd428a645344",
+        "name": "Weird Wheels Island",
+        "order": 6,
+        "levels": [
+          "4bb0e1ceb5429c94f91b4f97039d76fc",
+          "756391ad1dfc0ec4c88d68c5c5964b2f"
+        ],
+        "items": []
+      },
+      {
+        "id": "d70a59d16a104309ac331c7bc2777f339040dbd2b38fb884aa20dd428a645344",
+        "name": "Jetpack Hard Island",
+        "order": 7,
+        "levels": [
+          "76937af4886015b4ab90324c3c8296cf"
+        ],
+        "items": []
+      },
+      {
+        "id": "7319465fdf7a43908b8dde978a2a5aed9040dbd2b38fb884aa20dd428a645344",
+        "name": "HotWheels Hard Island",
+        "order": 8,
+        "levels": [
+          "769cef3e0b48162428270f5fde39166f"
+        ],
+        "items": []
+      },
+      {
+        "id": "cfea745e2788436da9e3dc0a20c411df9040dbd2b38fb884aa20dd428a645344",
+        "name": "GooseEvent Island",
+        "order": 9,
+        "levels": [],
+        "items": [
+          "0a9a63eb4af64d09bbc2634ebcd691bd"
+        ]
+      },
+      {
+        "id": "c661d7fbb8e24c4f976e22ff3797ebf29040dbd2b38fb884aa20dd428a645344",
+        "name": "Scarlextric Hard Island",
+        "order": 10,
+        "levels": [
+          "54de5bb5341a7004ca8a92cc1ceba14e"
+        ],
+        "items": []
+      },
+      {
+        "id": "a2ba99682088453cabcec664762dff7d9040dbd2b38fb884aa20dd428a645344",
+        "name": "Top UGC levels area ep 5",
+        "order": 11,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": [
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "763a4b2182a44cfab22fc3ffb8e14eaf9040dbd2b38fb884aa20dd428a645344",
+          "placementId": "d20311cefee6464190c9ff85676b62059040dbd2b38fb884aa20dd428a645344",
+          "islandId": "d20311cefee6464190c9ff85676b62059040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "fefd6454ac4742999c4440fbfe63ca7a9040dbd2b38fb884aa20dd428a645344",
+          "placementId": "fefd6454ac4742999c4440fbfe63ca7a9040dbd2b38fb884aa20dd428a645344",
+          "islandId": "99ecf340c04d442f8456d8233d5b64af9040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "c1bc3b82b26143ad9f85d60fd09c2dc79040dbd2b38fb884aa20dd428a645344",
+          "placementId": "c1bc3b82b26143ad9f85d60fd09c2dc79040dbd2b38fb884aa20dd428a645344",
+          "islandId": "99ecf340c04d442f8456d8233d5b64af9040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "d7d1fdbf19c24177a67006ed78316d089040dbd2b38fb884aa20dd428a645344",
+          "placementId": "d7d1fdbf19c24177a67006ed78316d089040dbd2b38fb884aa20dd428a645344",
+          "islandId": "99ecf340c04d442f8456d8233d5b64af9040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "7990331e51b442469d733f3cd86cad169040dbd2b38fb884aa20dd428a645344",
+          "placementId": "7990331e51b442469d733f3cd86cad169040dbd2b38fb884aa20dd428a645344",
+          "islandId": "99ecf340c04d442f8456d8233d5b64af9040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "a14b9499493e47968e9999eae9a04d3e9040dbd2b38fb884aa20dd428a645344",
+          "placementId": "7990331e51b442469d733f3cd86cad169040dbd2b38fb884aa20dd428a645344",
+          "islandId": "99ecf340c04d442f8456d8233d5b64af9040dbd2b38fb884aa20dd428a645344"
+        }
+      ],
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "763a4b2182a44cfab22fc3ffb8e14eaf9040dbd2b38fb884aa20dd428a645344",
+          "placementId": "d20311cefee6464190c9ff85676b62059040dbd2b38fb884aa20dd428a645344",
+          "islandId": "d20311cefee6464190c9ff85676b62059040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "c7174e478c19496c9af97aede8625ea59040dbd2b38fb884aa20dd428a645344",
+          "placementId": "c7174e478c19496c9af97aede8625ea59040dbd2b38fb884aa20dd428a645344",
+          "islandId": "d393194cf8434d4f9afe896358ef78a79040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "2ca088f33d8f41d3851dd39ba4b22dd09040dbd2b38fb884aa20dd428a645344",
+          "placementId": "2ca088f33d8f41d3851dd39ba4b22dd09040dbd2b38fb884aa20dd428a645344",
+          "islandId": "d393194cf8434d4f9afe896358ef78a79040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "1cde93e623c840d3bbc13a2c385948d19040dbd2b38fb884aa20dd428a645344",
+          "placementId": "1cde93e623c840d3bbc13a2c385948d19040dbd2b38fb884aa20dd428a645344",
+          "islandId": "d393194cf8434d4f9afe896358ef78a79040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "4a5e334643cb47759375b78a579c63d49040dbd2b38fb884aa20dd428a645344",
+          "placementId": "4a5e334643cb47759375b78a579c63d49040dbd2b38fb884aa20dd428a645344",
+          "islandId": "d393194cf8434d4f9afe896358ef78a79040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "fe359c5ca838459baef2e22c583f13b19040dbd2b38fb884aa20dd428a645344",
+          "placementId": "4a5e334643cb47759375b78a579c63d49040dbd2b38fb884aa20dd428a645344",
+          "islandId": "d393194cf8434d4f9afe896358ef78a79040dbd2b38fb884aa20dd428a645344"
+        }
+      ],
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "763a4b2182a44cfab22fc3ffb8e14eaf9040dbd2b38fb884aa20dd428a645344",
+          "placementId": "d20311cefee6464190c9ff85676b62059040dbd2b38fb884aa20dd428a645344",
+          "islandId": "d20311cefee6464190c9ff85676b62059040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "ef69e00972a149bcbd4af5b751efc4719040dbd2b38fb884aa20dd428a645344",
+          "placementId": "ef69e00972a149bcbd4af5b751efc4719040dbd2b38fb884aa20dd428a645344",
+          "islandId": "3006855cd6d148a8b71df60beacf33f49040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "3876b386b226437cbef55f21ad0a35f29040dbd2b38fb884aa20dd428a645344",
+          "placementId": "3876b386b226437cbef55f21ad0a35f29040dbd2b38fb884aa20dd428a645344",
+          "islandId": "3006855cd6d148a8b71df60beacf33f49040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "4828197bd4d54d978df81bd2b3bfbb899040dbd2b38fb884aa20dd428a645344",
+          "placementId": "4828197bd4d54d978df81bd2b3bfbb899040dbd2b38fb884aa20dd428a645344",
+          "islandId": "3006855cd6d148a8b71df60beacf33f49040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "07e13f4b0d6c40fdb5ef1e6c70d441df9040dbd2b38fb884aa20dd428a645344",
+          "placementId": "4828197bd4d54d978df81bd2b3bfbb899040dbd2b38fb884aa20dd428a645344",
+          "islandId": "3006855cd6d148a8b71df60beacf33f49040dbd2b38fb884aa20dd428a645344"
+        }
+      ],
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "763a4b2182a44cfab22fc3ffb8e14eaf9040dbd2b38fb884aa20dd428a645344",
+          "placementId": "d20311cefee6464190c9ff85676b62059040dbd2b38fb884aa20dd428a645344",
+          "islandId": "d20311cefee6464190c9ff85676b62059040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "786cf842a8fd4d7f9a5c30b940a406879040dbd2b38fb884aa20dd428a645344",
+          "placementId": "786cf842a8fd4d7f9a5c30b940a406879040dbd2b38fb884aa20dd428a645344",
+          "islandId": "f37a8c8d217341be8fa0a25d5b5c8cdb9040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "fc6afeb210ed4f868e2ad333a45bb1359040dbd2b38fb884aa20dd428a645344",
+          "placementId": "fc6afeb210ed4f868e2ad333a45bb1359040dbd2b38fb884aa20dd428a645344",
+          "islandId": "f37a8c8d217341be8fa0a25d5b5c8cdb9040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "25f232bc1bff41f8972938b66738f4e49040dbd2b38fb884aa20dd428a645344",
+          "placementId": "25f232bc1bff41f8972938b66738f4e49040dbd2b38fb884aa20dd428a645344",
+          "islandId": "f37a8c8d217341be8fa0a25d5b5c8cdb9040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "5c656448862b4ec29270b62b34d921ca9040dbd2b38fb884aa20dd428a645344",
+          "placementId": "5c656448862b4ec29270b62b34d921ca9040dbd2b38fb884aa20dd428a645344",
+          "islandId": "a675b2370cb44a22b39029d9ab47f1689040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "f56c270facfc43f7848513d2337251f49040dbd2b38fb884aa20dd428a645344",
+          "placementId": "f56c270facfc43f7848513d2337251f49040dbd2b38fb884aa20dd428a645344",
+          "islandId": "a675b2370cb44a22b39029d9ab47f1689040dbd2b38fb884aa20dd428a645344"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "71c2257c6b0948bbab1663303a8297e49040dbd2b38fb884aa20dd428a645344",
+          "placementId": "f56c270facfc43f7848513d2337251f49040dbd2b38fb884aa20dd428a645344",
+          "islandId": "a675b2370cb44a22b39029d9ab47f1689040dbd2b38fb884aa20dd428a645344"
+        }
+      ]
+    ]
+  },
+  "414317a7213301b4ea1cdfd883244fdb": {
+    "id": "414317a7213301b4ea1cdfd883244fdb",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Horses",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "fcaee2051b674d72b751c93c8b5e8abb",
+    "accessId": "5b76989d9dc0404f89463275516726da",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff0414317a7213301b4ea1cdfd883244fdb",
+        "name": "Dream Island - Horses Variant",
+        "order": 0,
+        "levels": [
+          "3ee232560b44a664aa202a2b64f442ed",
+          "9565d8b65d5a22b4b98327d33a0378fd",
+          "50514f1cc864c384b97b67336389adb5",
+          "837b855d987e30b489b07ae68f069d37"
+        ],
+        "items": [
+          "80dad434e30945ccb757493cb922eaf6"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "6a4e565ba32034698af9b81772373abe": {
+    "id": "6a4e565ba32034698af9b81772373abe",
+    "assetName": "OverworldDungeon-Daily",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "13001abd1a64455498c239d42350948f6a4e565ba32034698af9b81772373abe",
+        "name": "Daily Challenge",
+        "order": 0,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "d7f73c3bf0898f940bb6d417a4658b6e": {
+    "id": "d7f73c3bf0898f940bb6d417a4658b6e",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Vacation",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "15f701c1d64e41fc8c2ed92146e5e87f",
+    "accessId": "4818c36e26f943a6ae38e94a33e4ce68",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff0d7f73c3bf0898f940bb6d417a4658b6e",
+        "name": "Dream Island - Vacation Variant",
+        "order": 0,
+        "levels": [
+          "cd5afc9f7e4b8634d80bcee54ae7c5fa",
+          "1cf13e2abd4e3684697cf4e55b3f4e3c",
+          "36dd094e96538d74598c4c0272d87d8f",
+          "f7fbb459f57b2424694cdc31976cd8de",
+          "742c495af4e357a4486b7d9eaaec22c1",
+          "218bbdfbcd7121f42a1b46e84526c161"
+        ],
+        "items": [
+          "d7a514402fa14985a6a49c85aa8412d2"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "1faadee4822e34afaa6a6a4d148f2f9f": {
+    "id": "1faadee4822e34afaa6a6a4d148f2f9f",
+    "assetName": "OverworldDungeon-Celebrity Area",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "8c700d60e8e94cc9ae01e5624d6105811faadee4822e34afaa6a6a4d148f2f9f",
+        "name": "Celebrity Area Variant",
+        "order": 0,
+        "levels": [
+          "7e22decae889a3e4194753514b114ad0"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "eb6e594e308a22046b6edd75cb452a80": {
+    "id": "eb6e594e308a22046b6edd75cb452a80",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Zoo",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "13cc0bd4c77144d7aed6b6618ed9c813",
+    "accessId": "db9ec504e6e2495b8355fb1496dfb0e8",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff0eb6e594e308a22046b6edd75cb452a80",
+        "name": "Dream Island - Zoo Variant",
+        "order": 0,
+        "levels": [
+          "37ae8b2d87d17c24f9d00e00b1219eb8",
+          "e1c113adf2adc0144a346bb7bb9fc6a0",
+          "aa17c2a1b46eaf3448d28eee693d5be2",
+          "68965d87ad83dd946aa70764e3ab1d96",
+          "cd5afc9f7e4b8634d80bcee54ae7c5fa",
+          "54d6480d28f725843bccab26513ade55"
+        ],
+        "items": [
+          "6cc79d19016d4fcfa59e667809249858"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "ac9960032becd4645b8795ff28a22e3f": {
+    "id": "ac9960032becd4645b8795ff28a22e3f",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-UPDATE-REQUIRED",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "7ceb1e3a6acf4bb68f90d66c5e2f6c0eac9960032becd4645b8795ff28a22e3f",
+        "name": "Dream Base Island",
+        "order": 0,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "23b95a69c49d8874cab290a39c31c870": {
+    "id": "23b95a69c49d8874cab290a39c31c870",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Smelly",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "6f462b011a204d10a68377f5cea422ab",
+    "accessId": "31db8ad76c7744cabf7b131a85486bf5",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff023b95a69c49d8874cab290a39c31c870",
+        "name": "Dream Island - Smelly Variant",
+        "order": 0,
+        "levels": [
+          "015788d28cb7a644da46b75bea60aba0",
+          "c3a1ce4b2549c9b4081f1cee576661e5",
+          "5d859d824da159d42b313e3a490cefb7",
+          "1aea2651f9ba2ad4286856d25c151a41",
+          "837b855d987e30b489b07ae68f069d37"
+        ],
+        "items": [
+          "0ee25a0c65ce4697888e72519ec539b7"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "cd78aeba69630ec4f81de94939db4bad": {
+    "id": "cd78aeba69630ec4f81de94939db4bad",
+    "assetName": "OverworldDungeon-MazeSpecial_v2",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "3a0ccdf3f59548faadfbc36070cdcecbcd78aeba69630ec4f81de94939db4bad",
+        "name": "Special-Island_Maze",
+        "order": 0,
+        "levels": [
+          "856bb9500b7518c43b327a45770343d6"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "6c2ee4629c70119468dd97f96af2c738": {
+    "id": "6c2ee4629c70119468dd97f96af2c738",
+    "assetName": "OverworldDungeon-BestOf_SneakySasquatch",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "3bb4b6dc53c1430d8b0979b879a5b0f76c2ee4629c70119468dd97f96af2c738",
+        "name": "Island",
+        "order": 0,
+        "levels": [
+          "e9ef449fa6bc2ad4eb418e2d198b149a",
+          "60a913cda860f444b85da4d4af5eacda"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "6eb5fd547c0d58c46a50f3a3df18e025": {
+    "id": "6eb5fd547c0d58c46a50f3a3df18e025",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Apocalypse",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "dcd1794c69064207a8b044786d2d181f",
+    "accessId": "fc23a3582af5459c962dc08c2301549d",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff06eb5fd547c0d58c46a50f3a3df18e025",
+        "name": "Dream Island - Apocalypse Variant",
+        "order": 0,
+        "levels": [
+          "4c42d29ec1ddab745aa54eb850c732eb",
+          "3ee232560b44a664aa202a2b64f442ed",
+          "4a6f44d8f1f00984e8b59d182d2477b8",
+          "aa17c2a1b46eaf3448d28eee693d5be2",
+          "61d4ef7e57a98804388de676cdc0ff6e"
+        ],
+        "items": [
+          "4b4515ef9c51428eb7cc99d3798ac6fa"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "280384c2060713b46adf8ae2a22a9bb3": {
+    "id": "280384c2060713b46adf8ae2a22a9bb3",
+    "assetName": "Overworld - SOCCER",
+    "pack": "MainGame",
+    "featuredTag": null,
+    "requiredIdToAccess": "ece883f86cac420cbac093e07ba8d141",
+    "completionId": "de33aab219fe49948ce250ec76420699",
+    "carwashId": "6e43f1bc37804f288e1132c117611bae",
+    "accessId": "e007ba0eafc54da8adc50e43542c2a90",
+    "givesBear": "de33aab219fe49948ce250ec76420699",
+    "bypassRedeemBear": false,
+    "progressAchievement": "OverworldComplete_Soccer",
+    "goldAchievement": "OverworldGold_Soccer",
+    "islands": [
+      {
+        "id": "d20311cefee6464190c9ff85676b6205280384c2060713b46adf8ae2a22a9bb3",
+        "name": "Soccer Start Island",
+        "order": 0,
+        "levels": [],
+        "items": [
+          "de33aab219fe49948ce250ec76420699"
+        ]
+      },
+      {
+        "id": "18fed78268d044188ab16e27e0d02e3e280384c2060713b46adf8ae2a22a9bb3",
+        "name": "RideBall Island",
+        "order": 1,
+        "levels": [
+          "27ccf11673b2f3445816a1502e135670",
+          "757ae04d5024808498d1f79b3733c09f",
+          "0fdbd5c51172cdb4d9458a44a40181a7"
+        ],
+        "items": []
+      },
+      {
+        "id": "0c413b8d08854644aa8244bcf22b8ec0280384c2060713b46adf8ae2a22a9bb3",
+        "name": "CarIsGoal Island",
+        "order": 2,
+        "levels": [
+          "48c7605c41555f54f87cc5d5718ba0fd"
+        ],
+        "items": []
+      },
+      {
+        "id": "7a55bb33d73f49198ab50ad5496d7c88280384c2060713b46adf8ae2a22a9bb3",
+        "name": "Bowling Island",
+        "order": 3,
+        "levels": [
+          "bd1de8b5fedf74467bc8d64d3069bc35",
+          "f6df5a96014ead744b2e3e6e2b145a82"
+        ],
+        "items": [
+          "54964e24f980420a9e873f89cfc2a904"
+        ]
+      },
+      {
+        "id": "3101ad0d2a264161b74c68ddacf05a2e280384c2060713b46adf8ae2a22a9bb3",
+        "name": "BeTheBall Island",
+        "order": 4,
+        "levels": [
+          "c72b6c0d1b5a868488957a768505670b",
+          "50bfcd869debb984483ebbbf2ce2b814",
+          "f77f0b67167cfe948bfb211bceaedfa0"
+        ],
+        "items": []
+      },
+      {
+        "id": "6ad692c8aa9d4c03a443c8b49f5fb1e5280384c2060713b46adf8ae2a22a9bb3",
+        "name": "PushTheBall Island",
+        "order": 5,
+        "levels": [
+          "38455d288854f03468f157769c136a45",
+          "0528e5b227ad91249a93a93b049dc003"
+        ],
+        "items": []
+      },
+      {
+        "id": "1c8bedd07d654d14961156f3193ff9c1280384c2060713b46adf8ae2a22a9bb3",
+        "name": "KickTheBall Island",
+        "order": 6,
+        "levels": [
+          "004f12ff7a4f0d646b7f80902af8a525",
+          "8951d4a367a363f4da545e57d2f7ccc2",
+          "fe37cf0de6dbf16478623b36aef1b535",
+          "adef9a990b7222d4c9ff96d28d2c9825",
+          "0fc7b41702801a449a21c204e86d1119",
+          "f170b018e14370f4fad5faa67e68cfea"
+        ],
+        "items": []
+      },
+      {
+        "id": "aa2aad0f87114a978b5ef3d71dfb80c4280384c2060713b46adf8ae2a22a9bb3",
+        "name": "Rocket Leg Vs Bear (Hard) Variant",
+        "order": 7,
+        "levels": [
+          "befaf5547c0b23245ad7265faaaa2c9e"
+        ],
+        "items": []
+      },
+      {
+        "id": "30a54003cd224e95ae4b301fe8bb447e280384c2060713b46adf8ae2a22a9bb3",
+        "name": "Secret path Variant",
+        "order": 8,
+        "levels": [],
+        "items": [
+          "9c451d0da2344b5bb5931bf19c74ce9a"
+        ]
+      },
+      {
+        "id": "ebf275578e7c4563965f2bbfd4f105c0280384c2060713b46adf8ae2a22a9bb3",
+        "name": "SoccerCannon Island",
+        "order": 9,
+        "levels": [
+          "015788d28cb7a644da46b75bea60aba0",
+          "ac5355dafa8daeb4fbff93ef921ce16e"
+        ],
+        "items": []
+      },
+      {
+        "id": "04ae19c3770b4d4bac33e7bc508c76a5280384c2060713b46adf8ae2a22a9bb3",
+        "name": "BallInGoalChallenge Island",
+        "order": 10,
+        "levels": [
+          "e18eb7ad572323f47a8013a5eff8fd7e"
+        ],
+        "items": []
+      },
+      {
+        "id": "a2ba99682088453cabcec664762dff7d280384c2060713b46adf8ae2a22a9bb3",
+        "name": "Top UGC levels area ep 2",
+        "order": 11,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": [
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "763a4b2182a44cfab22fc3ffb8e14eaf280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "d20311cefee6464190c9ff85676b6205280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "d20311cefee6464190c9ff85676b6205280384c2060713b46adf8ae2a22a9bb3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "95e48fc3d4e241f4971c79199718a9d7280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "95e48fc3d4e241f4971c79199718a9d7280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "18fed78268d044188ab16e27e0d02e3e280384c2060713b46adf8ae2a22a9bb3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "f4d36b8d76b14bd58a41afa9c577fa45280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "f4d36b8d76b14bd58a41afa9c577fa45280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "18fed78268d044188ab16e27e0d02e3e280384c2060713b46adf8ae2a22a9bb3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "d6073d040ea6401983e2d08518acbed3280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "d6073d040ea6401983e2d08518acbed3280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "18fed78268d044188ab16e27e0d02e3e280384c2060713b46adf8ae2a22a9bb3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "53cf6fe1f9804c2190b19dc2525af423280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "53cf6fe1f9804c2190b19dc2525af423280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "0c413b8d08854644aa8244bcf22b8ec0280384c2060713b46adf8ae2a22a9bb3"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "07e13f4b0d6c40fdb5ef1e6c70d441df280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "53cf6fe1f9804c2190b19dc2525af423280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "0c413b8d08854644aa8244bcf22b8ec0280384c2060713b46adf8ae2a22a9bb3"
+        }
+      ],
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "763a4b2182a44cfab22fc3ffb8e14eaf280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "d20311cefee6464190c9ff85676b6205280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "d20311cefee6464190c9ff85676b6205280384c2060713b46adf8ae2a22a9bb3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "f5610b86f0584e55ae888a1adaabf59c280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "f5610b86f0584e55ae888a1adaabf59c280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "6ad692c8aa9d4c03a443c8b49f5fb1e5280384c2060713b46adf8ae2a22a9bb3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "6aff61871c60463ca39bbd7138ce2d2c280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "6aff61871c60463ca39bbd7138ce2d2c280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "1c8bedd07d654d14961156f3193ff9c1280384c2060713b46adf8ae2a22a9bb3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "badcecd0606841e3aa21edb6d99d95f2280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "badcecd0606841e3aa21edb6d99d95f2280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "1c8bedd07d654d14961156f3193ff9c1280384c2060713b46adf8ae2a22a9bb3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "0703fbb600d747dbbeec4cc2689bf777280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "0703fbb600d747dbbeec4cc2689bf777280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "1c8bedd07d654d14961156f3193ff9c1280384c2060713b46adf8ae2a22a9bb3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "9ca02e5935f3465fb298f8691a398cd7280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "9ca02e5935f3465fb298f8691a398cd7280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "1c8bedd07d654d14961156f3193ff9c1280384c2060713b46adf8ae2a22a9bb3"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "f521d5dc209749aaa20b112789bf638d280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "9ca02e5935f3465fb298f8691a398cd7280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "1c8bedd07d654d14961156f3193ff9c1280384c2060713b46adf8ae2a22a9bb3"
+        }
+      ],
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "763a4b2182a44cfab22fc3ffb8e14eaf280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "d20311cefee6464190c9ff85676b6205280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "d20311cefee6464190c9ff85676b6205280384c2060713b46adf8ae2a22a9bb3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "a699fc08a9964dada57e5e45474a363c280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "a699fc08a9964dada57e5e45474a363c280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "3101ad0d2a264161b74c68ddacf05a2e280384c2060713b46adf8ae2a22a9bb3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "2fa32b718dae47ffb8e1249692855170280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "2fa32b718dae47ffb8e1249692855170280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "3101ad0d2a264161b74c68ddacf05a2e280384c2060713b46adf8ae2a22a9bb3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "a085111c839345c591cf3f89efabf54f280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "a085111c839345c591cf3f89efabf54f280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "3101ad0d2a264161b74c68ddacf05a2e280384c2060713b46adf8ae2a22a9bb3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "ff39b22d84354f31aee09d341961f478280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "ff39b22d84354f31aee09d341961f478280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "ebf275578e7c4563965f2bbfd4f105c0280384c2060713b46adf8ae2a22a9bb3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "4a3795cee6bd413da3d4737ccdb74a43280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "4a3795cee6bd413da3d4737ccdb74a43280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "ebf275578e7c4563965f2bbfd4f105c0280384c2060713b46adf8ae2a22a9bb3"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "4dee20ba5bed43f7871c6eea2b13f620280384c2060713b46adf8ae2a22a9bb3",
+          "placementId": "4a3795cee6bd413da3d4737ccdb74a43280384c2060713b46adf8ae2a22a9bb3",
+          "islandId": "ebf275578e7c4563965f2bbfd4f105c0280384c2060713b46adf8ae2a22a9bb3"
+        }
+      ]
+    ]
+  },
+  "d2a7c20bc1494b84fa3cecd4940a5fe2": {
+    "id": "d2a7c20bc1494b84fa3cecd4940a5fe2",
+    "assetName": "OverworldDungeon-Bestof2024",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "f358dc3967b94073ae4186ac6f4d3cc9d2a7c20bc1494b84fa3cecd4940a5fe2",
+        "name": "BestOf2023Area",
+        "order": 0,
+        "levels": [
+          "ab0e2cf2ceac9d240a06c9a157762d05",
+          "837b855d987e30b489b07ae68f069d37",
+          "cd5afc9f7e4b8634d80bcee54ae7c5fa",
+          "4b4365cadbcc7d54d9d158170efc1491",
+          "3bf80326e55305a458577e3274cc4d24",
+          "1e55f645cd652ce41be2e3fe052aa68b",
+          "df404b80252b44b43bad3ca79fea77a1",
+          "e9ef449fa6bc2ad4eb418e2d198b149a",
+          "757ae04d5024808498d1f79b3733c09f",
+          "1cf13e2abd4e3684697cf4e55b3f4e3c",
+          "2ea2438aad247b645980a35d37975ad1",
+          "c72b6c0d1b5a868488957a768505670b",
+          "769355bf80b9815459c518b102eed938",
+          "5d859d824da159d42b313e3a490cefb7",
+          "e1c113adf2adc0144a346bb7bb9fc6a0",
+          "1aea2651f9ba2ad4286856d25c151a41"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "7889474678dd3394da234db3524ffa99": {
+    "id": "7889474678dd3394da234db3524ffa99",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Nightmares",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "68ff8c9b9f404a3283d2619be5dea424",
+    "accessId": "7857f2d915194372a99d097b6f69c988",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff07889474678dd3394da234db3524ffa99",
+        "name": "Dream Island - Nightmares Variant",
+        "order": 0,
+        "levels": [
+          "d60a212a6f3c4d841b38b66a73035dd8",
+          "30a38bb8cb577ad478b41a57268552b6",
+          "33d376906e51e234eb5aac0a7a2af8b8",
+          "cd5afc9f7e4b8634d80bcee54ae7c5fa",
+          "df404b80252b44b43bad3ca79fea77a1",
+          "3ee232560b44a664aa202a2b64f442ed"
+        ],
+        "items": [
+          "1df95e14ab884f6eae7e96839f88e051"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "c895fd814e4a6114096a204837628222": {
+    "id": "c895fd814e4a6114096a204837628222",
+    "assetName": "Overworld - JUMPING",
+    "pack": "MainGame",
+    "featuredTag": null,
+    "requiredIdToAccess": "e07aab567ff149faaa1fae2e0da62622",
+    "completionId": "b9d088a5f76840868879ff4dfd8c2086",
+    "carwashId": "2294d99a82aa457385bdff5417e5ceb9",
+    "accessId": "bf2eec428116478c8246957c53af458a",
+    "givesBear": "b9d088a5f76840868879ff4dfd8c2086",
+    "bypassRedeemBear": false,
+    "progressAchievement": "OverworldComplete_Jump",
+    "goldAchievement": "OverworldGold_Jump",
+    "islands": [
+      {
+        "id": "d20311cefee6464190c9ff85676b6205c895fd814e4a6114096a204837628222",
+        "name": "Jumping Start Island",
+        "order": 0,
+        "levels": [],
+        "items": [
+          "b9d088a5f76840868879ff4dfd8c2086"
+        ]
+      },
+      {
+        "id": "dee873f3566e4c4181e118b4a55ce810c895fd814e4a6114096a204837628222",
+        "name": "Beach Platforming Variant",
+        "order": 1,
+        "levels": [
+          "87ef10a94a109ad4aa122ba63295bdc1",
+          "0204b0e72af3f874e83f743db9997b35",
+          "633d6df0d7dd442408012835d347f7f2"
+        ],
+        "items": [
+          "b68731cfdcc6450b80f0beda13a2d414"
+        ]
+      },
+      {
+        "id": "f1b472ea25d74d2591fb8a05ef343300c895fd814e4a6114096a204837628222",
+        "name": "Frogs",
+        "order": 2,
+        "levels": [
+          "36f5550931c0f3d4da76ace65a9a6518",
+          "3c780f32fdbb9084898f985d632bc9fe"
+        ],
+        "items": [
+          "69d98bb6d306482fac964efaa7b3ccdc",
+          "e85054fd5e52412f8827748b093058da"
+        ]
+      },
+      {
+        "id": "de8914ac523a4ce29ec9634c11a22d05c895fd814e4a6114096a204837628222",
+        "name": "Just Jumping Island",
+        "order": 3,
+        "levels": [
+          "009d148cfc754fa45ac69cb4429e1b9b",
+          "9c17b05a9fe9bb74898a1fee12a6e9b0",
+          "74431425daaa623439e64188398fa206",
+          "15eecd00ecd98404397ce437c2af6198"
+        ],
+        "items": []
+      },
+      {
+        "id": "c679bf34b3634f478941a4747250e05ec895fd814e4a6114096a204837628222",
+        "name": "Jump Intermezzo Island",
+        "order": 4,
+        "levels": [
+          "cf732645934d9924fbfc6047ea7c949b",
+          "37ae8b2d87d17c24f9d00e00b1219eb8"
+        ],
+        "items": []
+      },
+      {
+        "id": "cff198f55edd4f31a2272f4fe30041b9c895fd814e4a6114096a204837628222",
+        "name": "Run and Jump Island",
+        "order": 5,
+        "levels": [
+          "bbe6df47776712248b70ef1eaac1bfc3",
+          "837b855d987e30b489b07ae68f069d37",
+          "50514f1cc864c384b97b67336389adb5",
+          "e9ad935e831a86d4ba949cc7633f4f7a"
+        ],
+        "items": []
+      },
+      {
+        "id": "aa2aad0f87114a978b5ef3d71dfb80c4c895fd814e4a6114096a204837628222",
+        "name": "Auto Jumper",
+        "order": 6,
+        "levels": [
+          "9ea4b5c1eb09d2a4c9aac1ea18432da2"
+        ],
+        "items": []
+      },
+      {
+        "id": "2d84bcdbe62340af8c7f16264705a977c895fd814e4a6114096a204837628222",
+        "name": "Platforming Hard Area",
+        "order": 7,
+        "levels": [
+          "6e608b37f55fc214ba8cd06d857bf5f9"
+        ],
+        "items": []
+      },
+      {
+        "id": "a2ba99682088453cabcec664762dff7dc895fd814e4a6114096a204837628222",
+        "name": "Top UGC levels area ep 1",
+        "order": 8,
+        "levels": [
+          "df404b80252b44b43bad3ca79fea77a1",
+          "c3a1ce4b2549c9b4081f1cee576661e5"
+        ],
+        "items": []
+      },
+      {
+        "id": "4abe8954df374886b8f2334ccb82a74bc895fd814e4a6114096a204837628222",
+        "name": "Halloween Platforming Island",
+        "order": 9,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": [
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "763a4b2182a44cfab22fc3ffb8e14eafc895fd814e4a6114096a204837628222",
+          "placementId": "d20311cefee6464190c9ff85676b6205c895fd814e4a6114096a204837628222",
+          "islandId": "d20311cefee6464190c9ff85676b6205c895fd814e4a6114096a204837628222"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "5634c5b4820848c6a3c8c8c0642daa14c895fd814e4a6114096a204837628222",
+          "placementId": "5634c5b4820848c6a3c8c8c0642daa14c895fd814e4a6114096a204837628222",
+          "islandId": "de8914ac523a4ce29ec9634c11a22d05c895fd814e4a6114096a204837628222"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "75a76d5feca74f1b9751f1abd5c4e9fcc895fd814e4a6114096a204837628222",
+          "placementId": "75a76d5feca74f1b9751f1abd5c4e9fcc895fd814e4a6114096a204837628222",
+          "islandId": "de8914ac523a4ce29ec9634c11a22d05c895fd814e4a6114096a204837628222"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "aff886776ea44456afbe463303effb54c895fd814e4a6114096a204837628222",
+          "placementId": "aff886776ea44456afbe463303effb54c895fd814e4a6114096a204837628222",
+          "islandId": "de8914ac523a4ce29ec9634c11a22d05c895fd814e4a6114096a204837628222"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "e20b1ed8b7fd457a803494d9787d9aa2c895fd814e4a6114096a204837628222",
+          "placementId": "e20b1ed8b7fd457a803494d9787d9aa2c895fd814e4a6114096a204837628222",
+          "islandId": "de8914ac523a4ce29ec9634c11a22d05c895fd814e4a6114096a204837628222"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "768c15c85d1c409e962b5f412cb9af11c895fd814e4a6114096a204837628222",
+          "placementId": "e20b1ed8b7fd457a803494d9787d9aa2c895fd814e4a6114096a204837628222",
+          "islandId": "de8914ac523a4ce29ec9634c11a22d05c895fd814e4a6114096a204837628222"
+        }
+      ],
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "763a4b2182a44cfab22fc3ffb8e14eafc895fd814e4a6114096a204837628222",
+          "placementId": "d20311cefee6464190c9ff85676b6205c895fd814e4a6114096a204837628222",
+          "islandId": "d20311cefee6464190c9ff85676b6205c895fd814e4a6114096a204837628222"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "642d633ff8dd482397510b318adc7286c895fd814e4a6114096a204837628222",
+          "placementId": "642d633ff8dd482397510b318adc7286c895fd814e4a6114096a204837628222",
+          "islandId": "cff198f55edd4f31a2272f4fe30041b9c895fd814e4a6114096a204837628222"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "6983ee81e4244039b3e87a7460f0e2c5c895fd814e4a6114096a204837628222",
+          "placementId": "6983ee81e4244039b3e87a7460f0e2c5c895fd814e4a6114096a204837628222",
+          "islandId": "cff198f55edd4f31a2272f4fe30041b9c895fd814e4a6114096a204837628222"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "f67f8af156754105993220baf9475932c895fd814e4a6114096a204837628222",
+          "placementId": "f67f8af156754105993220baf9475932c895fd814e4a6114096a204837628222",
+          "islandId": "cff198f55edd4f31a2272f4fe30041b9c895fd814e4a6114096a204837628222"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "2891ca1c126747a895fb7bc9ca7330e6c895fd814e4a6114096a204837628222",
+          "placementId": "2891ca1c126747a895fb7bc9ca7330e6c895fd814e4a6114096a204837628222",
+          "islandId": "c679bf34b3634f478941a4747250e05ec895fd814e4a6114096a204837628222"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "cc247bef461549e0b376f2f4bb5d9015c895fd814e4a6114096a204837628222",
+          "placementId": "cc247bef461549e0b376f2f4bb5d9015c895fd814e4a6114096a204837628222",
+          "islandId": "c679bf34b3634f478941a4747250e05ec895fd814e4a6114096a204837628222"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "97c404f067d34b29b6189454b0b6cd92c895fd814e4a6114096a204837628222",
+          "placementId": "cc247bef461549e0b376f2f4bb5d9015c895fd814e4a6114096a204837628222",
+          "islandId": "c679bf34b3634f478941a4747250e05ec895fd814e4a6114096a204837628222"
+        }
+      ]
+    ]
+  },
+  "1c2d06c1a7bce5c48a9499ad3354ddf3": {
+    "id": "1c2d06c1a7bce5c48a9499ad3354ddf3",
+    "assetName": "Overworld - LONG",
+    "pack": "MainGame",
+    "featuredTag": null,
+    "requiredIdToAccess": "de33aab219fe49948ce250ec76420699",
+    "completionId": "a84177462ca84fad80bc0efd04b05c50",
+    "carwashId": "9aa42c05d86c4489967ff3d79889ba20",
+    "accessId": "a73bbf982cae4ad6a513758bbbc604b8",
+    "givesBear": "a84177462ca84fad80bc0efd04b05c50",
+    "bypassRedeemBear": false,
+    "progressAchievement": "OverworldComplete_Long",
+    "goldAchievement": "OverworldGold_Long",
+    "islands": [
+      {
+        "id": "d20311cefee6464190c9ff85676b62051c2d06c1a7bce5c48a9499ad3354ddf3",
+        "name": "Long Start Island",
+        "order": 0,
+        "levels": [
+          "bc1e672cefef5b7478403bfb878221cd",
+          "82ede39e6fd543a45a10731a256f8748",
+          "3bf80326e55305a458577e3274cc4d24",
+          "4b4365cadbcc7d54d9d158170efc1491",
+          "436a4c7a7ae8d48438226cee3db1f918",
+          "6ab68207fb9e6cd46a1fbdf5095b730d"
+        ],
+        "items": [
+          "a84177462ca84fad80bc0efd04b05c50"
+        ]
+      },
+      {
+        "id": "0ae81cb4f3344251a5a87251815a83fb1c2d06c1a7bce5c48a9499ad3354ddf3",
+        "name": "Long Parts Island",
+        "order": 1,
+        "levels": [
+          "56e83c37e7423da49ab9ee5058fe99ee",
+          "b26f3893294a25d49a47368a90dc8fec",
+          "a48108a86301aa547a4c6c369bbd2ecc"
+        ],
+        "items": []
+      },
+      {
+        "id": "f81d1470975341ccb76986b73937fed81c2d06c1a7bce5c48a9499ad3354ddf3",
+        "name": "Giraffe Island",
+        "order": 2,
+        "levels": [
+          "a8f67862c64ac7342bf4d665e358e895",
+          "e7ad5a9e54bfb4f4d9dd7bfc5cfafd3e",
+          "e1c113adf2adc0144a346bb7bb9fc6a0",
+          "29640b01fa3e4ce47ab0f8a273eec06b",
+          "7b47d454e27523a45911b51d77e94050",
+          "4e9decb7ae4a5504da065a809e61cf4c"
+        ],
+        "items": []
+      },
+      {
+        "id": "6103b9aff599489997028500dc0f28131c2d06c1a7bce5c48a9499ad3354ddf3",
+        "name": "GiraffeThrowing Island",
+        "order": 3,
+        "levels": [
+          "05decf4708917574ba96c0c703371e50"
+        ],
+        "items": []
+      },
+      {
+        "id": "a3eda3bf58004cf59a79b60092acd86a1c2d06c1a7bce5c48a9499ad3354ddf3",
+        "name": "Swinging Car Island",
+        "order": 4,
+        "levels": [
+          "2933669bdeb031c4e86867f09f2d3404",
+          "9a5130d34fe31e84ebac8a993644ddfb"
+        ],
+        "items": []
+      },
+      {
+        "id": "5068ce4c1f054813a58a01948d431cf31c2d06c1a7bce5c48a9499ad3354ddf3",
+        "name": "Circus Island",
+        "order": 5,
+        "levels": [
+          "6957d173a8411924e9173ca8a6ba5d67",
+          "6d97e2cc7f4667b43ae39a8a24bba9c4"
+        ],
+        "items": []
+      },
+      {
+        "id": "a2ba99682088453cabcec664762dff7d1c2d06c1a7bce5c48a9499ad3354ddf3",
+        "name": "Top UGC levels area ep 4",
+        "order": 6,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": [
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "763a4b2182a44cfab22fc3ffb8e14eaf1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "d20311cefee6464190c9ff85676b62051c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "d20311cefee6464190c9ff85676b62051c2d06c1a7bce5c48a9499ad3354ddf3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "93fa49ed04924f7685f47edd509d02ef1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "93fa49ed04924f7685f47edd509d02ef1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "d20311cefee6464190c9ff85676b62051c2d06c1a7bce5c48a9499ad3354ddf3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "6c8b7f5692e443178e3e3d0bee91f62f1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "6c8b7f5692e443178e3e3d0bee91f62f1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "d20311cefee6464190c9ff85676b62051c2d06c1a7bce5c48a9499ad3354ddf3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "a947aa85ec0d48959b338c486e1a4d6c1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "a947aa85ec0d48959b338c486e1a4d6c1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "a3eda3bf58004cf59a79b60092acd86a1c2d06c1a7bce5c48a9499ad3354ddf3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "e4a9f38f8fb647bebafc09a2057f08ea1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "e4a9f38f8fb647bebafc09a2057f08ea1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "a3eda3bf58004cf59a79b60092acd86a1c2d06c1a7bce5c48a9499ad3354ddf3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "d0fb9d019c604900846b7a0b06fa503d1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "d0fb9d019c604900846b7a0b06fa503d1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "0ae81cb4f3344251a5a87251815a83fb1c2d06c1a7bce5c48a9499ad3354ddf3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "c8c1d56ebaaa461c8c250b64d9e373fb1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "c8c1d56ebaaa461c8c250b64d9e373fb1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "0ae81cb4f3344251a5a87251815a83fb1c2d06c1a7bce5c48a9499ad3354ddf3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "f8733cdeda2a4ed49bf566673cefe1941c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "f8733cdeda2a4ed49bf566673cefe1941c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "0ae81cb4f3344251a5a87251815a83fb1c2d06c1a7bce5c48a9499ad3354ddf3"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "07e13f4b0d6c40fdb5ef1e6c70d441df1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "f8733cdeda2a4ed49bf566673cefe1941c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "0ae81cb4f3344251a5a87251815a83fb1c2d06c1a7bce5c48a9499ad3354ddf3"
+        }
+      ],
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "763a4b2182a44cfab22fc3ffb8e14eaf1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "d20311cefee6464190c9ff85676b62051c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "d20311cefee6464190c9ff85676b62051c2d06c1a7bce5c48a9499ad3354ddf3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "5f31c9b5a1f74695a82db0bf0130d4971c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "5f31c9b5a1f74695a82db0bf0130d4971c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "d20311cefee6464190c9ff85676b62051c2d06c1a7bce5c48a9499ad3354ddf3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "6d2f5a77257f4300b6388366ebdbc97b1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "6d2f5a77257f4300b6388366ebdbc97b1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "d20311cefee6464190c9ff85676b62051c2d06c1a7bce5c48a9499ad3354ddf3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "0894104b6f8d472cacdb8d8f17d9497a1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "0894104b6f8d472cacdb8d8f17d9497a1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "f81d1470975341ccb76986b73937fed81c2d06c1a7bce5c48a9499ad3354ddf3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "04faa7ced10f43c2a798c28dbdef4e151c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "04faa7ced10f43c2a798c28dbdef4e151c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "f81d1470975341ccb76986b73937fed81c2d06c1a7bce5c48a9499ad3354ddf3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "aedfc68706ce47ad8c9459ca785355911c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "aedfc68706ce47ad8c9459ca785355911c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "f81d1470975341ccb76986b73937fed81c2d06c1a7bce5c48a9499ad3354ddf3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "60d3135220c342efb0dc1bf99bed15c41c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "60d3135220c342efb0dc1bf99bed15c41c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "f81d1470975341ccb76986b73937fed81c2d06c1a7bce5c48a9499ad3354ddf3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "62d5e47584924e90b35c3b65d7f741ae1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "62d5e47584924e90b35c3b65d7f741ae1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "f81d1470975341ccb76986b73937fed81c2d06c1a7bce5c48a9499ad3354ddf3"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "b8b4598ce06f4902bbe1ea15adc9c4b51c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "b8b4598ce06f4902bbe1ea15adc9c4b51c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "6103b9aff599489997028500dc0f28131c2d06c1a7bce5c48a9499ad3354ddf3"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "e5c09f63b54c4665b9cc82d65094e62c1c2d06c1a7bce5c48a9499ad3354ddf3",
+          "placementId": "b8b4598ce06f4902bbe1ea15adc9c4b51c2d06c1a7bce5c48a9499ad3354ddf3",
+          "islandId": "6103b9aff599489997028500dc0f28131c2d06c1a7bce5c48a9499ad3354ddf3"
+        }
+      ]
+    ]
+  },
+  "42a240c2f98b64d11b7fef4f8595f0e6": {
+    "id": "42a240c2f98b64d11b7fef4f8595f0e6",
+    "assetName": "OverworldDungeon-Community",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "f4ea887a492047c2a53a83db0ffec68ef11266594db374d4384848b28747757e",
+        "name": "Community",
+        "order": 0,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "c03933f1b99e447679758133fabfac72": {
+    "id": "c03933f1b99e447679758133fabfac72",
+    "assetName": "OverworldDungeon-Council Chamber",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": "956888b48aef4b98ba95c572452de674",
+    "completionId": "9efcea878ac647929ce4f29f2f957d34",
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "7d8614edcae24af59fa45691db15b638f11266594db374d4384848b28747757e",
+        "name": "Council Chamber",
+        "order": 0,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": [
+      [
+        {
+          "nodeType": "MiniGame",
+          "progressionCheckId": "53585645c0f24beca1fdf29f0006eabf",
+          "placementId": null,
+          "islandId": null
+        }
+      ],
+      [
+        {
+          "nodeType": "MiniGame",
+          "progressionCheckId": "320df379fee24e7faeec7b45d52cd532",
+          "placementId": null,
+          "islandId": null
+        }
+      ],
+      [
+        {
+          "nodeType": "MiniGame",
+          "progressionCheckId": "3a0862322169431fa87b75607f6033e4",
+          "placementId": null,
+          "islandId": null
+        }
+      ]
+    ]
+  },
+  "578e75fb7aa834fbeb64f1c3439d803a": {
+    "id": "578e75fb7aa834fbeb64f1c3439d803a",
+    "assetName": "OverworldDungeon-Entrance",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "65ed09e99c404753a5c724fcb2d97931f11266594db374d4384848b28747757e",
+        "name": "Start Room",
+        "order": 0,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "171dfbe2c24dd4d69bcb05ab0773f443": {
+    "id": "171dfbe2c24dd4d69bcb05ab0773f443",
+    "assetName": "OverworldDungeon-GlassWeekArea",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "fcadd9598898480b82079f9c94540574171dfbe2c24dd4d69bcb05ab0773f443",
+        "name": "GlassWeekArea",
+        "order": 0,
+        "levels": [
+          "6db6660e1f1f52f4ebc27f22db19af51",
+          "a348d8e8a85fdc04b8d59fd88d9bcd19",
+          "ce6c4122ca5c2524b95cc29456655900"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "cfeaa564b68854ed5b848277c622cf24": {
+    "id": "cfeaa564b68854ed5b848277c622cf24",
+    "assetName": "OverworldDungeon-Golf Area",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "f9ed787abf9e40168d16388db0c86740f11266594db374d4384848b28747757e",
+        "name": "Golf Area",
+        "order": 0,
+        "levels": [
+          "d97671f9019d2b64480c88952194570d",
+          "7112f7a9744780540b8da2c29e231b31",
+          "a82697aec7547554aa1911b336dc9096",
+          "81572d77d86451b459034933d32758c4",
+          "2626bee8a82962e4c8615c68b877a986",
+          "cc27a1e83ea76bd4e9041b1426bacfd0",
+          "bb4e11eb346928446b0f20fb75141abb",
+          "34b8acc85f5d2f14e8648a8043a5b5b8"
+        ],
+        "items": []
+      }
+    ],
+    "paths": [
+      [
+        {
+          "nodeType": "ProgressionStartArea",
+          "progressionCheckId": "763a4b2182a44cfab22fc3ffb8e14eaff11266594db374d4384848b28747757e",
+          "placementId": "f9ed787abf9e40168d16388db0c86740f11266594db374d4384848b28747757e",
+          "islandId": "f9ed787abf9e40168d16388db0c86740f11266594db374d4384848b28747757e"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "511b6496495e4b5295494d9a13d59fe6f11266594db374d4384848b28747757e",
+          "placementId": "511b6496495e4b5295494d9a13d59fe6f11266594db374d4384848b28747757e",
+          "islandId": "f9ed787abf9e40168d16388db0c86740f11266594db374d4384848b28747757e"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "b5c26886db1842f0bcd46a5fc00a11faf11266594db374d4384848b28747757e",
+          "placementId": "b5c26886db1842f0bcd46a5fc00a11faf11266594db374d4384848b28747757e",
+          "islandId": "f9ed787abf9e40168d16388db0c86740f11266594db374d4384848b28747757e"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "5e3760b22f4e4b699ae9ca600a19bd83f11266594db374d4384848b28747757e",
+          "placementId": "5e3760b22f4e4b699ae9ca600a19bd83f11266594db374d4384848b28747757e",
+          "islandId": "f9ed787abf9e40168d16388db0c86740f11266594db374d4384848b28747757e"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "07e13f4b0d6c40fdb5ef1e6c70d441dff11266594db374d4384848b28747757e",
+          "placementId": "5e3760b22f4e4b699ae9ca600a19bd83f11266594db374d4384848b28747757e",
+          "islandId": "f9ed787abf9e40168d16388db0c86740f11266594db374d4384848b28747757e"
+        }
+      ]
+    ]
+  },
+  "786a62d9274db4bdc87a06d105821961": {
+    "id": "786a62d9274db4bdc87a06d105821961",
+    "assetName": "OverworldDungeon-HalloweenArea",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "2e68651530284c0fb259ed621ffa9f11786a62d9274db4bdc87a06d105821961",
+        "name": "HalloweenArea",
+        "order": 0,
+        "levels": [
+          "691c8a3c29c049b4fa31e559529b30a5"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "bac9506bc537e4f288dbacc5ebaf3134": {
+    "id": "bac9506bc537e4f288dbacc5ebaf3134",
+    "assetName": "OverworldDungeon-Hard Creations",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "f20e70f471814b9386293c317184cdd2f11266594db374d4384848b28747757e",
+        "name": "Hard Creations",
+        "order": 0,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "57755898b1d3c4e1181693f4632c5da7": {
+    "id": "57755898b1d3c4e1181693f4632c5da7",
+    "assetName": "OverworldDungeon-Maze",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "58e0cbab812743f29db4ec961c133828f11266594db374d4384848b28747757e",
+        "name": "Maze",
+        "order": 0,
+        "levels": [],
+        "items": [
+          "da1f5883ab8948178d0127493169961b"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "76e5927b9c1904490bce1b4b38d05b57": {
+    "id": "76e5927b9c1904490bce1b4b38d05b57",
+    "assetName": "OverworldDungeon-Party",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "8779d91572de493b978e25753fbbfcf3f11266594db374d4384848b28747757e",
+        "name": "PartyContent",
+        "order": 0,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "a16651771b10f464ca59ca9824b5523b": {
+    "id": "a16651771b10f464ca59ca9824b5523b",
+    "assetName": "OverworldDungeon-BestOf2023",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "f358dc3967b94073ae4186ac6f4d3cc9a16651771b10f464ca59ca9824b5523b",
+        "name": "BestOf2023Area",
+        "order": 0,
+        "levels": [
+          "2ea2438aad247b645980a35d37975ad1",
+          "3ee232560b44a664aa202a2b64f442ed",
+          "633d6df0d7dd442408012835d347f7f2",
+          "df404b80252b44b43bad3ca79fea77a1",
+          "33d376906e51e234eb5aac0a7a2af8b8",
+          "cd5afc9f7e4b8634d80bcee54ae7c5fa",
+          "5d859d824da159d42b313e3a490cefb7",
+          "6db6660e1f1f52f4ebc27f22db19af51",
+          "4b4365cadbcc7d54d9d158170efc1491",
+          "a348d8e8a85fdc04b8d59fd88d9bcd19",
+          "593e1c95834d69c45a79066f7a3e77e4",
+          "757ae04d5024808498d1f79b3733c09f",
+          "1cf13e2abd4e3684697cf4e55b3f4e3c",
+          "30a38bb8cb577ad478b41a57268552b6",
+          "4c42d29ec1ddab745aa54eb850c732eb",
+          "37ae8b2d87d17c24f9d00e00b1219eb8"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "2b2b54307268183469a341e0cb2da971": {
+    "id": "2b2b54307268183469a341e0cb2da971",
+    "assetName": "OverworldDungeon-CreatorsCollab",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "ef3eef6937dd4483b45b25e628cd26382b2b54307268183469a341e0cb2da971",
+        "name": "Island",
+        "order": 0,
+        "levels": [
+          "313ce26a8cad730428101e879c714921",
+          "79e48acc951dea94996c200a7a670f2a"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "1b88716c690d9ba4b8e479971c80bdc5": {
+    "id": "1b88716c690d9ba4b8e479971c80bdc5",
+    "assetName": "OverworldDungeon-DrivingSchool",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "ef3eef6937dd4483b45b25e628cd26381b88716c690d9ba4b8e479971c80bdc5",
+        "name": "Island",
+        "order": 0,
+        "levels": [
+          "16e60c28e0f551046a93bad3df305c39",
+          "99cd43256191e58418ea3b8eb8da3ece",
+          "f9a4d4dc82d0d164888b780628cb3ff5",
+          "385350d3a57504841b659dfa8fde8d5a"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "bf4358afbd204d54cbbb72d9b7b905a8": {
+    "id": "bf4358afbd204d54cbbb72d9b7b905a8",
+    "assetName": "OverworldDungeon-CowsInSpace",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "ef3eef6937dd4483b45b25e628cd2638bf4358afbd204d54cbbb72d9b7b905a8",
+        "name": "Island",
+        "order": 0,
+        "levels": [
+          "3e27e0e93e38fee4aae3c203887a5849",
+          "a1763a425f78788458c02a9e3e1d9387",
+          "1e3e41f14efe0184d8fa408e130e94bf",
+          "8a6fd194bcfdf754289f4e8845192024",
+          "54d6480d28f725843bccab26513ade55",
+          "43e90c44c9471494196920ffb4cc41c6"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "1a8b9c93abd5b4721811b01aa0eb9e9f": {
+    "id": "1a8b9c93abd5b4721811b01aa0eb9e9f",
+    "assetName": "OverworldDungeon-UnderConstruction",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "f6bcb06199164a1badf2d19f9bee025bf11266594db374d4384848b28747757e",
+        "name": "Elevator hub 4",
+        "order": 0,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "26251fbfce2d5dd44b449edabb09ebeb": {
+    "id": "26251fbfce2d5dd44b449edabb09ebeb",
+    "assetName": "OverworldDungeon-AmongCAR",
+    "pack": "MainGame",
+    "featuredTag": null,
+    "requiredIdToAccess": "b9d088a5f76840868879ff4dfd8c2086",
+    "completionId": null,
+    "carwashId": "ad2266d15ef54fdc85971865eade9dd6",
+    "accessId": "392161b716734c5682e1d37f76af2088",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "OverworldComplete_AmongUs",
+    "goldAchievement": "OverworldGold_AmongUs",
+    "islands": [
+      {
+        "id": "91d49de224864010b52a4edf482fd81426251fbfce2d5dd44b449edabb09ebeb",
+        "name": "Island - Among Us Right Cannon Island",
+        "order": 0,
+        "levels": [
+          "ed22e3c9f1fef6c438781f59820f94be"
+        ],
+        "items": [
+          "0a7973fe293e4482b9f4f15b623b900f"
+        ]
+      },
+      {
+        "id": "32df380018f643229babfbd3d891154e26251fbfce2d5dd44b449edabb09ebeb",
+        "name": "Island - Among Us Right Knobs Minigame Island",
+        "order": 1,
+        "levels": [],
+        "items": [
+          "04de072c534c41988de77ac4496375df"
+        ]
+      },
+      {
+        "id": "2211c8b4ce8d45de8c4df6fd60d69fe426251fbfce2d5dd44b449edabb09ebeb",
+        "name": "Island - Among Us Right Cockpit Island",
+        "order": 2,
+        "levels": [
+          "2b53813e817368d4382f2db546aac4a5"
+        ],
+        "items": []
+      },
+      {
+        "id": "61ce3bb7a45948d1a2f462eb682cdf7e26251fbfce2d5dd44b449edabb09ebeb",
+        "name": "Island - Among Us Bottom Chute Island",
+        "order": 3,
+        "levels": [
+          "f3095ec16c8107d47b0ec2d99e6d3af8",
+          "1e461cf6370a7b245bb5a6e448b22b5d"
+        ],
+        "items": [
+          "22c2040d4d694910abe909dd3ccbdcde"
+        ]
+      },
+      {
+        "id": "e6d284164974414b9becb923bcfbf73c26251fbfce2d5dd44b449edabb09ebeb",
+        "name": "Island - Among Us Bottom Wires Minigame Island",
+        "order": 4,
+        "levels": [],
+        "items": [
+          "a4701547b14f45f69f08420f1ec93214"
+        ]
+      },
+      {
+        "id": "1998a33e5ef7407daa4e64b5f649ca9726251fbfce2d5dd44b449edabb09ebeb",
+        "name": "Island - Among Us Left Crime Case Hub Island",
+        "order": 5,
+        "levels": [],
+        "items": []
+      },
+      {
+        "id": "5ccfd296305e4c73a12e927d4dc73f4b26251fbfce2d5dd44b449edabb09ebeb",
+        "name": "Island - Among Us Left Medbay Minigame Island",
+        "order": 6,
+        "levels": [],
+        "items": [
+          "53d80ac0e145425c9d69342af9fb08aa"
+        ]
+      },
+      {
+        "id": "3dc5b32b4a944bc9a236a5fd4e63dc8b26251fbfce2d5dd44b449edabb09ebeb",
+        "name": "Island - Among Us Left Office Island",
+        "order": 7,
+        "levels": [
+          "f5903d71f9875234cac9db3f29aa9036"
+        ],
+        "items": []
+      },
+      {
+        "id": "03977d4e715848718da46888b03e7d4026251fbfce2d5dd44b449edabb09ebeb",
+        "name": "Island - Among Us Left Directory Minigame Island",
+        "order": 8,
+        "levels": [],
+        "items": [
+          "bb20c032f5c8435d8b455a8ec9146855"
+        ]
+      },
+      {
+        "id": "b3c656040b0d418298a32e9d7a4c93f326251fbfce2d5dd44b449edabb09ebeb",
+        "name": "Internet Space",
+        "order": 9,
+        "levels": [],
+        "items": []
+      },
+      {
+        "id": "fdee0fbf98484ae8b43543dfd26301b326251fbfce2d5dd44b449edabb09ebeb",
+        "name": "Island - Among Us Left Toilet Joke Island",
+        "order": 10,
+        "levels": [],
+        "items": []
+      },
+      {
+        "id": "4cafa58a10a74b418ae7e755278735ed26251fbfce2d5dd44b449edabb09ebeb",
+        "name": "Island - Among Us Cafeteria CenterHub",
+        "order": 11,
+        "levels": [],
+        "items": []
+      },
+      {
+        "id": "2c4758cb233c44e087d6f943102bd2d626251fbfce2d5dd44b449edabb09ebeb",
+        "name": "Island - Among Us Cafeteria Skin Island Variant",
+        "order": 12,
+        "levels": [],
+        "items": []
+      },
+      {
+        "id": "cdde50c57aca426fa2e7957421a8e8c226251fbfce2d5dd44b449edabb09ebeb",
+        "name": "Island - Among Us Cafeteria UGC Island",
+        "order": 13,
+        "levels": [],
+        "items": []
+      },
+      {
+        "id": "398e9d2d9d714046b4387deb313661c026251fbfce2d5dd44b449edabb09ebeb",
+        "name": "Island - Among Us Cafeteria Cave To BestOf",
+        "order": 14,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": [
+      [
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "96f4887cbd16493e99d8c85a8067bb1e26251fbfce2d5dd44b449edabb09ebeb",
+          "placementId": "96f4887cbd16493e99d8c85a8067bb1e26251fbfce2d5dd44b449edabb09ebeb",
+          "islandId": "2211c8b4ce8d45de8c4df6fd60d69fe426251fbfce2d5dd44b449edabb09ebeb"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "65587a0000b244ec918fea3faebb929926251fbfce2d5dd44b449edabb09ebeb",
+          "placementId": "96f4887cbd16493e99d8c85a8067bb1e26251fbfce2d5dd44b449edabb09ebeb",
+          "islandId": "2211c8b4ce8d45de8c4df6fd60d69fe426251fbfce2d5dd44b449edabb09ebeb"
+        }
+      ],
+      [
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "9382ce103c914bb39644c4c5b3ededef26251fbfce2d5dd44b449edabb09ebeb",
+          "placementId": "9382ce103c914bb39644c4c5b3ededef26251fbfce2d5dd44b449edabb09ebeb",
+          "islandId": "61ce3bb7a45948d1a2f462eb682cdf7e26251fbfce2d5dd44b449edabb09ebeb"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "cc28b4c996c2424e90e2806aa4777d8826251fbfce2d5dd44b449edabb09ebeb",
+          "placementId": "9382ce103c914bb39644c4c5b3ededef26251fbfce2d5dd44b449edabb09ebeb",
+          "islandId": "61ce3bb7a45948d1a2f462eb682cdf7e26251fbfce2d5dd44b449edabb09ebeb"
+        }
+      ],
+      [
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "0fa85cc7e6034da0af4ca081924e616b26251fbfce2d5dd44b449edabb09ebeb",
+          "placementId": "0fa85cc7e6034da0af4ca081924e616b26251fbfce2d5dd44b449edabb09ebeb",
+          "islandId": "3dc5b32b4a944bc9a236a5fd4e63dc8b26251fbfce2d5dd44b449edabb09ebeb"
+        },
+        {
+          "nodeType": "Generator",
+          "progressionCheckId": "8a0e77e1e0e649468b52760dd885feca26251fbfce2d5dd44b449edabb09ebeb",
+          "placementId": "0fa85cc7e6034da0af4ca081924e616b26251fbfce2d5dd44b449edabb09ebeb",
+          "islandId": "3dc5b32b4a944bc9a236a5fd4e63dc8b26251fbfce2d5dd44b449edabb09ebeb"
+        }
+      ]
+    ]
+  },
+  "0b618094cffdc2545843bcd3c7c68113": {
+    "id": "0b618094cffdc2545843bcd3c7c68113",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-IceCream",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "25fc8ef24d7f4c2283f7635fc9a400bf",
+    "accessId": "9ba4b02b06aa498e9c1b67ea2599bb48",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff00b618094cffdc2545843bcd3c7c68113",
+        "name": "Dream Island - Snow Variant",
+        "order": 0,
+        "levels": [
+          "ca3f68a95723a6c4bb57c7acaf68bbbb",
+          "84007abf0d3843e43a849782c05a3e5a",
+          "41e3145b425572b46a9807da657870c6"
+        ],
+        "items": [
+          "2afc847e861342b19ecd3d9877a30b8a"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "1993e7c37b3e26e42a23d02fde0624fe": {
+    "id": "1993e7c37b3e26e42a23d02fde0624fe",
+    "assetName": "OverworldDungeon-Bestof2025",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "f358dc3967b94073ae4186ac6f4d3cc91993e7c37b3e26e42a23d02fde0624fe",
+        "name": "BestOf2025Area",
+        "order": 0,
+        "levels": [
+          "ab0e2cf2ceac9d240a06c9a157762d05",
+          "691c8a3c29c049b4fa31e559529b30a5",
+          "df404b80252b44b43bad3ca79fea77a1",
+          "37ae8b2d87d17c24f9d00e00b1219eb8",
+          "f5903d71f9875234cac9db3f29aa9036",
+          "2b53813e817368d4382f2db546aac4a5",
+          "f3095ec16c8107d47b0ec2d99e6d3af8",
+          "4a6f44d8f1f00984e8b59d182d2477b8",
+          "c3a1ce4b2549c9b4081f1cee576661e5",
+          "837b855d987e30b489b07ae68f069d37",
+          "757ae04d5024808498d1f79b3733c09f",
+          "e9ef449fa6bc2ad4eb418e2d198b149a",
+          "cd5afc9f7e4b8634d80bcee54ae7c5fa",
+          "a348d8e8a85fdc04b8d59fd88d9bcd19",
+          "4c42d29ec1ddab745aa54eb850c732eb",
+          "30a38bb8cb577ad478b41a57268552b6"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "0d0c022246e37434f87a731511517cae": {
+    "id": "0d0c022246e37434f87a731511517cae",
+    "assetName": "OverworldDungeon-Bi-WeeklyUGCDream-Tiny",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": "dream-featured",
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "f8b783537eb049e1a35bd77a5b6079dc",
+    "accessId": "3fcb9dc3110c430681ff33414b376cf7",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "29ab9d0269e842f09e6e69c040f8bff00d0c022246e37434f87a731511517cae",
+        "name": "Dream Island - Tiny Variant",
+        "order": 0,
+        "levels": [
+          "50514f1cc864c384b97b67336389adb5",
+          "633d6df0d7dd442408012835d347f7f2",
+          "593e1c95834d69c45a79066f7a3e77e4",
+          "1e55f645cd652ce41be2e3fe052aa68b",
+          "ab0e2cf2ceac9d240a06c9a157762d05",
+          "3ee232560b44a664aa202a2b64f442ed"
+        ],
+        "items": [
+          "d8574223202b4b1da393140238a564d0"
+        ]
+      }
+    ],
+    "paths": []
+  },
+  "dd834660e1ce8f74599b5f6af5122a85": {
+    "id": "dd834660e1ce8f74599b5f6af5122a85",
+    "assetName": "OverworldDungeon-Elevator onboarding hub Demo",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "6063182e2078416184b44edab04d9cd0f11266594db374d4384848b28747757e",
+        "name": "Elevator hub 1",
+        "order": 0,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "e89b227ea644b4f46b28fab1ded29356": {
+    "id": "e89b227ea644b4f46b28fab1ded29356",
+    "assetName": "OverworldDungeon-Elevator onboarding hub",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "6063182e2078416184b44edab04d9cd0f11266594db374d4384848b28747757e",
+        "name": "Elevator hub 1",
+        "order": 0,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "8049f7f146da42245aa28d4cbb42784b": {
+    "id": "8049f7f146da42245aa28d4cbb42784b",
+    "assetName": "OverworldDungeon-Entrance-Demo",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "a8571b99e205490082e3c74457d5daf5f11266594db374d4384848b28747757e",
+        "name": "Start Room",
+        "order": 0,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "e4e17c0c1e08543888481201ae00925d": {
+    "id": "e4e17c0c1e08543888481201ae00925d",
+    "assetName": "OverworldDungeon-Onboarding Minecart ride",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "eb9fbec296d74397934dc2bc3416104cf11266594db374d4384848b28747757e",
+        "name": "Onboarding Minecart ride",
+        "order": 0,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "20a0f7f37c9e61f4dafa1db1990b58a7": {
+    "id": "20a0f7f37c9e61f4dafa1db1990b58a7",
+    "assetName": "OverworldDungeon-GoatSimulatorCollab",
+    "pack": "MainGame",
+    "featuredTag": null,
+    "requiredIdToAccess": "b9d088a5f76840868879ff4dfd8c2086",
+    "completionId": null,
+    "carwashId": "0af05c5eee2b412bab816a80e546a35b",
+    "accessId": "c617a6ff5de24963bc534019027567df",
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "OverworldComplete_GOAT",
+    "goldAchievement": "OverworldGold_GOAT",
+    "islands": [
+      {
+        "id": "ef3eef6937dd4483b45b25e628cd263820a0f7f37c9e61f4dafa1db1990b58a7",
+        "name": "Goatville-Island",
+        "order": 0,
+        "levels": [
+          "b0f1d371555285045a378aae153001f3",
+          "40d3f975e9382fc4eafb6a762e56a683",
+          "9c631a62f096d504e9dd3bf8f9305ea0",
+          "420b01a36bcf71741a0b5446eb417825",
+          "8217edcdcfc7d8b4e8003fa506e7d8ca",
+          "025a889f2d6977a4fa9e2148ae70f239",
+          "3e27e0e93e38fee4aae3c203887a5849",
+          "5d859d824da159d42b313e3a490cefb7",
+          "9565d8b65d5a22b4b98327d33a0378fd"
+        ],
+        "items": [
+          "goat_trophy_playground_chest",
+          "goat_trophy_suburbia",
+          "goat_trophy_tower",
+          "goat_trophy_pool",
+          "goat_trophy_gravity_building",
+          "goat_trophy_crops_field",
+          "goat_trophy_tunnel",
+          "goat_trophy_gas_station",
+          "goat_trophy_construction",
+          "goat_trophy_stone_henge"
+        ]
+      },
+      {
+        "id": "525e15771d524cb6a92cc0a4c1a89c7120a0f7f37c9e61f4dafa1db1990b58a7",
+        "name": "TowerSecret-Island",
+        "order": 1,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": [
+      [
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "7536e0092de54531bd636ca1d2de354720a0f7f37c9e61f4dafa1db1990b58a7",
+          "placementId": "7536e0092de54531bd636ca1d2de354720a0f7f37c9e61f4dafa1db1990b58a7",
+          "islandId": "ef3eef6937dd4483b45b25e628cd263820a0f7f37c9e61f4dafa1db1990b58a7"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "c3c19b7384e3406c9e79fa306fb66bef20a0f7f37c9e61f4dafa1db1990b58a7",
+          "placementId": "c3c19b7384e3406c9e79fa306fb66bef20a0f7f37c9e61f4dafa1db1990b58a7",
+          "islandId": "ef3eef6937dd4483b45b25e628cd263820a0f7f37c9e61f4dafa1db1990b58a7"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "8df67fb71dbb410abd3fe8dfc2e022f920a0f7f37c9e61f4dafa1db1990b58a7",
+          "placementId": "8df67fb71dbb410abd3fe8dfc2e022f920a0f7f37c9e61f4dafa1db1990b58a7",
+          "islandId": "ef3eef6937dd4483b45b25e628cd263820a0f7f37c9e61f4dafa1db1990b58a7"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "9f3f99b5e6944066b276b8389d7e3e2e20a0f7f37c9e61f4dafa1db1990b58a7",
+          "placementId": "9f3f99b5e6944066b276b8389d7e3e2e20a0f7f37c9e61f4dafa1db1990b58a7",
+          "islandId": "ef3eef6937dd4483b45b25e628cd263820a0f7f37c9e61f4dafa1db1990b58a7"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "8e48b88274d8411db945ad7b8082603b20a0f7f37c9e61f4dafa1db1990b58a7",
+          "placementId": "8e48b88274d8411db945ad7b8082603b20a0f7f37c9e61f4dafa1db1990b58a7",
+          "islandId": "ef3eef6937dd4483b45b25e628cd263820a0f7f37c9e61f4dafa1db1990b58a7"
+        },
+        {
+          "nodeType": "PlayableAccessPoint",
+          "progressionCheckId": "14700fdd2b5d416e928f699e0488480120a0f7f37c9e61f4dafa1db1990b58a7",
+          "placementId": "14700fdd2b5d416e928f699e0488480120a0f7f37c9e61f4dafa1db1990b58a7",
+          "islandId": "ef3eef6937dd4483b45b25e628cd263820a0f7f37c9e61f4dafa1db1990b58a7"
+        }
+      ]
+    ]
+  },
+  "280f879d7fa9748e883c1fe098c7e9d2": {
+    "id": "280f879d7fa9748e883c1fe098c7e9d2",
+    "assetName": "OverworldDungeon-MazeWeek Rerun 1",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": null,
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "3a0ccdf3f59548faadfbc36070cdcecb280f879d7fa9748e883c1fe098c7e9d2",
+        "name": "MazeWeek Rerun 1",
+        "order": 0,
+        "levels": [
+          "856bb9500b7518c43b327a45770343d6"
+        ],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "4e7dc245eb868b145b7fde1b35b3ac71": {
+    "id": "4e7dc245eb868b145b7fde1b35b3ac71",
+    "assetName": "OverworldDungeon-Goat Teaser",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "ebefe25d691641ea8ca5cd296f5436e7",
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "ef3eef6937dd4483b45b25e628cd26384e7dc245eb868b145b7fde1b35b3ac71",
+        "name": "Goatville-Island",
+        "order": 0,
+        "levels": [],
+        "items": []
+      }
+    ],
+    "paths": []
+  },
+  "a581a966108b18f47bc8ad77cfa50437": {
+    "id": "a581a966108b18f47bc8ad77cfa50437",
+    "assetName": "OverworldDungeon-BestOfGoatSpecial",
+    "pack": "MainGameHomeDungeon",
+    "featuredTag": null,
+    "requiredIdToAccess": null,
+    "completionId": null,
+    "carwashId": "1a29e1ae2154492bbc8a57994caa51c7",
+    "accessId": null,
+    "givesBear": null,
+    "bypassRedeemBear": false,
+    "progressAchievement": "Invalid",
+    "goldAchievement": "Invalid",
+    "islands": [
+      {
+        "id": "ef3eef6937dd4483b45b25e628cd2638a581a966108b18f47bc8ad77cfa50437",
+        "name": "Goatville-Island",
+        "order": 0,
+        "levels": [
+          "9043dfa43fae6824483c772cbd2f1497",
+          "9c631a62f096d504e9dd3bf8f9305ea0",
+          "8217edcdcfc7d8b4e8003fa506e7d8ca"
+        ],
+        "items": [
+          "goat_trophy_bestof_chest",
+          "goat_trophy_bestof_stable",
+          "goat_trophy_bestof_tower"
+        ]
+      }
+    ],
+    "paths": []
+  }
+}

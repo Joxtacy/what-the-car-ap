@@ -37,11 +37,13 @@ public static class Dumpers
     private static readonly Dictionary<string, Dictionary<string, object>> _levels = new();
     private static readonly Dictionary<string, Dictionary<string, object>> _islands = new();
     private static readonly Dictionary<string, Dictionary<string, object>> _accessPoints = new();
+    private static readonly Dictionary<string, Dictionary<string, object>> _overworlds = new();
 
     private static string GameRoot => MelonLoader.Utils.MelonEnvironment.GameRootDirectory;
     private static string LevelsPath => Path.Combine(GameRoot, "wtc_levels.json");
     private static string IslandsPath => Path.Combine(GameRoot, "wtc_islands.json");
     private static string AccessPointsPath => Path.Combine(GameRoot, "wtc_accesspoints.json");
+    private static string OverworldsPath => Path.Combine(GameRoot, "wtc_overworlds.json");
 
     public static void Tick()
     {
@@ -59,18 +61,20 @@ public static class Dumpers
         {
             EnsureLoaded();
             int levelsBefore = _levels.Count, islandsBefore = _islands.Count;
-            int apBefore = _accessPoints.Count;
+            int apBefore = _accessPoints.Count, owBefore = _overworlds.Count;
 
             SweepLevels();
+            SweepOverworlds();
             SweepIslands();
 
             bool grew = _levels.Count != levelsBefore || _islands.Count != islandsBefore
-                        || _accessPoints.Count != apBefore;
+                        || _accessPoints.Count != apBefore || _overworlds.Count != owBefore;
             if (grew || verbose)
             {
                 Write();
                 Plugin.Log.LogInfo(
                     $"[DUMP] levels={_levels.Count} (+{_levels.Count - levelsBefore}) "
+                    + $"overworlds={_overworlds.Count} (+{_overworlds.Count - owBefore}) "
                     + $"islands={_islands.Count} (+{_islands.Count - islandsBefore}) "
                     + $"accessPoints={_accessPoints.Count} (+{_accessPoints.Count - apBefore}) -> game root");
             }
@@ -118,6 +122,156 @@ public static class Dumpers
                 Plugin.Log.LogError($"[DUMP] level #{i}: {e.Message}");
             }
         }
+    }
+
+    /// <summary>
+    /// The authoritative structure sweep. OverworldData is a ScriptableObject
+    /// holding every island of an overworld plus its progression graph, so ONE
+    /// pass captures the lot -- no driving required. (Golf's equivalent was
+    /// OverworldLevelData, and reading it was likewise what turned a walk-the-map
+    /// chore into a single capture.)
+    ///
+    /// The live Island MonoBehaviours only populate their level lists once the
+    /// player physically activates them, which is why the first two runs left 65
+    /// of 202 real levels unmapped. IslandDef.playlists reaches the same levels
+    /// off the asset instead.
+    /// </summary>
+    private static void SweepOverworlds()
+    {
+        var found = Resources.FindObjectsOfTypeAll<OverworldData>();
+        if (found == null) return;
+
+        for (int i = 0; i < found.Length; i++)
+        {
+            var ow = found[i];
+            if (ow == null) continue;
+            try
+            {
+                string id = Str(ow.id.id) ?? Str(ow.name);
+                if (id == null) continue;
+
+                MergeInto(_overworlds, id, new Dictionary<string, object>
+                {
+                    ["id"] = Str(ow.id.id),
+                    ["assetName"] = Str(ow.name),
+                    ["pack"] = ow.overworldPack.ToString(),
+                    ["featuredTag"] = Str(ow.featuredTag),
+                    // The access gate: the key/id the player must hold to enter.
+                    ["requiredIdToAccess"] = CrossId(ow.RequiredIdToAccess),
+                    ["completionId"] = CrossId(ow.CompletionId),
+                    ["carwashId"] = CrossId(ow.carwashID),
+                    ["accessId"] = CrossId(ow.accessID),
+                    ["givesBear"] = CrossId(ow.GivesBear?.id),
+                    ["bypassRedeemBear"] = ow.BypassRedeemBear,
+                    ["progressAchievement"] = ow.progressAchievement.ToString(),
+                    ["goldAchievement"] = ow.goldAchievement.ToString(),
+                    ["islands"] = OverworldIslands(ow),
+                    ["paths"] = ProgressionPaths(ow),
+                });
+            }
+            catch (Exception e) { Plugin.Log.LogError($"[DUMP] overworld #{i}: {e.Message}"); }
+        }
+    }
+
+    private static List<Dictionary<string, object>> OverworldIslands(OverworldData ow)
+    {
+        var list = new List<Dictionary<string, object>>();
+        try
+        {
+            var defs = ow.islands;
+            if (defs == null) return list;
+            for (int i = 0; i < defs.Count; i++)
+            {
+                var def = defs[i];
+                if (def == null) continue;
+                list.Add(new Dictionary<string, object>
+                {
+                    ["id"] = Str(def.id.id),
+                    ["name"] = Str(def.name),
+                    ["order"] = i,
+                    ["levels"] = IslandDefLevels(def),
+                    ["items"] = IslandDefItems(def),
+                });
+            }
+        }
+        catch (Exception e) { Plugin.Log.LogError($"[DUMP] OverworldIslands: {e.Message}"); }
+        return list;
+    }
+
+    private static List<string> IslandDefLevels(IslandDef def)
+    {
+        var ids = new List<string>();
+        try
+        {
+            var playlists = def.playlists;
+            if (playlists == null) return ids;
+            for (int i = 0; i < playlists.Count; i++)
+            {
+                foreach (var id in ContentIds(playlists[i]?.playables))
+                    if (!ids.Contains(id)) ids.Add(id);
+            }
+        }
+        catch (Exception e) { Plugin.Log.LogError($"[DUMP] IslandDefLevels: {e.Message}"); }
+        return ids;
+    }
+
+    private static List<string> IslandDefItems(IslandDef def)
+    {
+        var ids = new List<string>();
+        try
+        {
+            var items = def.items;
+            if (items == null) return ids;
+            for (int i = 0; i < items.Count; i++)
+            {
+                string id = CrossId(items[i]?.id);
+                if (id != null) ids.Add(id);
+            }
+        }
+        catch (Exception e) { Plugin.Log.LogError($"[DUMP] IslandDefItems: {e.Message}"); }
+        return ids;
+    }
+
+    /// <summary>
+    /// The progression graph: ordered nodes per path, each naming the island it
+    /// sits on and the id whose completion advances it. ProgressionNode is a
+    /// by-value struct -- fine to READ, never patch a method that takes one.
+    /// </summary>
+    private static List<List<Dictionary<string, object>>> ProgressionPaths(OverworldData ow)
+    {
+        var paths = new List<List<Dictionary<string, object>>>();
+        try
+        {
+            var serialized = ow.paths;
+            if (serialized == null) return paths;
+            for (int p = 0; p < serialized.Count; p++)
+            {
+                var nodes = serialized[p]?.progressionNodes;
+                if (nodes == null) continue;
+                var one = new List<Dictionary<string, object>>();
+                for (int n = 0; n < nodes.Count; n++)
+                {
+                    var node = nodes[n];
+                    if (node == null) continue;
+                    one.Add(new Dictionary<string, object>
+                    {
+                        ["nodeType"] = node.nodeType.ToString(),
+                        ["progressionCheckId"] = Str(node.progressionCheckID.id),
+                        ["placementId"] = Str(node.placementID.id),
+                        ["islandId"] = Str(node.islandId.id),
+                    });
+                }
+                paths.Add(one);
+            }
+        }
+        catch (Exception e) { Plugin.Log.LogError($"[DUMP] ProgressionPaths: {e.Message}"); }
+        return paths;
+    }
+
+    private static string CrossId(Il2CppSpeed.Saving.CrossSceneID id)
+    {
+        try { return id == null ? null : Str(id.id); }
+        catch { return null; }
     }
 
     private static void SweepIslands()
@@ -348,10 +502,11 @@ public static class Dumpers
         Load(LevelsPath, _levels);
         Load(IslandsPath, _islands);
         Load(AccessPointsPath, _accessPoints);
+        Load(OverworldsPath, _overworlds);
         if (_levels.Count > 0 || _islands.Count > 0 || _accessPoints.Count > 0)
             Plugin.Log.LogInfo(
-                $"[DUMP] resumed from disk: {_levels.Count} levels, {_islands.Count} islands, "
-                + $"{_accessPoints.Count} access points.");
+                $"[DUMP] resumed from disk: {_levels.Count} levels, {_overworlds.Count} overworlds, "
+                + $"{_islands.Count} islands, {_accessPoints.Count} access points.");
     }
 
     private static void Load(string path, Dictionary<string, Dictionary<string, object>> into)
@@ -372,6 +527,7 @@ public static class Dumpers
         Save(LevelsPath, _levels);
         Save(IslandsPath, _islands);
         Save(AccessPointsPath, _accessPoints);
+        Save(OverworldsPath, _overworlds);
     }
 
     private static void Save(string path, Dictionary<string, Dictionary<string, object>> data)

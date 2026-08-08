@@ -183,8 +183,80 @@ templates. Added a third capture, `wtc_accesspoints.json` (id → island, playli
 `startHidden`), because `Island.Levels` only accounted for **164 of the 275** level defs — the
 per-cannon playlists should carry the rest of the level→island mapping.
 
+### Second run: both fixes confirmed, and the prefab theory was wrong
+
+`ReadLevel` fix verified live, no errors:
+
+```
+[LEVEL] gameplay-completed: bbe6df47776712248b70ef1eaac1bfc3 state=Gold won=True nonCampaign=False
+[LEVEL] outro-finished:     bbe6df47776712248b70ef1eaac1bfc3 state=Gold won=True nonCampaign=False
+```
+
+Both hooked stages report identically, so `OnOutroFinished` is redundant — keep one.
+
+**The prefab-duplicate diagnosis was WRONG.** 94 of the 95 islands have a valid scene, i.e. they
+are all live instances. The duplicate `IslandName`s are simply a shared localisation term across
+genuinely distinct islands (`ISLAND_BEACH_TOPUGC` ×7 really is seven separate UGC billboards).
+The 46-component graph was fragmentation from islands whose connections hadn't been walked, not
+from templates. **`(scene, defName)` is a unique key across all 95 — zero collisions** — so
+island identity is solved regardless, and the `scene` field turned out to be the real prize: it
+names the owning overworld.
+
+### `OverworldData` is the authoritative asset — no driving required
+
+`Speed.OverworldData` is the exact analogue of golf's `OverworldLevelData`: a ScriptableObject
+holding an overworld's whole island list *and* its progression graph. It loads at the **main
+menu** — 72 captured in one sweep with the game sitting on the title screen. Every future capture
+is a launch-and-wait, not a playthrough.
+
+- `islands : List<IslandDef>` → `IslandDef.playlists` → `Playlist.playables` gives level→island
+  without the live scene objects, which only populate once the player physically drives up to them.
+- `paths : List<SerializedProgressionPath>` → `ProgressionNode` {`nodeType`, `progressionCheckID`,
+  `placementID`, `islandId`}. `NodeType` = PlayableAccessPoint / Generator / ProgressionStartArea /
+  MiniGame.
+
+Coverage went from 137/202 to **187/202** real campaign levels. The remaining 15 are correctly
+excluded: 9 are dailies (`"Carp DAILY 1"`, `"Monowheel Daily 1"`), the rest tutorial "Reduction N"
+and first-level content. So **"referenced by a MainGame overworld" is itself the campaign filter** —
+better than filtering on `gameplaySubType`, which let the dailies through.
+
+**Exactly 10 overworlds carry `pack == MainGame`**, matching the 10 achievements precisely:
+
+| Overworld | islands | levels | paths |
+|---|---|---|---|
+| JUMPING | 10 | 19 | 2 |
+| JOB | 12 | 24 | 3 |
+| SOCCER | 12 | 21 | 3 |
+| LONG | 7 | 20 | 2 |
+| STORM | 9 | 21 | 2 |
+| WHEELS | 12 | 22 | 4 |
+| BEACH | 7 | 22 | 2 |
+| AmongCAR | 15 | 5 | 3 |
+| GoatSimulatorCollab | 2 | 9 | 1 |
+| SneakySasquatch | 5 | 12 | 1 |
+
+The other 62 are `MainGameHomeDungeon` — seasonal, UGC drops, Best-of-year, Daily, Community — and
+are excludable, though a few (Golf Area ×8 levels, CowsInSpace ×6, DrivingSchool ×4, IceWeek ×11)
+might be worth an option later.
+
+### THE PROGRESSION MODEL — the game already implements Archipelago's shape
+
+Every MainGame overworld has both a `requiredIdToAccess` (its gate) and a `completionId`, and
+crucially **`completionId == givesBear`**. Completing an overworld awards a bear, and that bear
+*is* the key to the next one. Matching the ids up gives the real graph:
+
+```
+JUMPING ──▶ JOB ──▶ SOCCER ──▶ LONG ──▶ WHEELS ──▶ BEACH
+                        └────▶ STORM (shares LONG's gate)
+             └──▶ AmongCAR, GOAT, SneakySasquatch (all gated on JOB's key)
+```
+
+This is a near-perfect fit for AP: the bear items become the progression items, and gating means
+withholding a bear rather than fighting the game's own logic. It also settles the earlier open
+question about branching — the topology is a chain with a three-way dungeon branch off JOB's key
+and a STORM/LONG split, **not** the free choice `IslandConnectionGate.OnChoicePicked` suggested.
+
 ### Next
 
-One more short play session with the rebuilt dumper to (a) re-capture islands with scene info,
-(b) populate the access-point map, and (c) confirm the `ReadLevel` fix logs a real `contentId` +
-medal state. Then `tools/build_levels.py` and the apworld.
+`tools/build_levels.py` → `what_the_car/levels.json`, then `data.py` and the apworld. All four
+captures are committed under `mod/`; no further in-game work is needed to build the world.

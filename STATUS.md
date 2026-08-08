@@ -475,7 +475,7 @@ save, so medal state is internally consistent.
 
 `mod/wtc_cards.json` is committed; the card sweep lives in `Dumpers.SweepCards`.
 
-### Card text colour — `gainedCard` on the resolved record
+### Card text colour — `gainedCard` on the resolved record (SOLVED)
 
 Follow-up: some gold cards render their text differently, the four repaired ones among them.
 Exactly **20 Controller cards resolve to a record with `gainedCard: false`**, and that set is
@@ -486,8 +486,13 @@ are perfectly correlated in this save and only an empirical test separates them.
 
 `CardUI` holds `_goldColors` / `_silverColors` / `_bronzeColors` / `_incompleteColors` as
 `List<Color>` applied to `allTexts` via `SetMedalColor(ELevelCompletedState)` — so the medal alone
-cannot distinguish two gold cards, which leaves `gainedCard` as the differentiator. The interop has
-no method bodies, so this stays a hypothesis until the save edit is tried.
+cannot distinguish two gold cards, which left `gainedCard` as the differentiator.
+
+**CONFIRMED 2026-08-08 by applying it: all 14 card texts now match.** That also settles the
+ambiguity — the 20 shared *two* correlated properties (`gainedCard: false` AND resolving to a
+variant record), and since flipping only `gainedCard` fixed the display, the variant resolution is
+irrelevant to text colour. Note the interop carries no method bodies, so this could not have been
+read off the decompile; the edit was the only way to separate the two.
 
 `tools/fix_card_medals.py --fonts` sets `gainedCard: true` on the 14 affected records. The 6 Goat
 cards are deliberately excluded: they really are unobtained, and flagging them would claim content

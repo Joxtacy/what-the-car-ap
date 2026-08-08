@@ -146,7 +146,45 @@ assembly and matched with `grep -x`, but .NET concatenates type names in the `#S
 no line breaks, so an exact-whole-line match can never hit either way. **Confirm a type by
 finding its declaration in the decompile.** (`Chest` genuinely isn't a class.)
 
+### Mod skeleton live; first dump run done
+
+Mod loads, both Harmony patches bind (`LevelManager:OnGameplayCompleted`,
+`LevelManager:OnOutroFinished`), build is 0 warnings / 0 errors and auto-deploys.
+
+**Levels: 275 defs captured in one sweep**, no walking needed — `NormalLevelDef` is a
+ScriptableObject so `FindObjectsOfTypeAll` returns them wholesale. Data is good: real
+`levelName` ("All Aboard The Wind Umbrella"), `debugTitle`, `silverTime`/`goldTime`, and a
+`gameplaySubType` split of Normal 198 / Intermezzo 33 / OnlyTalk 28 / Hard 15 / Custom 1. So
+roughly **213 real playable levels** once Intermezzo and OnlyTalk are filtered out. 5 are
+`isUnplayableTemplate` (remixer seeds) and must be dropped.
+
+**Islands: 95 captured** after the user visited each episode — islands are scene MonoBehaviours,
+so they do NOT exist at the main menu, and (unlike golf's overworld) they load per-episode rather
+than all at once.
+
+### Two bugs found by that run
+
+1. **`AccessTools.FieldRefAccess` does not work on Il2Cpp proxy types.** `GamePatches.ReadLevel`
+   threw on every level completion (`FieldRefAccess<LevelManager, LevelInstance> ... caused an
+   exception`). An interop proxy has no managed backing field — `_level` exists only as a
+   generated property over `il2cpp_field_get_offset`. The property is public, so the fix is to
+   read `manager._level` directly. Worth remembering as a general rule: **on interop types, use
+   the generated property; never Harmony's field-ref helpers.** The patches themselves fired
+   correctly (twice, once per hooked stage), so only the field read was wrong.
+2. **`FindObjectsOfTypeAll` returns prefab templates alongside live instances**, and both carry
+   the same `IslandName` — `ISLAND_JUMPING_START` appeared 5 times, `ISLAND_BEACH_TOPUGC` 7. This
+   is the same duplicate-template trap golf hit with its crown doors. Evidence: the connection
+   graph came back as **46 components for ~10 overworlds**, because prefab copies form their own
+   disconnected sub-graphs. The data is not usable for the apworld until they are filtered.
+
+Both fixed. The dumper now also records `scene` (null for a prefab, since a prefab's scene handle
+is invalid), `activeInHierarchy` and `defName`, which is what lets `build_levels.py` drop the
+templates. Added a third capture, `wtc_accesspoints.json` (id → island, playlist levels,
+`startHidden`), because `Island.Levels` only accounted for **164 of the 275** level defs — the
+per-cannon playlists should carry the rest of the level→island mapping.
+
 ### Next
 
-Port the mod skeleton from golf (`Plugin.cs`, `Mod.cs`, the Archipelago client, `GamePatches.cs`),
-then write the dumpers against `Island` / `PlayableContentDef` / `BaseAccessPoint` / `ItemData`.
+One more short play session with the rebuilt dumper to (a) re-capture islands with scene info,
+(b) populate the access-point map, and (c) confirm the `ReadLevel` fix logs a real `contentId` +
+medal state. Then `tools/build_levels.py` and the apworld.

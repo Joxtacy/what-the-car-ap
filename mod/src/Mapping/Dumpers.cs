@@ -36,10 +36,12 @@ public static class Dumpers
     // so Newtonsoft can serialise them directly.
     private static readonly Dictionary<string, Dictionary<string, object>> _levels = new();
     private static readonly Dictionary<string, Dictionary<string, object>> _islands = new();
+    private static readonly Dictionary<string, Dictionary<string, object>> _accessPoints = new();
 
     private static string GameRoot => MelonLoader.Utils.MelonEnvironment.GameRootDirectory;
     private static string LevelsPath => Path.Combine(GameRoot, "wtc_levels.json");
     private static string IslandsPath => Path.Combine(GameRoot, "wtc_islands.json");
+    private static string AccessPointsPath => Path.Combine(GameRoot, "wtc_accesspoints.json");
 
     public static void Tick()
     {
@@ -57,17 +59,20 @@ public static class Dumpers
         {
             EnsureLoaded();
             int levelsBefore = _levels.Count, islandsBefore = _islands.Count;
+            int apBefore = _accessPoints.Count;
 
             SweepLevels();
             SweepIslands();
 
-            bool grew = _levels.Count != levelsBefore || _islands.Count != islandsBefore;
+            bool grew = _levels.Count != levelsBefore || _islands.Count != islandsBefore
+                        || _accessPoints.Count != apBefore;
             if (grew || verbose)
             {
                 Write();
                 Plugin.Log.LogInfo(
                     $"[DUMP] levels={_levels.Count} (+{_levels.Count - levelsBefore}) "
-                    + $"islands={_islands.Count} (+{_islands.Count - islandsBefore}) -> game root");
+                    + $"islands={_islands.Count} (+{_islands.Count - islandsBefore}) "
+                    + $"accessPoints={_accessPoints.Count} (+{_accessPoints.Count - apBefore}) -> game root");
             }
         }
         catch (Exception e) { Plugin.Log.LogError($"Dumpers.Capture: {e}"); }
@@ -133,13 +138,24 @@ public static class Dumpers
                 {
                     ["id"] = id,
                     ["name"] = Str(island.IslandName),
+                    // IslandName is a localisation term and is NOT unique -- several
+                    // distinct islands share one. The def's own asset name usually
+                    // disambiguates, so capture both.
+                    ["defName"] = DefName(island),
                     ["isDefault"] = island.IsDefaultIsland,
                     ["supportsLocationSave"] = island.SupportsLocationSave,
                     ["levels"] = ContentIds(island.Levels),
-                    ["accessPoints"] = AccessPointIds(island),
+                    ["accessPoints"] = AccessPointIds(island, id),
                     ["outgoing"] = OutgoingIslandIds(island),
                     ["ingoing"] = IngoingIslandId(island),
                     ["items"] = ItemIds(island),
+                    // FindObjectsOfTypeAll returns loaded-but-not-instantiated PREFABS
+                    // alongside live scene instances, and both carry the same
+                    // IslandName. A prefab has no valid scene, so the scene name is
+                    // what lets build_levels.py drop the templates. (Golf hit the same
+                    // duplicate-template problem with its crown doors.)
+                    ["scene"] = SceneName(island),
+                    ["activeInHierarchy"] = ActiveInHierarchy(island),
                 };
                 MergeInto(_islands, id, record);
             }
@@ -170,7 +186,13 @@ public static class Dumpers
         return ids;
     }
 
-    private static List<string> AccessPointIds(Island island)
+    /// <summary>
+    /// Collect this island's access-point ids, and as a side effect record each
+    /// one's own playlist into _accessPoints. Island.Levels alone came back with
+    /// only 164 of 275 known level defs, so the per-cannon playlists are where the
+    /// rest of the level-to-island mapping has to come from.
+    /// </summary>
+    private static List<string> AccessPointIds(Island island, string islandId)
     {
         var ids = new List<string>();
         try
@@ -182,11 +204,39 @@ public static class Dumpers
                 var p = points[i];
                 if (p == null) continue;
                 string id = Str(p.id.id);
-                if (id != null) ids.Add(id);
+                if (id == null) continue;
+                ids.Add(id);
+
+                MergeInto(_accessPoints, id, new Dictionary<string, object>
+                {
+                    ["id"] = id,
+                    ["island"] = islandId,
+                    ["levels"] = PlaylistLevels(p),
+                    ["startHidden"] = p.startHidden,
+                });
             }
         }
         catch (Exception e) { Plugin.Log.LogError($"[DUMP] AccessPointIds: {e.Message}"); }
         return ids;
+    }
+
+    /// <summary>
+    /// Levels a cannon launches. The playlist may legitimately be null until the
+    /// game generates it, so an empty list here is normal and MergeInto will keep
+    /// whatever a later pass finds.
+    /// </summary>
+    private static List<string> PlaylistLevels(BaseAccessPoint point)
+    {
+        try
+        {
+            var playlist = point.content?.playlist ?? point.playlist;
+            return playlist == null ? new List<string>() : ContentIds(playlist.playables);
+        }
+        catch (Exception e)
+        {
+            Plugin.Log.LogError($"[DUMP] PlaylistLevels: {e.Message}");
+            return new List<string>();
+        }
     }
 
     private static List<string> OutgoingIslandIds(Island island)
@@ -212,6 +262,31 @@ public static class Dumpers
     {
         try { return Str(island.IngoingIsland?.IslandId.id); }
         catch (Exception e) { Plugin.Log.LogError($"[DUMP] IngoingIslandId: {e.Message}"); return null; }
+    }
+
+    private static string DefName(Island island)
+    {
+        try { return Str(island.islandDef?.name); }
+        catch (Exception e) { Plugin.Log.LogError($"[DUMP] DefName: {e.Message}"); return null; }
+    }
+
+    private static string SceneName(Island island)
+    {
+        try
+        {
+            var go = island.gameObject;
+            if (go == null) return null;
+            var scene = go.scene;
+            // A prefab asset's scene handle is invalid; a live instance's is not.
+            return scene.IsValid() ? Str(scene.name) : null;
+        }
+        catch (Exception e) { Plugin.Log.LogError($"[DUMP] SceneName: {e.Message}"); return null; }
+    }
+
+    private static bool ActiveInHierarchy(Island island)
+    {
+        try { return island.gameObject != null && island.gameObject.activeInHierarchy; }
+        catch { return false; }
     }
 
     private static List<string> ItemIds(Island island)
@@ -272,8 +347,11 @@ public static class Dumpers
         _loaded = true;
         Load(LevelsPath, _levels);
         Load(IslandsPath, _islands);
-        if (_levels.Count > 0 || _islands.Count > 0)
-            Plugin.Log.LogInfo($"[DUMP] resumed from disk: {_levels.Count} levels, {_islands.Count} islands.");
+        Load(AccessPointsPath, _accessPoints);
+        if (_levels.Count > 0 || _islands.Count > 0 || _accessPoints.Count > 0)
+            Plugin.Log.LogInfo(
+                $"[DUMP] resumed from disk: {_levels.Count} levels, {_islands.Count} islands, "
+                + $"{_accessPoints.Count} access points.");
     }
 
     private static void Load(string path, Dictionary<string, Dictionary<string, object>> into)
@@ -293,6 +371,7 @@ public static class Dumpers
     {
         Save(LevelsPath, _levels);
         Save(IslandsPath, _islands);
+        Save(AccessPointsPath, _accessPoints);
     }
 
     private static void Save(string path, Dictionary<string, Dictionary<string, object>> data)

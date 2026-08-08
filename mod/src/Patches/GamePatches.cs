@@ -90,13 +90,17 @@ public static class GamePatches
     }
 
     /// <summary>
-    /// LevelManager._level is a private field, so it has no interop property.
-    /// Reach it via Harmony's field ref rather than reflecting by hand.
+    /// Read the LevelManager's current level.
+    ///
+    /// Do NOT use Harmony's AccessTools.FieldRefAccess here. An Il2Cpp proxy type
+    /// has no managed backing field -- `_level` exists only as a generated property
+    /// over il2cpp_field_get_offset -- so FieldRefAccess throws every call. (It did,
+    /// live, on 2026-08-08.) The generated property is public, so just read it.
     /// </summary>
     private static LevelInstance ReadLevel(LevelManager manager)
     {
         if (manager == null) return null;
-        try { return AccessTools.FieldRefAccess<LevelManager, LevelInstance>(manager, "_level"); }
+        try { return manager._level; }
         catch (Exception e)
         {
             Plugin.Log.LogError($"GamePatches.ReadLevel: {e.Message}");

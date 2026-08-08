@@ -31,13 +31,11 @@ public static class GamePatches
         // Whether this is the right moment for the medal to be final -- versus
         // EvaluateGameplayCompletion or OnOutroFinished -- is UNVERIFIED and is
         // exactly what the first in-game run is meant to settle.
+        // Verified live 2026-08-08: fires with a settled contentId and medal state.
+        // OnOutroFinished was hooked too during bring-up and reported identically,
+        // so it was dropped as redundant.
         TryPatchPostfix(harmony, typeof(LevelManager), nameof(LevelManager.OnGameplayCompleted),
                         nameof(GameplayCompletedPostfix));
-
-        // Same event, one stage later. Logged only, so we can compare which of the
-        // two carries a settled completedStateThisInstance before committing.
-        TryPatchPostfix(harmony, typeof(LevelManager), nameof(LevelManager.OnOutroFinished),
-                        nameof(OutroFinishedPostfix));
     }
 
     // --- Postfixes -----------------------------------------------------------
@@ -46,12 +44,6 @@ public static class GamePatches
     {
         try { Report("gameplay-completed", __instance); }
         catch (Exception e) { Plugin.Log.LogError($"GameplayCompletedPostfix: {e}"); }
-    }
-
-    private static void OutroFinishedPostfix(LevelManager __instance)
-    {
-        try { Report("outro-finished", __instance); }
-        catch (Exception e) { Plugin.Log.LogError($"OutroFinishedPostfix: {e}"); }
     }
 
     /// <summary>
@@ -79,8 +71,13 @@ public static class GamePatches
         }
 
         // Medals are cumulative: reaching Gold implies Silver and Clear. Sending
-        // all tiers the player has earned keeps checks correct even if they jump
-        // straight to Gold on the first attempt. SendCheck dedups.
+        // every tier earned keeps checks correct whether the player climbs the
+        // tiers or jumps straight to Gold, and self-heals anything missed while
+        // disconnected. SendCheck dedups.
+        //
+        // Deliberately the BEST-ever state, not this run's -- an AP location, once
+        // checked, stays checked. See GameState.CompletedState for why that means
+        // an AP run must start from a fresh save slot.
         var state = GameState.CompletedState(level);
         client.SendCheck(LocationMap.ClearId(contentId));
         if (state >= Il2CppSpeed.Saving.ELevelCompletedState.Silver)

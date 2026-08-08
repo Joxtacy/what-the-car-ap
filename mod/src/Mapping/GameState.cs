@@ -23,7 +23,20 @@ public static class GameState
         catch (Exception e) { Plugin.Log.LogError($"GameState.ContentId: {e.Message}"); return null; }
     }
 
-    /// <summary>Medal reached in this attempt: Incomplete / Bronze / Silver / Gold.</summary>
+    /// <summary>
+    /// Best medal EVER achieved on this level: Incomplete / Bronze / Silver / Gold.
+    ///
+    /// Despite the name, `completedStateThisInstance` reads through to the saved
+    /// best, not the current run -- confirmed live on 2026-08-08, where a silver
+    /// run on a level previously golded reported Gold. Use <see cref="RunState"/>
+    /// for the actual attempt.
+    ///
+    /// This is deliberately what drives checks: AP locations are permanent and
+    /// cumulative, so "best ever" is the correct semantic and it self-heals a
+    /// check that was somehow missed. The catch is that starting a seed on an
+    /// already-progressed save would fire every check on first touch -- which is
+    /// why an AP run must use a FRESH save slot.
+    /// </summary>
     public static ELevelCompletedState CompletedState(LevelInstance level)
     {
         try { return level != null ? level.completedStateThisInstance : ELevelCompletedState.Incomplete; }
@@ -32,6 +45,24 @@ public static class GameState
             Plugin.Log.LogError($"GameState.CompletedState: {e.Message}");
             return ELevelCompletedState.Incomplete;
         }
+    }
+
+    /// <summary>Medal earned in THIS attempt, from the run's own LevelResult.</summary>
+    public static ELevelCompletedState RunState(LevelInstance level)
+    {
+        try { return level?.lastResult?.completedState ?? ELevelCompletedState.Incomplete; }
+        catch (Exception e)
+        {
+            Plugin.Log.LogError($"GameState.RunState: {e.Message}");
+            return ELevelCompletedState.Incomplete;
+        }
+    }
+
+    /// <summary>Did this attempt award a collectible card?</summary>
+    public static bool GainedCard(LevelInstance level)
+    {
+        try { return level?.lastResult?.gainedCard ?? false; }
+        catch (Exception e) { Plugin.Log.LogError($"GameState.GainedCard: {e.Message}"); return false; }
     }
 
     /// <summary>Did the player actually win this attempt (vs. quitting/failing)?</summary>
@@ -63,6 +94,7 @@ public static class GameState
     public static string Describe(LevelInstance level)
     {
         string id = ContentId(level) ?? "<null>";
-        return $"{id} state={CompletedState(level)} won={DidWin(level)} nonCampaign={IsNonCampaign(level)}";
+        return $"{id} best={CompletedState(level)} run={RunState(level)} card={GainedCard(level)} "
+               + $"won={DidWin(level)} nonCampaign={IsNonCampaign(level)}";
     }
 }

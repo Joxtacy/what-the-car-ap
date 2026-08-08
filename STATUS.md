@@ -256,7 +256,55 @@ withholding a bear rather than fighting the game's own logic. It also settles th
 question about branching — the topology is a chain with a three-way dungeon branch off JOB's key
 and a STORM/LONG split, **not** the free choice `IslandConnectionGate.OnChoicePicked` suggested.
 
+### Medal semantics — confirmed, and the name lies
+
+User scored **silver** on a level they had previously golded; the mod logged **Gold**. So
+`LevelInstance.completedStateThisInstance` reads through to the SAVED BEST, not the current run.
+The true per-attempt value is `LevelInstance.lastResult.completedState` (`Speed.Level.LevelResult`,
+which also carries `timeInMs` and `gainedCard`); the persisted best lives on
+`PlayedLevelInfo.completedState`.
+
+**Best-ever is the right thing to send**, since an AP location once checked stays checked, and it
+self-heals a check missed while disconnected. The cost is that starting a seed on a progressed save
+would fire every check on first touch — so **an AP run must use a fresh save slot**, which the
+setup guide now states prominently. `GameState` exposes both values and logs both.
+
+Also dropped the `OnOutroFinished` hook — it reported identically to `OnGameplayCompleted`.
+
+### MILESTONE 1 COMPLETE — the apworld generates solvable multiworlds
+
+`tools/build_levels.py` compiles the dumps into `what_the_car/levels.json`: **10 overworlds,
+173 campaign levels**. Two levels turned out to be referenced by two overworlds each (GOAT collab
+levels also placed in JOB and WHEELS); ownership goes to the alphabetically-first key and the fact
+is recorded in `shared_levels` rather than silently resolved. Ownership iteration is **sorted, not
+dump-order** — dump order varies per capture and would have silently shifted every location id.
+
+The apworld follows golf's file split with a framework-free `data.py`. **20 items / 529 locations**
+in the full id universe, with import-time duplicate asserts. UT support (the
+`ut_can_gen_without_yaml` + `generate_early`/`re_gen_passthrough` + `interpret_slot_data` triad)
+was built in from the start rather than retrofitted.
+
+**Verified 2026-08-08** — a 4-player multiworld spanning every option axis generated on released
+Archipelago 0.6.7, filled 1,587 items, and produced a valid playthrough:
+
+| Slot | Options | Locations | Expected | Progression items |
+|---|---|---|---|---|
+| CarCampaign | campaign / separate / clear_only | 184 | 183 + Victory | 9 |
+| CarAllWorlds | all_overworlds / bears / clear+gold | 357 | 356 + Victory | 5 |
+| CarAllMedals | all_bears / separate / all_medals / no completions | 520 | 519 + Victory | 9 |
+| CarBearsMax | all_bears / bears / all_medals | 530 | 529 + Victory | 5 |
+
+Cross-world progression placement confirmed in the spoiler, with real level names
+("Boost On Springboards - Clear", "I'm Longing It - Gold").
+
+**Known looseness (accepted, documented):** under `overworld_access: separate` the game gates JOB,
+AMONGCAR, GOAT and SNEAKY behind a *single* shared key, so unlocking one physically opens all four.
+Out-of-logic reachability only — never unwinnable. `bears` mode has no such leak. This is the same
+class of compromise golf shipped with its `section` granularity.
+
 ### Next
 
-`tools/build_levels.py` → `what_the_car/levels.json`, then `data.py` and the apworld. All four
-captures are committed under `mod/`; no further in-game work is needed to build the world.
+The mod's `ItemApplier` is still a stub — nothing is gated yet. The promising lever is the game's
+own key system (`OverworldSaveInfo.RedeemKey` / `AddKeyOnCar` against the `gate_by_item` /
+`bear_by_item` maps now in `mod/ids.json`), which still needs its first in-game test on a fresh
+save slot.

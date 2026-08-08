@@ -1,0 +1,2960 @@
+{
+  "start_overworlds": [
+    "JUMPING"
+  ],
+  "final_overworlds": [
+    "AMONGCAR",
+    "BEACH",
+    "GOAT",
+    "SNEAKY",
+    "STORM"
+  ],
+  "overworlds": [
+    {
+      "key": "AMONGCAR",
+      "display": "Among CAR",
+      "asset": "OverworldDungeon-AmongCAR",
+      "gate_id": "b9d088a5f76840868879ff4dfd8c2086",
+      "completion_id": null,
+      "bear_id": null,
+      "requires": [
+        "JUMPING"
+      ],
+      "achievement": "OverworldComplete_AmongUs",
+      "gold_achievement": "OverworldGold_AmongUs",
+      "islands": [
+        {
+          "key": "among_us_right_cannon",
+          "display": "Island - Among Us Right Cannon Island",
+          "levels": [
+            "ed22e3c9f1fef6c438781f59820f94be"
+          ]
+        },
+        {
+          "key": "among_us_right_knobs_minigame",
+          "display": "Island - Among Us Right Knobs Minigame Island",
+          "levels": []
+        },
+        {
+          "key": "among_us_right_cockpit",
+          "display": "Island - Among Us Right Cockpit Island",
+          "levels": [
+            "2b53813e817368d4382f2db546aac4a5"
+          ]
+        },
+        {
+          "key": "among_us_bottom_chute",
+          "display": "Island - Among Us Bottom Chute Island",
+          "levels": [
+            "f3095ec16c8107d47b0ec2d99e6d3af8",
+            "1e461cf6370a7b245bb5a6e448b22b5d"
+          ]
+        },
+        {
+          "key": "among_us_bottom_wires_minigame",
+          "display": "Island - Among Us Bottom Wires Minigame Island",
+          "levels": []
+        },
+        {
+          "key": "among_us_left_crime_case_hub",
+          "display": "Island - Among Us Left Crime Case Hub Island",
+          "levels": []
+        },
+        {
+          "key": "among_us_left_medbay_minigame",
+          "display": "Island - Among Us Left Medbay Minigame Island",
+          "levels": []
+        },
+        {
+          "key": "among_us_left_office",
+          "display": "Island - Among Us Left Office Island",
+          "levels": [
+            "f5903d71f9875234cac9db3f29aa9036"
+          ]
+        },
+        {
+          "key": "among_us_left_directory_minigame",
+          "display": "Island - Among Us Left Directory Minigame Island",
+          "levels": []
+        },
+        {
+          "key": "internet_space",
+          "display": "Internet Space",
+          "levels": []
+        },
+        {
+          "key": "among_us_left_toilet_joke",
+          "display": "Island - Among Us Left Toilet Joke Island",
+          "levels": []
+        },
+        {
+          "key": "among_us_cafeteria_centerhub",
+          "display": "Island - Among Us Cafeteria CenterHub",
+          "levels": []
+        },
+        {
+          "key": "among_us_cafeteria_skin_variant",
+          "display": "Island - Among Us Cafeteria Skin Island Variant",
+          "levels": []
+        },
+        {
+          "key": "among_us_cafeteria_ugc",
+          "display": "Island - Among Us Cafeteria UGC Island",
+          "levels": []
+        },
+        {
+          "key": "among_us_cafeteria_cave_to_bestof",
+          "display": "Island - Among Us Cafeteria Cave To BestOf",
+          "levels": []
+        }
+      ],
+      "levels": [
+        "ed22e3c9f1fef6c438781f59820f94be",
+        "2b53813e817368d4382f2db546aac4a5",
+        "f3095ec16c8107d47b0ec2d99e6d3af8",
+        "1e461cf6370a7b245bb5a6e448b22b5d",
+        "f5903d71f9875234cac9db3f29aa9036"
+      ]
+    },
+    {
+      "key": "BEACH",
+      "display": "Beach",
+      "asset": "Overworld - BEACH",
+      "gate_id": "3f0562b08f2342418d953a1b3fc58ee7",
+      "completion_id": "956888b48aef4b98ba95c572452de674",
+      "bear_id": "956888b48aef4b98ba95c572452de674",
+      "requires": [
+        "WHEELS"
+      ],
+      "achievement": "OverworldComplete_Beach",
+      "gold_achievement": "OverworldGold_Beach",
+      "islands": [
+        {
+          "key": "beach_start",
+          "display": "Beach Start Island",
+          "levels": [
+            "25c4e04c50aa7ac46bdb21584317498f",
+            "4dc1fbbc150b7e9458a35a14b284ae14",
+            "7a1dcef944403ba478940d2fc6470d48",
+            "e399379af1748e44aa12b59020bf904c",
+            "cd5afc9f7e4b8634d80bcee54ae7c5fa",
+            "68965d87ad83dd946aa70764e3ab1d96",
+            "b0b990af2840ed74d9e0a6adb20aa618"
+          ]
+        },
+        {
+          "key": "beach_1",
+          "display": "Beach Island 1",
+          "levels": [
+            "73312e0bfd605634f9c3bc2de2f37312",
+            "2aaf75cf41a7de24ca38764c29dce94c",
+            "5d442739772d7f64fa8f637808614a45",
+            "1cf13e2abd4e3684697cf4e55b3f4e3c"
+          ]
+        },
+        {
+          "key": "beach_2",
+          "display": "Beach Island 2",
+          "levels": [
+            "b300a11a7bdf6b044bdb204459419881",
+            "742c495af4e357a4486b7d9eaaec22c1",
+            "20704a1fb28a7624cb4e7c0749fd6817",
+            "64a6c1d743a30954d9ea87f8a9eb4755",
+            "36dd094e96538d74598c4c0272d87d8f"
+          ]
+        },
+        {
+          "key": "beach_2_b",
+          "display": "Beach Island 2 B",
+          "levels": [
+            "218bbdfbcd7121f42a1b46e84526c161",
+            "55bf4863723a5ab42962465d9c66baf7",
+            "a1de648c88bdaee499736473b7efaf16",
+            "5ccd32b787c5a3a4cb230774149b6e7d"
+          ]
+        },
+        {
+          "key": "beach_hiddencave",
+          "display": "Beach HiddenCave",
+          "levels": [
+            "4e94272983a2e9e4f9789df77bd1c4d5",
+            "4bcfa21da09de7d46924ee3c3e36ad79"
+          ]
+        },
+        {
+          "key": "beach_hiddencave_2",
+          "display": "Beach HiddenCave 2",
+          "levels": []
+        },
+        {
+          "key": "top_ugc_levels_area_ep_6",
+          "display": "Top UGC levels area ep 6",
+          "levels": []
+        }
+      ],
+      "levels": [
+        "25c4e04c50aa7ac46bdb21584317498f",
+        "4dc1fbbc150b7e9458a35a14b284ae14",
+        "7a1dcef944403ba478940d2fc6470d48",
+        "e399379af1748e44aa12b59020bf904c",
+        "cd5afc9f7e4b8634d80bcee54ae7c5fa",
+        "68965d87ad83dd946aa70764e3ab1d96",
+        "b0b990af2840ed74d9e0a6adb20aa618",
+        "73312e0bfd605634f9c3bc2de2f37312",
+        "2aaf75cf41a7de24ca38764c29dce94c",
+        "5d442739772d7f64fa8f637808614a45",
+        "1cf13e2abd4e3684697cf4e55b3f4e3c",
+        "b300a11a7bdf6b044bdb204459419881",
+        "742c495af4e357a4486b7d9eaaec22c1",
+        "20704a1fb28a7624cb4e7c0749fd6817",
+        "64a6c1d743a30954d9ea87f8a9eb4755",
+        "36dd094e96538d74598c4c0272d87d8f",
+        "218bbdfbcd7121f42a1b46e84526c161",
+        "55bf4863723a5ab42962465d9c66baf7",
+        "a1de648c88bdaee499736473b7efaf16",
+        "5ccd32b787c5a3a4cb230774149b6e7d",
+        "4e94272983a2e9e4f9789df77bd1c4d5",
+        "4bcfa21da09de7d46924ee3c3e36ad79"
+      ]
+    },
+    {
+      "key": "GOAT",
+      "display": "Goat Simulator",
+      "asset": "OverworldDungeon-GoatSimulatorCollab",
+      "gate_id": "b9d088a5f76840868879ff4dfd8c2086",
+      "completion_id": null,
+      "bear_id": null,
+      "requires": [
+        "JUMPING"
+      ],
+      "achievement": "OverworldComplete_GOAT",
+      "gold_achievement": "OverworldGold_GOAT",
+      "islands": [
+        {
+          "key": "goatville",
+          "display": "Goatville-Island",
+          "levels": [
+            "b0f1d371555285045a378aae153001f3",
+            "40d3f975e9382fc4eafb6a762e56a683",
+            "9c631a62f096d504e9dd3bf8f9305ea0",
+            "420b01a36bcf71741a0b5446eb417825",
+            "8217edcdcfc7d8b4e8003fa506e7d8ca",
+            "025a889f2d6977a4fa9e2148ae70f239",
+            "3e27e0e93e38fee4aae3c203887a5849",
+            "5d859d824da159d42b313e3a490cefb7",
+            "9565d8b65d5a22b4b98327d33a0378fd"
+          ]
+        },
+        {
+          "key": "towersecret",
+          "display": "TowerSecret-Island",
+          "levels": []
+        }
+      ],
+      "levels": [
+        "b0f1d371555285045a378aae153001f3",
+        "40d3f975e9382fc4eafb6a762e56a683",
+        "9c631a62f096d504e9dd3bf8f9305ea0",
+        "420b01a36bcf71741a0b5446eb417825",
+        "8217edcdcfc7d8b4e8003fa506e7d8ca",
+        "025a889f2d6977a4fa9e2148ae70f239",
+        "3e27e0e93e38fee4aae3c203887a5849",
+        "5d859d824da159d42b313e3a490cefb7",
+        "9565d8b65d5a22b4b98327d33a0378fd"
+      ]
+    },
+    {
+      "key": "JOB",
+      "display": "Jobs",
+      "asset": "Overworld - JOB",
+      "gate_id": "b9d088a5f76840868879ff4dfd8c2086",
+      "completion_id": "ece883f86cac420cbac093e07ba8d141",
+      "bear_id": "ece883f86cac420cbac093e07ba8d141",
+      "requires": [
+        "JUMPING"
+      ],
+      "achievement": "OverworldComplete_Jobs",
+      "gold_achievement": "OverworldGold_Jobs",
+      "islands": [
+        {
+          "key": "job_start",
+          "display": "Job Start Island",
+          "levels": []
+        },
+        {
+          "key": "bank_job",
+          "display": "Bank Job Island",
+          "levels": [
+            "a99d36a67bc21c74db840cf8f9771938",
+            "2ea2438aad247b645980a35d37975ad1"
+          ]
+        },
+        {
+          "key": "summer_job",
+          "display": "Summer Job Island",
+          "levels": [
+            "77922f7dfc263984f909a9f016aaeca5",
+            "c33d4fe0ed26b4b82868eb99ba457ae3",
+            "40261652f9e61864f9dad522d22b5426",
+            "1aea2651f9ba2ad4286856d25c151a41"
+          ]
+        },
+        {
+          "key": "office_job_hub",
+          "display": "Office Job Hub Island",
+          "levels": [
+            "e22cd7a471af30d46ac999d314440a4a",
+            "7fbb274cc466dfb44b47bdc16e0de71b",
+            "4439cc9699fe9e34ba93a596a72a5eab"
+          ]
+        },
+        {
+          "key": "break_room",
+          "display": "Break Room Island",
+          "levels": [
+            "ab0e2cf2ceac9d240a06c9a157762d05",
+            "5d859d824da159d42b313e3a490cefb7"
+          ]
+        },
+        {
+          "key": "office_job",
+          "display": "Office Job Island",
+          "levels": [
+            "1e55f645cd652ce41be2e3fe052aa68b",
+            "cf093a96033bba644b0c9c5272430d0f",
+            "20801b8f7a8cd7040bf5921b52e582a9"
+          ]
+        },
+        {
+          "key": "office_hard",
+          "display": "Office Hard Island",
+          "levels": [
+            "28dd60ce9e4131a44a8b105524e9576c"
+          ]
+        },
+        {
+          "key": "drive_through",
+          "display": "Drive-Through Island",
+          "levels": [
+            "56653430aef395547a4ade3e68c8643a",
+            "91627377fc084064d95e3fe4e94ae49b",
+            "9db4f64d397bb3244983bf7a47f78b0b",
+            "cdf796324b9a9d44589d5132b7faa5e5"
+          ]
+        },
+        {
+          "key": "climbing_building_hard",
+          "display": "Climbing Building Hard Island",
+          "levels": [
+            "fd2efbff868188845999eb97ebeedcf0"
+          ]
+        },
+        {
+          "key": "tech_support",
+          "display": "Tech Support Island",
+          "levels": [
+            "27395adf08f97b04db89f1896d82e7ac",
+            "f795b5e4e3b20d3479145f2c087657c2"
+          ]
+        },
+        {
+          "key": "hard_car_thief",
+          "display": "Hard Car Thief Island",
+          "levels": [
+            "9fba25e930aa99b439ccf91f863672b8",
+            "3c034c1021303114f9c9e32306c041ff"
+          ]
+        },
+        {
+          "key": "top_ugc_levels_area_ep_3",
+          "display": "Top UGC levels area ep 3",
+          "levels": []
+        }
+      ],
+      "levels": [
+        "a99d36a67bc21c74db840cf8f9771938",
+        "2ea2438aad247b645980a35d37975ad1",
+        "77922f7dfc263984f909a9f016aaeca5",
+        "c33d4fe0ed26b4b82868eb99ba457ae3",
+        "40261652f9e61864f9dad522d22b5426",
+        "1aea2651f9ba2ad4286856d25c151a41",
+        "e22cd7a471af30d46ac999d314440a4a",
+        "7fbb274cc466dfb44b47bdc16e0de71b",
+        "4439cc9699fe9e34ba93a596a72a5eab",
+        "ab0e2cf2ceac9d240a06c9a157762d05",
+        "1e55f645cd652ce41be2e3fe052aa68b",
+        "cf093a96033bba644b0c9c5272430d0f",
+        "20801b8f7a8cd7040bf5921b52e582a9",
+        "28dd60ce9e4131a44a8b105524e9576c",
+        "56653430aef395547a4ade3e68c8643a",
+        "91627377fc084064d95e3fe4e94ae49b",
+        "9db4f64d397bb3244983bf7a47f78b0b",
+        "cdf796324b9a9d44589d5132b7faa5e5",
+        "fd2efbff868188845999eb97ebeedcf0",
+        "27395adf08f97b04db89f1896d82e7ac",
+        "f795b5e4e3b20d3479145f2c087657c2",
+        "9fba25e930aa99b439ccf91f863672b8",
+        "3c034c1021303114f9c9e32306c041ff"
+      ]
+    },
+    {
+      "key": "JUMPING",
+      "display": "Jumping",
+      "asset": "Overworld - JUMPING",
+      "gate_id": "e07aab567ff149faaa1fae2e0da62622",
+      "completion_id": "b9d088a5f76840868879ff4dfd8c2086",
+      "bear_id": "b9d088a5f76840868879ff4dfd8c2086",
+      "requires": [],
+      "achievement": "OverworldComplete_Jump",
+      "gold_achievement": "OverworldGold_Jump",
+      "islands": [
+        {
+          "key": "jumping_start",
+          "display": "Jumping Start Island",
+          "levels": []
+        },
+        {
+          "key": "beach_platforming_variant",
+          "display": "Beach Platforming Variant",
+          "levels": [
+            "87ef10a94a109ad4aa122ba63295bdc1",
+            "0204b0e72af3f874e83f743db9997b35",
+            "633d6df0d7dd442408012835d347f7f2"
+          ]
+        },
+        {
+          "key": "frogs",
+          "display": "Frogs",
+          "levels": [
+            "36f5550931c0f3d4da76ace65a9a6518",
+            "3c780f32fdbb9084898f985d632bc9fe"
+          ]
+        },
+        {
+          "key": "just_jumping",
+          "display": "Just Jumping Island",
+          "levels": [
+            "009d148cfc754fa45ac69cb4429e1b9b",
+            "9c17b05a9fe9bb74898a1fee12a6e9b0",
+            "74431425daaa623439e64188398fa206",
+            "15eecd00ecd98404397ce437c2af6198"
+          ]
+        },
+        {
+          "key": "jump_intermezzo",
+          "display": "Jump Intermezzo Island",
+          "levels": [
+            "cf732645934d9924fbfc6047ea7c949b",
+            "37ae8b2d87d17c24f9d00e00b1219eb8"
+          ]
+        },
+        {
+          "key": "run_and_jump",
+          "display": "Run and Jump Island",
+          "levels": [
+            "bbe6df47776712248b70ef1eaac1bfc3",
+            "837b855d987e30b489b07ae68f069d37",
+            "50514f1cc864c384b97b67336389adb5",
+            "e9ad935e831a86d4ba949cc7633f4f7a"
+          ]
+        },
+        {
+          "key": "auto_jumper",
+          "display": "Auto Jumper",
+          "levels": [
+            "9ea4b5c1eb09d2a4c9aac1ea18432da2"
+          ]
+        },
+        {
+          "key": "platforming_hard_area",
+          "display": "Platforming Hard Area",
+          "levels": [
+            "6e608b37f55fc214ba8cd06d857bf5f9"
+          ]
+        },
+        {
+          "key": "top_ugc_levels_area_ep_1",
+          "display": "Top UGC levels area ep 1",
+          "levels": [
+            "df404b80252b44b43bad3ca79fea77a1",
+            "c3a1ce4b2549c9b4081f1cee576661e5"
+          ]
+        },
+        {
+          "key": "halloween_platforming",
+          "display": "Halloween Platforming Island",
+          "levels": []
+        }
+      ],
+      "levels": [
+        "87ef10a94a109ad4aa122ba63295bdc1",
+        "0204b0e72af3f874e83f743db9997b35",
+        "633d6df0d7dd442408012835d347f7f2",
+        "36f5550931c0f3d4da76ace65a9a6518",
+        "3c780f32fdbb9084898f985d632bc9fe",
+        "009d148cfc754fa45ac69cb4429e1b9b",
+        "9c17b05a9fe9bb74898a1fee12a6e9b0",
+        "74431425daaa623439e64188398fa206",
+        "15eecd00ecd98404397ce437c2af6198",
+        "cf732645934d9924fbfc6047ea7c949b",
+        "37ae8b2d87d17c24f9d00e00b1219eb8",
+        "bbe6df47776712248b70ef1eaac1bfc3",
+        "837b855d987e30b489b07ae68f069d37",
+        "50514f1cc864c384b97b67336389adb5",
+        "e9ad935e831a86d4ba949cc7633f4f7a",
+        "9ea4b5c1eb09d2a4c9aac1ea18432da2",
+        "6e608b37f55fc214ba8cd06d857bf5f9",
+        "df404b80252b44b43bad3ca79fea77a1",
+        "c3a1ce4b2549c9b4081f1cee576661e5"
+      ]
+    },
+    {
+      "key": "LONG",
+      "display": "Long",
+      "asset": "Overworld - LONG",
+      "gate_id": "de33aab219fe49948ce250ec76420699",
+      "completion_id": "a84177462ca84fad80bc0efd04b05c50",
+      "bear_id": "a84177462ca84fad80bc0efd04b05c50",
+      "requires": [
+        "SOCCER"
+      ],
+      "achievement": "OverworldComplete_Long",
+      "gold_achievement": "OverworldGold_Long",
+      "islands": [
+        {
+          "key": "long_start",
+          "display": "Long Start Island",
+          "levels": [
+            "bc1e672cefef5b7478403bfb878221cd",
+            "82ede39e6fd543a45a10731a256f8748",
+            "3bf80326e55305a458577e3274cc4d24",
+            "4b4365cadbcc7d54d9d158170efc1491",
+            "436a4c7a7ae8d48438226cee3db1f918",
+            "6ab68207fb9e6cd46a1fbdf5095b730d"
+          ]
+        },
+        {
+          "key": "long_parts",
+          "display": "Long Parts Island",
+          "levels": [
+            "56e83c37e7423da49ab9ee5058fe99ee",
+            "b26f3893294a25d49a47368a90dc8fec",
+            "a48108a86301aa547a4c6c369bbd2ecc"
+          ]
+        },
+        {
+          "key": "giraffe",
+          "display": "Giraffe Island",
+          "levels": [
+            "a8f67862c64ac7342bf4d665e358e895",
+            "e7ad5a9e54bfb4f4d9dd7bfc5cfafd3e",
+            "e1c113adf2adc0144a346bb7bb9fc6a0",
+            "29640b01fa3e4ce47ab0f8a273eec06b",
+            "7b47d454e27523a45911b51d77e94050",
+            "4e9decb7ae4a5504da065a809e61cf4c"
+          ]
+        },
+        {
+          "key": "giraffethrowing",
+          "display": "GiraffeThrowing Island",
+          "levels": [
+            "05decf4708917574ba96c0c703371e50"
+          ]
+        },
+        {
+          "key": "swinging_car",
+          "display": "Swinging Car Island",
+          "levels": [
+            "2933669bdeb031c4e86867f09f2d3404",
+            "9a5130d34fe31e84ebac8a993644ddfb"
+          ]
+        },
+        {
+          "key": "circus",
+          "display": "Circus Island",
+          "levels": [
+            "6957d173a8411924e9173ca8a6ba5d67",
+            "6d97e2cc7f4667b43ae39a8a24bba9c4"
+          ]
+        },
+        {
+          "key": "top_ugc_levels_area_ep_4",
+          "display": "Top UGC levels area ep 4",
+          "levels": []
+        }
+      ],
+      "levels": [
+        "bc1e672cefef5b7478403bfb878221cd",
+        "82ede39e6fd543a45a10731a256f8748",
+        "3bf80326e55305a458577e3274cc4d24",
+        "4b4365cadbcc7d54d9d158170efc1491",
+        "436a4c7a7ae8d48438226cee3db1f918",
+        "6ab68207fb9e6cd46a1fbdf5095b730d",
+        "56e83c37e7423da49ab9ee5058fe99ee",
+        "b26f3893294a25d49a47368a90dc8fec",
+        "a48108a86301aa547a4c6c369bbd2ecc",
+        "a8f67862c64ac7342bf4d665e358e895",
+        "e7ad5a9e54bfb4f4d9dd7bfc5cfafd3e",
+        "e1c113adf2adc0144a346bb7bb9fc6a0",
+        "29640b01fa3e4ce47ab0f8a273eec06b",
+        "7b47d454e27523a45911b51d77e94050",
+        "4e9decb7ae4a5504da065a809e61cf4c",
+        "05decf4708917574ba96c0c703371e50",
+        "2933669bdeb031c4e86867f09f2d3404",
+        "9a5130d34fe31e84ebac8a993644ddfb",
+        "6957d173a8411924e9173ca8a6ba5d67",
+        "6d97e2cc7f4667b43ae39a8a24bba9c4"
+      ]
+    },
+    {
+      "key": "SNEAKY",
+      "display": "Sneaky Sasquatch",
+      "asset": "OverworldDungeon-SneakySasquatch",
+      "gate_id": "b9d088a5f76840868879ff4dfd8c2086",
+      "completion_id": null,
+      "bear_id": null,
+      "requires": [
+        "JUMPING"
+      ],
+      "achievement": "OverworldComplete_Sneaky",
+      "gold_achievement": "OverworldGold_Sneaky",
+      "islands": [
+        {
+          "key": "entrance",
+          "display": "Entrance Island",
+          "levels": [
+            "e9ef449fa6bc2ad4eb418e2d198b149a",
+            "cd6225cc2d852ec4c8ae1d27cec4837d",
+            "0f9633acfc9355149831165b0ef970b5",
+            "912a101287e4dd844b8b875249fda8f3"
+          ]
+        },
+        {
+          "key": "river",
+          "display": "River Island",
+          "levels": [
+            "f9fb43257a6d6dc43815b63ecdf01689",
+            "d7e571a9cb20e4b4089e90e94ddc5474",
+            "170c0b5b80c4fdc459f474348d8867df",
+            "08cc85bf751a76644ae44c3612783fa5"
+          ]
+        },
+        {
+          "key": "bridgesisland",
+          "display": "BridgesIsland",
+          "levels": [
+            "60d846fb80bb34b49809fa2dbf95f191",
+            "a3307eaf8aa064749a486599d363528e",
+            "d0aeac69d76c28c44b8ed4add95c8bb2",
+            "9bdddd42b54755444af1937393a5defb"
+          ]
+        },
+        {
+          "key": "top_ugc_levels_area_ep_sneaky",
+          "display": "Top UGC levels area ep sneaky",
+          "levels": []
+        },
+        {
+          "key": "hiddencaveisland",
+          "display": "HiddenCaveIsland",
+          "levels": []
+        }
+      ],
+      "levels": [
+        "e9ef449fa6bc2ad4eb418e2d198b149a",
+        "cd6225cc2d852ec4c8ae1d27cec4837d",
+        "0f9633acfc9355149831165b0ef970b5",
+        "912a101287e4dd844b8b875249fda8f3",
+        "f9fb43257a6d6dc43815b63ecdf01689",
+        "d7e571a9cb20e4b4089e90e94ddc5474",
+        "170c0b5b80c4fdc459f474348d8867df",
+        "08cc85bf751a76644ae44c3612783fa5",
+        "60d846fb80bb34b49809fa2dbf95f191",
+        "a3307eaf8aa064749a486599d363528e",
+        "d0aeac69d76c28c44b8ed4add95c8bb2",
+        "9bdddd42b54755444af1937393a5defb"
+      ]
+    },
+    {
+      "key": "SOCCER",
+      "display": "Soccer",
+      "asset": "Overworld - SOCCER",
+      "gate_id": "ece883f86cac420cbac093e07ba8d141",
+      "completion_id": "de33aab219fe49948ce250ec76420699",
+      "bear_id": "de33aab219fe49948ce250ec76420699",
+      "requires": [
+        "JOB"
+      ],
+      "achievement": "OverworldComplete_Soccer",
+      "gold_achievement": "OverworldGold_Soccer",
+      "islands": [
+        {
+          "key": "soccer_start",
+          "display": "Soccer Start Island",
+          "levels": []
+        },
+        {
+          "key": "rideball",
+          "display": "RideBall Island",
+          "levels": [
+            "27ccf11673b2f3445816a1502e135670",
+            "757ae04d5024808498d1f79b3733c09f",
+            "0fdbd5c51172cdb4d9458a44a40181a7"
+          ]
+        },
+        {
+          "key": "carisgoal",
+          "display": "CarIsGoal Island",
+          "levels": [
+            "48c7605c41555f54f87cc5d5718ba0fd"
+          ]
+        },
+        {
+          "key": "bowling",
+          "display": "Bowling Island",
+          "levels": [
+            "bd1de8b5fedf74467bc8d64d3069bc35",
+            "f6df5a96014ead744b2e3e6e2b145a82"
+          ]
+        },
+        {
+          "key": "betheball",
+          "display": "BeTheBall Island",
+          "levels": [
+            "c72b6c0d1b5a868488957a768505670b",
+            "50bfcd869debb984483ebbbf2ce2b814",
+            "f77f0b67167cfe948bfb211bceaedfa0"
+          ]
+        },
+        {
+          "key": "pushtheball",
+          "display": "PushTheBall Island",
+          "levels": [
+            "38455d288854f03468f157769c136a45",
+            "0528e5b227ad91249a93a93b049dc003"
+          ]
+        },
+        {
+          "key": "kicktheball",
+          "display": "KickTheBall Island",
+          "levels": [
+            "004f12ff7a4f0d646b7f80902af8a525",
+            "8951d4a367a363f4da545e57d2f7ccc2",
+            "fe37cf0de6dbf16478623b36aef1b535",
+            "adef9a990b7222d4c9ff96d28d2c9825",
+            "0fc7b41702801a449a21c204e86d1119",
+            "f170b018e14370f4fad5faa67e68cfea"
+          ]
+        },
+        {
+          "key": "rocket_leg_vs_bear_hard_variant",
+          "display": "Rocket Leg Vs Bear (Hard) Variant",
+          "levels": [
+            "befaf5547c0b23245ad7265faaaa2c9e"
+          ]
+        },
+        {
+          "key": "secret_path_variant",
+          "display": "Secret path Variant",
+          "levels": []
+        },
+        {
+          "key": "soccercannon",
+          "display": "SoccerCannon Island",
+          "levels": [
+            "015788d28cb7a644da46b75bea60aba0",
+            "ac5355dafa8daeb4fbff93ef921ce16e"
+          ]
+        },
+        {
+          "key": "ballingoalchallenge",
+          "display": "BallInGoalChallenge Island",
+          "levels": [
+            "e18eb7ad572323f47a8013a5eff8fd7e"
+          ]
+        },
+        {
+          "key": "top_ugc_levels_area_ep_2",
+          "display": "Top UGC levels area ep 2",
+          "levels": []
+        }
+      ],
+      "levels": [
+        "27ccf11673b2f3445816a1502e135670",
+        "757ae04d5024808498d1f79b3733c09f",
+        "0fdbd5c51172cdb4d9458a44a40181a7",
+        "48c7605c41555f54f87cc5d5718ba0fd",
+        "bd1de8b5fedf74467bc8d64d3069bc35",
+        "f6df5a96014ead744b2e3e6e2b145a82",
+        "c72b6c0d1b5a868488957a768505670b",
+        "50bfcd869debb984483ebbbf2ce2b814",
+        "f77f0b67167cfe948bfb211bceaedfa0",
+        "38455d288854f03468f157769c136a45",
+        "0528e5b227ad91249a93a93b049dc003",
+        "004f12ff7a4f0d646b7f80902af8a525",
+        "8951d4a367a363f4da545e57d2f7ccc2",
+        "fe37cf0de6dbf16478623b36aef1b535",
+        "adef9a990b7222d4c9ff96d28d2c9825",
+        "0fc7b41702801a449a21c204e86d1119",
+        "f170b018e14370f4fad5faa67e68cfea",
+        "befaf5547c0b23245ad7265faaaa2c9e",
+        "015788d28cb7a644da46b75bea60aba0",
+        "ac5355dafa8daeb4fbff93ef921ce16e",
+        "e18eb7ad572323f47a8013a5eff8fd7e"
+      ]
+    },
+    {
+      "key": "STORM",
+      "display": "Storm",
+      "asset": "Overworld - STORM",
+      "gate_id": "de33aab219fe49948ce250ec76420699",
+      "completion_id": null,
+      "bear_id": null,
+      "requires": [
+        "SOCCER"
+      ],
+      "achievement": "OverworldComplete_Storm",
+      "gold_achievement": "OverworldGold_Storm",
+      "islands": [
+        {
+          "key": "storm_start",
+          "display": "Storm Start Island",
+          "levels": [
+            "b15fdf05e04b04f4ea11d5ff3b6ee335"
+          ]
+        },
+        {
+          "key": "storm_start_moving",
+          "display": "Storm Start Island - moving",
+          "levels": []
+        },
+        {
+          "key": "storm_main",
+          "display": "Storm Main Island",
+          "levels": []
+        },
+        {
+          "key": "storm_branch_1_1_monster_car",
+          "display": "Storm Branch 1-1 Island - MONSTER CAR",
+          "levels": [
+            "cb41ea70409cc5b4c99818d8413f2ce6",
+            "4a6f44d8f1f00984e8b59d182d2477b8",
+            "42af04525166a964c8d3d4cdbe58dbeb",
+            "792b365716ae1b74da662ba790169c3d",
+            "5744606104ee81d4886431b202d2d6b7",
+            "c5e7ecb71aec0c24dab38ee8574a7447"
+          ]
+        },
+        {
+          "key": "storm_branch_1_2_porcarpine",
+          "display": "Storm Branch 1-2 Island - PORCARPINE",
+          "levels": [
+            "f0672f04c8308f3499e9349951eb9eb2",
+            "9ad5a65ef3819c74cb14b052838b6b12",
+            "7df8ecd0ea24eb24aacc97bd37cae8f0",
+            "545d4612473b42646aef69de54e654a7"
+          ]
+        },
+        {
+          "key": "storm_branch_2_1",
+          "display": "Storm Branch 2-1 Island",
+          "levels": [
+            "b094fd736bb7a584aab9f31b0dafafe9",
+            "def9c833034a9134bbf9929a3f630d67",
+            "6268bedcb0567c441bce2e867d17266b",
+            "aa17c2a1b46eaf3448d28eee693d5be2",
+            "2be741fa4aa2999419905d72dec39a82"
+          ]
+        },
+        {
+          "key": "storm_branch_2_2",
+          "display": "Storm Branch 2-2 Island",
+          "levels": [
+            "39a15b8ac7067aa4db26ed6941e6501c",
+            "9d32c52847ccd4244bd56e4bddf54191",
+            "a624c459f7e46c1478b1a816755448df",
+            "a9d5aebb76d6a2f48be25c494daf71d5"
+          ]
+        },
+        {
+          "key": "storm_hidden_cave",
+          "display": "Storm Hidden Cave",
+          "levels": []
+        },
+        {
+          "key": "storm_hard_1",
+          "display": "Storm Hard Island 1",
+          "levels": [
+            "ed3e5c2e4fdf2784896742c562d4052e"
+          ]
+        }
+      ],
+      "levels": [
+        "b15fdf05e04b04f4ea11d5ff3b6ee335",
+        "cb41ea70409cc5b4c99818d8413f2ce6",
+        "4a6f44d8f1f00984e8b59d182d2477b8",
+        "42af04525166a964c8d3d4cdbe58dbeb",
+        "792b365716ae1b74da662ba790169c3d",
+        "5744606104ee81d4886431b202d2d6b7",
+        "c5e7ecb71aec0c24dab38ee8574a7447",
+        "f0672f04c8308f3499e9349951eb9eb2",
+        "9ad5a65ef3819c74cb14b052838b6b12",
+        "7df8ecd0ea24eb24aacc97bd37cae8f0",
+        "545d4612473b42646aef69de54e654a7",
+        "b094fd736bb7a584aab9f31b0dafafe9",
+        "def9c833034a9134bbf9929a3f630d67",
+        "6268bedcb0567c441bce2e867d17266b",
+        "aa17c2a1b46eaf3448d28eee693d5be2",
+        "2be741fa4aa2999419905d72dec39a82",
+        "39a15b8ac7067aa4db26ed6941e6501c",
+        "9d32c52847ccd4244bd56e4bddf54191",
+        "a624c459f7e46c1478b1a816755448df",
+        "a9d5aebb76d6a2f48be25c494daf71d5",
+        "ed3e5c2e4fdf2784896742c562d4052e"
+      ]
+    },
+    {
+      "key": "WHEELS",
+      "display": "Wheels",
+      "asset": "Overworld - WHEELS",
+      "gate_id": "a84177462ca84fad80bc0efd04b05c50",
+      "completion_id": "3f0562b08f2342418d953a1b3fc58ee7",
+      "bear_id": "3f0562b08f2342418d953a1b3fc58ee7",
+      "requires": [
+        "LONG"
+      ],
+      "achievement": "OverworldComplete_Wheels",
+      "gold_achievement": "OverworldGold_Wheels",
+      "islands": [
+        {
+          "key": "more_wheels",
+          "display": "More Wheels Island",
+          "levels": [
+            "a3c8a612fa9aa3548aafc33b30915dbf",
+            "4e757c3bc4400c44a9d422fa8aa136fc",
+            "f9f8b9ed5fc99734facfe0ef8679c6e1",
+            "4c42d29ec1ddab745aa54eb850c732eb"
+          ]
+        },
+        {
+          "key": "the_aquaduct_race_variant",
+          "display": "The Aquaduct Race Variant",
+          "levels": []
+        },
+        {
+          "key": "car",
+          "display": "Car Island",
+          "levels": []
+        },
+        {
+          "key": "jetpack",
+          "display": "Jetpack Island",
+          "levels": [
+            "955d004d807122341802e41ad004bb31",
+            "853f0350c6cf3b64dbca659402452b8c",
+            "3d146b987bcc70548bedf445a1b8432b",
+            "33d376906e51e234eb5aac0a7a2af8b8",
+            "beaec686845a8204e896c572bbe4c014",
+            "9565d8b65d5a22b4b98327d33a0378fd"
+          ]
+        },
+        {
+          "key": "scarlextric",
+          "display": "Scarlextric Island",
+          "levels": [
+            "1f2d9e427e4d1b44eaf4373759616057",
+            "9f493d410ffc8194690c9f6c61c8ea95",
+            "56b8e99d4d850784aae527065d2ae32a"
+          ]
+        },
+        {
+          "key": "hot_wheels",
+          "display": "Hot Wheels Island",
+          "levels": [
+            "cb9c0611a6486cc449890109dcef1dda",
+            "fab7e628e93a99a47bea0144ec2b8c84",
+            "3ee232560b44a664aa202a2b64f442ed",
+            "a19f37cc85fd4ef43b9c33aa3e72cefc"
+          ]
+        },
+        {
+          "key": "weird_wheels",
+          "display": "Weird Wheels Island",
+          "levels": [
+            "4bb0e1ceb5429c94f91b4f97039d76fc",
+            "756391ad1dfc0ec4c88d68c5c5964b2f"
+          ]
+        },
+        {
+          "key": "jetpack_hard",
+          "display": "Jetpack Hard Island",
+          "levels": [
+            "76937af4886015b4ab90324c3c8296cf"
+          ]
+        },
+        {
+          "key": "hotwheels_hard",
+          "display": "HotWheels Hard Island",
+          "levels": [
+            "769cef3e0b48162428270f5fde39166f"
+          ]
+        },
+        {
+          "key": "gooseevent",
+          "display": "GooseEvent Island",
+          "levels": []
+        },
+        {
+          "key": "scarlextric_hard",
+          "display": "Scarlextric Hard Island",
+          "levels": [
+            "54de5bb5341a7004ca8a92cc1ceba14e"
+          ]
+        },
+        {
+          "key": "top_ugc_levels_area_ep_5",
+          "display": "Top UGC levels area ep 5",
+          "levels": []
+        }
+      ],
+      "levels": [
+        "a3c8a612fa9aa3548aafc33b30915dbf",
+        "4e757c3bc4400c44a9d422fa8aa136fc",
+        "f9f8b9ed5fc99734facfe0ef8679c6e1",
+        "4c42d29ec1ddab745aa54eb850c732eb",
+        "955d004d807122341802e41ad004bb31",
+        "853f0350c6cf3b64dbca659402452b8c",
+        "3d146b987bcc70548bedf445a1b8432b",
+        "33d376906e51e234eb5aac0a7a2af8b8",
+        "beaec686845a8204e896c572bbe4c014",
+        "1f2d9e427e4d1b44eaf4373759616057",
+        "9f493d410ffc8194690c9f6c61c8ea95",
+        "56b8e99d4d850784aae527065d2ae32a",
+        "cb9c0611a6486cc449890109dcef1dda",
+        "fab7e628e93a99a47bea0144ec2b8c84",
+        "3ee232560b44a664aa202a2b64f442ed",
+        "a19f37cc85fd4ef43b9c33aa3e72cefc",
+        "4bb0e1ceb5429c94f91b4f97039d76fc",
+        "756391ad1dfc0ec4c88d68c5c5964b2f",
+        "76937af4886015b4ab90324c3c8296cf",
+        "769cef3e0b48162428270f5fde39166f",
+        "54de5bb5341a7004ca8a92cc1ceba14e"
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "id": "2b53813e817368d4382f2db546aac4a5",
+      "display": "Car Is Suspicious",
+      "name": "Car Is Suspicious",
+      "debug": "CarWithLegs jumping AmongUs",
+      "overworld": "AMONGCAR",
+      "island": "among_us_right_cockpit",
+      "subtype": "Normal",
+      "silver": 35.0,
+      "gold": 28.0
+    },
+    {
+      "id": "1e461cf6370a7b245bb5a6e448b22b5d",
+      "display": "Ejected",
+      "name": "Ejected",
+      "debug": "GiraffeThrowing AmongUs Variant",
+      "overworld": "AMONGCAR",
+      "island": "among_us_bottom_chute",
+      "subtype": "Intermezzo",
+      "silver": 12.0,
+      "gold": 7.5
+    },
+    {
+      "id": "ed22e3c9f1fef6c438781f59820f94be",
+      "display": "Pew Pew",
+      "name": "Pew Pew",
+      "debug": "Intermezzo_CannonShooter AmongUs Variant",
+      "overworld": "AMONGCAR",
+      "island": "among_us_right_cannon",
+      "subtype": "Intermezzo",
+      "silver": 19.2,
+      "gold": 18.5
+    },
+    {
+      "id": "f5903d71f9875234cac9db3f29aa9036",
+      "display": "That's Pretty Dum",
+      "name": "That's Pretty Dum",
+      "debug": "Printer AmongUs",
+      "overworld": "AMONGCAR",
+      "island": "among_us_left_office",
+      "subtype": "Normal",
+      "silver": 37.0,
+      "gold": 31.0
+    },
+    {
+      "id": "f3095ec16c8107d47b0ec2d99e6d3af8",
+      "display": "Welcome To The Fungle",
+      "name": "Welcome To The Fungle",
+      "debug": "Long Car AmongUs",
+      "overworld": "AMONGCAR",
+      "island": "among_us_bottom_chute",
+      "subtype": "Normal",
+      "silver": 40.0,
+      "gold": 30.0
+    },
+    {
+      "id": "73312e0bfd605634f9c3bc2de2f37312",
+      "display": "All Aboard The Car- Tamaran",
+      "name": "All Aboard The Car- Tamaran",
+      "debug": "Cartamaran 1",
+      "overworld": "BEACH",
+      "island": "beach_1",
+      "subtype": "Normal",
+      "silver": 50.0,
+      "gold": 43.0
+    },
+    {
+      "id": "20704a1fb28a7624cb4e7c0749fd6817",
+      "display": "Car Goes Kite Surfing",
+      "name": "Car Goes Kite Surfing",
+      "debug": "KiteSurfer",
+      "overworld": "BEACH",
+      "island": "beach_2",
+      "subtype": "Normal",
+      "silver": 41.0,
+      "gold": 39.0
+    },
+    {
+      "id": "b300a11a7bdf6b044bdb204459419881",
+      "display": "Car On Surfboard",
+      "name": "Car On Surfboard",
+      "debug": "CarOnSurfboard",
+      "overworld": "BEACH",
+      "island": "beach_2",
+      "subtype": "Normal",
+      "silver": 40.0,
+      "gold": 35.0
+    },
+    {
+      "id": "55bf4863723a5ab42962465d9c66baf7",
+      "display": "Car Prepares Banana Boat",
+      "name": "Car Prepares Banana Boat",
+      "debug": "AirPumpShop",
+      "overworld": "BEACH",
+      "island": "beach_2_b",
+      "subtype": "Intermezzo",
+      "silver": 30.5,
+      "gold": 24.5
+    },
+    {
+      "id": "218bbdfbcd7121f42a1b46e84526c161",
+      "display": "Car With Flippers",
+      "name": "Car With Flippers",
+      "debug": "CarWithFlippersAsWheels",
+      "overworld": "BEACH",
+      "island": "beach_2_b",
+      "subtype": "Normal",
+      "silver": 67.0,
+      "gold": 60.0
+    },
+    {
+      "id": "68965d87ad83dd946aa70764e3ab1d96",
+      "display": "Car- Ados",
+      "name": "Car- Ados",
+      "debug": "Carp 3",
+      "overworld": "BEACH",
+      "island": "beach_start",
+      "subtype": "Normal",
+      "silver": 60.0,
+      "gold": 47.0
+    },
+    {
+      "id": "5d442739772d7f64fa8f637808614a45",
+      "display": "Car- Aoke",
+      "name": "Car- Aoke",
+      "debug": "Karaoke",
+      "overworld": "BEACH",
+      "island": "beach_1",
+      "subtype": "Intermezzo",
+      "silver": 849.15,
+      "gold": 999.0
+    },
+    {
+      "id": "b0b990af2840ed74d9e0a6adb20aa618",
+      "display": "Catch The Fishy Line",
+      "name": "Catch The Fishy Line",
+      "debug": "FishingCar",
+      "overworld": "BEACH",
+      "island": "beach_start",
+      "subtype": "Normal",
+      "silver": 35.0,
+      "gold": 27.0
+    },
+    {
+      "id": "64a6c1d743a30954d9ea87f8a9eb4755",
+      "display": "Dok Dok Dok Dok Dok",
+      "name": "Dok Dok Dok Dok Dok",
+      "debug": "DokDokBold",
+      "overworld": "BEACH",
+      "island": "beach_2",
+      "subtype": "Intermezzo",
+      "silver": 20.0,
+      "gold": 14.0
+    },
+    {
+      "id": "e399379af1748e44aa12b59020bf904c",
+      "display": "Dun-Dun Dun-Dun Shar- Car!",
+      "name": "Dun-Dun Dun-Dun Shar- Car!",
+      "debug": "Sharcar 2",
+      "overworld": "BEACH",
+      "island": "beach_start",
+      "subtype": "Normal",
+      "silver": 51.0,
+      "gold": 46.0
+    },
+    {
+      "id": "1cf13e2abd4e3684697cf4e55b3f4e3c",
+      "display": "I Am The Car- Ptain Now",
+      "name": "I Am The Car- Ptain Now",
+      "debug": "Cartamaran 2",
+      "overworld": "BEACH",
+      "island": "beach_1",
+      "subtype": "Normal",
+      "silver": 67.0,
+      "gold": 59.0
+    },
+    {
+      "id": "5ccd32b787c5a3a4cb230774149b6e7d",
+      "display": "In Space No-One Can Hear You Sunscreen",
+      "name": "In Space No-One Can Hear You Sunscreen",
+      "debug": "SunscreenJumping",
+      "overworld": "BEACH",
+      "island": "beach_2_b",
+      "subtype": "Normal",
+      "silver": 56.0,
+      "gold": 48.0
+    },
+    {
+      "id": "25c4e04c50aa7ac46bdb21584317498f",
+      "display": "It's A Carp",
+      "name": "It's A Carp",
+      "debug": "Carp",
+      "overworld": "BEACH",
+      "island": "beach_start",
+      "subtype": "Normal",
+      "silver": 30.0,
+      "gold": 24.0
+    },
+    {
+      "id": "4dc1fbbc150b7e9458a35a14b284ae14",
+      "display": "Magi- Carp",
+      "name": "Magi- Carp",
+      "debug": "Carp 2",
+      "overworld": "BEACH",
+      "island": "beach_start",
+      "subtype": "Normal",
+      "silver": 32.0,
+      "gold": 26.0
+    },
+    {
+      "id": "7a1dcef944403ba478940d2fc6470d48",
+      "display": "Oh No! It's Shar- Car!",
+      "name": "Oh No! It's Shar- Car!",
+      "debug": "Sharcar",
+      "overworld": "BEACH",
+      "island": "beach_start",
+      "subtype": "Normal",
+      "silver": 53.0,
+      "gold": 49.0
+    },
+    {
+      "id": "2aaf75cf41a7de24ca38764c29dce94c",
+      "display": "Pirate Carrrr- Rrrr",
+      "name": "Pirate Carrrr- Rrrr",
+      "debug": "PirateBattle",
+      "overworld": "BEACH",
+      "island": "beach_1",
+      "subtype": "Normal",
+      "silver": 45.0,
+      "gold": 35.0
+    },
+    {
+      "id": "a1de648c88bdaee499736473b7efaf16",
+      "display": "Release The Banana Boat",
+      "name": "Release The Banana Boat",
+      "debug": "BananaBoat_Intermezzo",
+      "overworld": "BEACH",
+      "island": "beach_2_b",
+      "subtype": "Intermezzo",
+      "silver": 16.5,
+      "gold": 10.8
+    },
+    {
+      "id": "4bcfa21da09de7d46924ee3c3e36ad79",
+      "display": "Shar- Car- Nado",
+      "name": "Shar- Car- Nado",
+      "debug": "Sharcar HARD 1",
+      "overworld": "BEACH",
+      "island": "beach_hiddencave",
+      "subtype": "Hard",
+      "silver": 75.0,
+      "gold": 67.0
+    },
+    {
+      "id": "cd5afc9f7e4b8634d80bcee54ae7c5fa",
+      "display": "Shar- Cars Are Friends Not Food",
+      "name": "Shar- Cars Are Friends Not Food",
+      "debug": "Sharcar 3",
+      "overworld": "BEACH",
+      "island": "beach_start",
+      "subtype": "Normal",
+      "silver": 52.0,
+      "gold": 46.0
+    },
+    {
+      "id": "4e94272983a2e9e4f9789df77bd1c4d5",
+      "display": "Time To Carp Harder",
+      "name": "Time To Carp Harder",
+      "debug": "Carp HARD 1",
+      "overworld": "BEACH",
+      "island": "beach_hiddencave",
+      "subtype": "Hard",
+      "silver": 70.0,
+      "gold": 58.0
+    },
+    {
+      "id": "36dd094e96538d74598c4c0272d87d8f",
+      "display": "Who Let The Turtles Out?",
+      "name": "Who Let The Turtles Out?",
+      "debug": "KiteSurfer 2",
+      "overworld": "BEACH",
+      "island": "beach_2",
+      "subtype": "Normal",
+      "silver": 46.0,
+      "gold": 44.0
+    },
+    {
+      "id": "742c495af4e357a4486b7d9eaaec22c1",
+      "display": "You De- Surf This >:(",
+      "name": "You De- Surf This >:(",
+      "debug": "CarOnSurfboard 1",
+      "overworld": "BEACH",
+      "island": "beach_2",
+      "subtype": "Normal",
+      "silver": 42.0,
+      "gold": 37.0
+    },
+    {
+      "id": "9565d8b65d5a22b4b98327d33a0378fd",
+      "display": "Bike Me Up Scotty",
+      "name": "Bike Me Up Scotty",
+      "debug": "Bike With Jetpack 2",
+      "overworld": "GOAT",
+      "island": "goatville",
+      "subtype": "Normal",
+      "silver": 51.0,
+      "gold": 46.0
+    },
+    {
+      "id": "b0f1d371555285045a378aae153001f3",
+      "display": "Car On Goat",
+      "name": "Car On Goat",
+      "debug": "Autojumper Goat Variant",
+      "overworld": "GOAT",
+      "island": "goatville",
+      "subtype": "Normal",
+      "silver": 44.0,
+      "gold": 38.0
+    },
+    {
+      "id": "3e27e0e93e38fee4aae3c203887a5849",
+      "display": "Car With Jetpack But Down",
+      "name": "Car With Jetpack But Down",
+      "debug": "Running Car- Space DownBooster_Tutorial",
+      "overworld": "GOAT",
+      "island": "goatville",
+      "subtype": "Normal",
+      "silver": 35.0,
+      "gold": 30.0
+    },
+    {
+      "id": "9c631a62f096d504e9dd3bf8f9305ea0",
+      "display": "Goat Big Or Goat Home",
+      "name": "Goat Big Or Goat Home",
+      "debug": "Autojumper Goat Variant 2",
+      "overworld": "GOAT",
+      "island": "goatville",
+      "subtype": "Normal",
+      "silver": 55.0,
+      "gold": 40.0
+    },
+    {
+      "id": "420b01a36bcf71741a0b5446eb417825",
+      "display": "Goat On Car",
+      "name": "Goat On Car",
+      "debug": "LickyCar Goat 1",
+      "overworld": "GOAT",
+      "island": "goatville",
+      "subtype": "Normal",
+      "silver": 30.0,
+      "gold": 26.0
+    },
+    {
+      "id": "40d3f975e9382fc4eafb6a762e56a683",
+      "display": "I'm The G.O.A.T.",
+      "name": "I'm The G.O.A.T.",
+      "debug": "Karaoke GOAT VARIANT",
+      "overworld": "GOAT",
+      "island": "goatville",
+      "subtype": "Intermezzo",
+      "silver": 849.15,
+      "gold": 999.0
+    },
+    {
+      "id": "025a889f2d6977a4fa9e2148ae70f239",
+      "display": "Rocking Goat",
+      "name": "Rocking Goat",
+      "debug": "MadsJump_Intermezzo GOAT VARIANT",
+      "overworld": "GOAT",
+      "island": "goatville",
+      "subtype": "Intermezzo",
+      "silver": 8.0,
+      "gold": 4.0
+    },
+    {
+      "id": "5d859d824da159d42b313e3a490cefb7",
+      "display": "They See Me Rolling",
+      "name": "They See Me Rolling",
+      "debug": "Car on office chairs 3",
+      "overworld": "GOAT",
+      "island": "goatville",
+      "subtype": "Normal",
+      "silver": 46.0,
+      "gold": 33.0
+    },
+    {
+      "id": "8217edcdcfc7d8b4e8003fa506e7d8ca",
+      "display": "You  Goat This",
+      "name": "You  Goat This",
+      "debug": "LickyCar Goat 2",
+      "overworld": "GOAT",
+      "island": "goatville",
+      "subtype": "Normal",
+      "silver": 37.0,
+      "gold": 32.0
+    },
+    {
+      "id": "56653430aef395547a4ade3e68c8643a",
+      "display": "Bur- Car Restaurant",
+      "name": "Bur- Car Restaurant",
+      "debug": "BurgerRestaurant",
+      "overworld": "JOB",
+      "island": "drive_through",
+      "subtype": "Intermezzo",
+      "silver": 18.0,
+      "gold": 12.0
+    },
+    {
+      "id": "4439cc9699fe9e34ba93a596a72a5eab",
+      "display": "Car Goes Too Fast",
+      "name": "Car Goes Too Fast",
+      "debug": "Car on office chairs 2",
+      "overworld": "JOB",
+      "island": "office_job_hub",
+      "subtype": "Normal",
+      "silver": 33.0,
+      "gold": 25.0
+    },
+    {
+      "id": "20801b8f7a8cd7040bf5921b52e582a9",
+      "display": "Car Home You're Sick!",
+      "name": "Car Home You're Sick!",
+      "debug": "SneezingCar",
+      "overworld": "JOB",
+      "island": "office_job",
+      "subtype": "Normal",
+      "silver": 50.0,
+      "gold": 35.8
+    },
+    {
+      "id": "e22cd7a471af30d46ac999d314440a4a",
+      "display": "Car On Office Chairs",
+      "name": "Car On Office Chairs",
+      "debug": "Car on office chairs 1",
+      "overworld": "JOB",
+      "island": "office_job_hub",
+      "subtype": "Normal",
+      "silver": 33.0,
+      "gold": 27.0
+    },
+    {
+      "id": "40261652f9e61864f9dad522d22b5426",
+      "display": "Car On Vroom-Ba",
+      "name": "Car On Vroom-Ba",
+      "debug": "Car on Roomba",
+      "overworld": "JOB",
+      "island": "summer_job",
+      "subtype": "Normal",
+      "silver": 50.0,
+      "gold": 45.0
+    },
+    {
+      "id": "cf093a96033bba644b0c9c5272430d0f",
+      "display": "Car With Cold",
+      "name": "Car With Cold",
+      "debug": "SneezingCar 0",
+      "overworld": "JOB",
+      "island": "office_job",
+      "subtype": "Normal",
+      "silver": 40.0,
+      "gold": 32.0
+    },
+    {
+      "id": "fd2efbff868188845999eb97ebeedcf0",
+      "display": "Car- Porate Climbing",
+      "name": "Car- Porate Climbing",
+      "debug": "Climbing_Building",
+      "overworld": "JOB",
+      "island": "climbing_building_hard",
+      "subtype": "Intermezzo",
+      "silver": 46.5,
+      "gold": 38.5
+    },
+    {
+      "id": "91627377fc084064d95e3fe4e94ae49b",
+      "display": "Chop Chop",
+      "name": "Chop Chop",
+      "debug": "CuttingIngredients",
+      "overworld": "JOB",
+      "island": "drive_through",
+      "subtype": "Intermezzo",
+      "silver": 30.5,
+      "gold": 22.5
+    },
+    {
+      "id": "77922f7dfc263984f909a9f016aaeca5",
+      "display": "Ed- Car Scissor Hands",
+      "name": "Ed- Car Scissor Hands",
+      "debug": "CuttingGrass 0",
+      "overworld": "JOB",
+      "island": "summer_job",
+      "subtype": "Intermezzo",
+      "silver": 15.5,
+      "gold": 11.8
+    },
+    {
+      "id": "3c034c1021303114f9c9e32306c041ff",
+      "display": "Escape Car- Tist",
+      "name": "Escape Car- Tist",
+      "debug": "CarThief Hard 2",
+      "overworld": "JOB",
+      "island": "hard_car_thief",
+      "subtype": "Hard",
+      "silver": 43.0,
+      "gold": 36.0
+    },
+    {
+      "id": "2ea2438aad247b645980a35d37975ad1",
+      "display": "Get Away Car",
+      "name": "Get Away Car",
+      "debug": "CarThief",
+      "overworld": "JOB",
+      "island": "bank_job",
+      "subtype": "Normal",
+      "silver": 40.0,
+      "gold": 35.0
+    },
+    {
+      "id": "cdf796324b9a9d44589d5132b7faa5e5",
+      "display": "Handle With Car",
+      "name": "Handle With Car",
+      "debug": "HelicoptorCar 2",
+      "overworld": "JOB",
+      "island": "drive_through",
+      "subtype": "Normal",
+      "silver": 39.0,
+      "gold": 29.0
+    },
+    {
+      "id": "9db4f64d397bb3244983bf7a47f78b0b",
+      "display": "Heli- Car- Pter",
+      "name": "Heli- Car- Pter",
+      "debug": "HelicopterCar",
+      "overworld": "JOB",
+      "island": "drive_through",
+      "subtype": "Normal",
+      "silver": 29.0,
+      "gold": 24.0
+    },
+    {
+      "id": "7fbb274cc466dfb44b47bdc16e0de71b",
+      "display": "Hot Coffee Be Car- Ful",
+      "name": "Hot Coffee Be Car- Ful",
+      "debug": "Car on Coffee mug",
+      "overworld": "JOB",
+      "island": "office_job_hub",
+      "subtype": "Normal",
+      "silver": 34.0,
+      "gold": 29.0
+    },
+    {
+      "id": "c33d4fe0ed26b4b82868eb99ba457ae3",
+      "display": "Mo Lawn Mo Money",
+      "name": "Mo Lawn Mo Money",
+      "debug": "CuttingGrass",
+      "overworld": "JOB",
+      "island": "summer_job",
+      "subtype": "Intermezzo",
+      "silver": 36.0,
+      "gold": 28.0
+    },
+    {
+      "id": "27395adf08f97b04db89f1896d82e7ac",
+      "display": "S- Printer Jam",
+      "name": "S- Printer Jam",
+      "debug": "Printer 2",
+      "overworld": "JOB",
+      "island": "tech_support",
+      "subtype": "Normal",
+      "silver": 36.0,
+      "gold": 29.0
+    },
+    {
+      "id": "1e55f645cd652ce41be2e3fe052aa68b",
+      "display": "Snotting Hill",
+      "name": "Snotting Hill",
+      "debug": "SneezingCar 1",
+      "overworld": "JOB",
+      "island": "office_job",
+      "subtype": "Normal",
+      "silver": 60.0,
+      "gold": 42.0
+    },
+    {
+      "id": "1aea2651f9ba2ad4286856d25c151a41",
+      "display": "Someone Left The Lasers On",
+      "name": "Someone Left The Lasers On",
+      "debug": "Car on Roomba 2",
+      "overworld": "JOB",
+      "island": "summer_job",
+      "subtype": "Normal",
+      "silver": 60.0,
+      "gold": 52.0
+    },
+    {
+      "id": "f795b5e4e3b20d3479145f2c087657c2",
+      "display": "Type Rider",
+      "name": "Type Rider",
+      "debug": "Car with keyboards",
+      "overworld": "JOB",
+      "island": "tech_support",
+      "subtype": "Normal",
+      "silver": 36.0,
+      "gold": 28.0
+    },
+    {
+      "id": "ab0e2cf2ceac9d240a06c9a157762d05",
+      "display": "Watercooler Jetpack",
+      "name": "Watercooler Jetpack",
+      "debug": "Water Cooler 1",
+      "overworld": "JOB",
+      "island": "break_room",
+      "subtype": "Normal",
+      "silver": 37.0,
+      "gold": 33.0
+    },
+    {
+      "id": "28dd60ce9e4131a44a8b105524e9576c",
+      "display": "Work Hard Car Hard",
+      "name": "Work Hard Car Hard",
+      "debug": "Car on office chairs Hard 1",
+      "overworld": "JOB",
+      "island": "office_hard",
+      "subtype": "Hard",
+      "silver": 70.0,
+      "gold": 55.0
+    },
+    {
+      "id": "9fba25e930aa99b439ccf91f863672b8",
+      "display": "You Will Never Car Me Alive",
+      "name": "You Will Never Car Me Alive",
+      "debug": "CarThief Hard 1",
+      "overworld": "JOB",
+      "island": "hard_car_thief",
+      "subtype": "Hard",
+      "silver": 40.0,
+      "gold": 35.0
+    },
+    {
+      "id": "a99d36a67bc21c74db840cf8f9771938",
+      "display": "You Wouldn't Copy A Car",
+      "name": "You Wouldn't Copy A Car",
+      "debug": "Printer 1",
+      "overworld": "JOB",
+      "island": "bank_job",
+      "subtype": "Normal",
+      "silver": 38.0,
+      "gold": 31.0
+    },
+    {
+      "id": "0204b0e72af3f874e83f743db9997b35",
+      "display": "Boing Boing",
+      "name": "Boing Boing",
+      "debug": "Trampoline",
+      "overworld": "JUMPING",
+      "island": "beach_platforming_variant",
+      "subtype": "Intermezzo",
+      "silver": 20.0,
+      "gold": 13.0
+    },
+    {
+      "id": "50514f1cc864c384b97b67336389adb5",
+      "display": "Boost On Springboards",
+      "name": "Boost On Springboards",
+      "debug": "CarWithLegs springboards 2",
+      "overworld": "JUMPING",
+      "island": "run_and_jump",
+      "subtype": "Normal",
+      "silver": 27.0,
+      "gold": 20.0
+    },
+    {
+      "id": "36f5550931c0f3d4da76ace65a9a6518",
+      "display": "Car Is Frog",
+      "name": "Car Is Frog",
+      "debug": "FrogTongue",
+      "overworld": "JUMPING",
+      "island": "frogs",
+      "subtype": "Intermezzo",
+      "silver": 16.5,
+      "gold": 13.0
+    },
+    {
+      "id": "bbe6df47776712248b70ef1eaac1bfc3",
+      "display": "Car With Boost",
+      "name": "Car With Boost",
+      "debug": "CarWithLegs springboards 1",
+      "overworld": "JUMPING",
+      "island": "run_and_jump",
+      "subtype": "Normal",
+      "silver": 23.5,
+      "gold": 17.5
+    },
+    {
+      "id": "009d148cfc754fa45ac69cb4429e1b9b",
+      "display": "Car With Jetpack",
+      "name": "Car With Jetpack",
+      "debug": "CarWithLegs jumping",
+      "overworld": "JUMPING",
+      "island": "just_jumping",
+      "subtype": "Normal",
+      "silver": 50.0,
+      "gold": 44.0
+    },
+    {
+      "id": "37ae8b2d87d17c24f9d00e00b1219eb8",
+      "display": "Car With Jump But Too Much",
+      "name": "Car With Jump But Too Much",
+      "debug": "Autojumper 1",
+      "overworld": "JUMPING",
+      "island": "jump_intermezzo",
+      "subtype": "Normal",
+      "silver": 30.0,
+      "gold": 24.0
+    },
+    {
+      "id": "e9ad935e831a86d4ba949cc7633f4f7a",
+      "display": "Car With Tiny Legs",
+      "name": "Car With Tiny Legs",
+      "debug": "Jumping car with tiny legs",
+      "overworld": "JUMPING",
+      "island": "run_and_jump",
+      "subtype": "Normal",
+      "silver": 20.0,
+      "gold": 13.0
+    },
+    {
+      "id": "9c17b05a9fe9bb74898a1fee12a6e9b0",
+      "display": "Car With Umbrella",
+      "name": "Car With Umbrella",
+      "debug": "car with umbrella 1",
+      "overworld": "JUMPING",
+      "island": "just_jumping",
+      "subtype": "Normal",
+      "silver": 29.0,
+      "gold": 24.0
+    },
+    {
+      "id": "c3a1ce4b2549c9b4081f1cee576661e5",
+      "display": "Car With Very Large Legs",
+      "name": "Car With Very Large Legs",
+      "debug": "Jumping car large legs",
+      "overworld": "JUMPING",
+      "island": "top_ugc_levels_area_ep_1",
+      "subtype": "Normal",
+      "silver": 30.0,
+      "gold": 21.0
+    },
+    {
+      "id": "74431425daaa623439e64188398fa206",
+      "display": "Car-Ry Poppins",
+      "name": "Car-Ry Poppins",
+      "debug": "car with umbrella 3",
+      "overworld": "JUMPING",
+      "island": "just_jumping",
+      "subtype": "Normal",
+      "silver": 33.0,
+      "gold": 28.0
+    },
+    {
+      "id": "3c780f32fdbb9084898f985d632bc9fe",
+      "display": "Crossy Car",
+      "name": "Crossy Car",
+      "debug": "Frogger",
+      "overworld": "JUMPING",
+      "island": "frogs",
+      "subtype": "Intermezzo",
+      "silver": 25.0,
+      "gold": 18.0
+    },
+    {
+      "id": "6e608b37f55fc214ba8cd06d857bf5f9",
+      "display": "Don't Stomp Me Now",
+      "name": "Don't Stomp Me Now",
+      "debug": "Autojumper HARD 1",
+      "overworld": "JUMPING",
+      "island": "platforming_hard_area",
+      "subtype": "Hard",
+      "silver": 60.0,
+      "gold": 48.0
+    },
+    {
+      "id": "15eecd00ecd98404397ce437c2af6198",
+      "display": "Don't Touch The Rope",
+      "name": "Don't Touch The Rope",
+      "debug": "JumpRope",
+      "overworld": "JUMPING",
+      "island": "just_jumping",
+      "subtype": "Intermezzo",
+      "silver": 15.0,
+      "gold": 9.0
+    },
+    {
+      "id": "df404b80252b44b43bad3ca79fea77a1",
+      "display": "I Believe I Car Fly",
+      "name": "I Believe I Car Fly",
+      "debug": "car with umbrella 2",
+      "overworld": "JUMPING",
+      "island": "top_ugc_levels_area_ep_1",
+      "subtype": "Normal",
+      "silver": 48.0,
+      "gold": 41.0
+    },
+    {
+      "id": "9ea4b5c1eb09d2a4c9aac1ea18432da2",
+      "display": "It Doesn't Even Rain",
+      "name": "It Doesn't Even Rain",
+      "debug": "car with umbrella HARD 1",
+      "overworld": "JUMPING",
+      "island": "auto_jumper",
+      "subtype": "Hard",
+      "silver": 60.0,
+      "gold": 53.0
+    },
+    {
+      "id": "837b855d987e30b489b07ae68f069d37",
+      "display": "Jumps With Jumps",
+      "name": "Jumps With Jumps",
+      "debug": "Jumping car 3",
+      "overworld": "JUMPING",
+      "island": "run_and_jump",
+      "subtype": "Normal",
+      "silver": 28.0,
+      "gold": 20.0
+    },
+    {
+      "id": "cf732645934d9924fbfc6047ea7c949b",
+      "display": "Mads Attacks!",
+      "name": "Mads Attacks!",
+      "debug": "MadsJump_Intermezzo",
+      "overworld": "JUMPING",
+      "island": "jump_intermezzo",
+      "subtype": "Intermezzo",
+      "silver": 8.0,
+      "gold": 4.0
+    },
+    {
+      "id": "87ef10a94a109ad4aa122ba63295bdc1",
+      "display": "Mind The Gaps",
+      "name": "Mind The Gaps",
+      "debug": "CarWithLegs jumping 2",
+      "overworld": "JUMPING",
+      "island": "beach_platforming_variant",
+      "subtype": "Normal",
+      "silver": 36.0,
+      "gold": 18.0
+    },
+    {
+      "id": "633d6df0d7dd442408012835d347f7f2",
+      "display": "Who Cut The Road?",
+      "name": "Who Cut The Road?",
+      "debug": "CarWithLegs jumping 1",
+      "overworld": "JUMPING",
+      "island": "beach_platforming_variant",
+      "subtype": "Normal",
+      "silver": 37.0,
+      "gold": 33.0
+    },
+    {
+      "id": "6ab68207fb9e6cd46a1fbdf5095b730d",
+      "display": "2 Wide 2 Car",
+      "name": "2 Wide 2 Car",
+      "debug": "Wide Car 3",
+      "overworld": "LONG",
+      "island": "long_start",
+      "subtype": "Normal",
+      "silver": 64.0,
+      "gold": 59.0
+    },
+    {
+      "id": "3bf80326e55305a458577e3274cc4d24",
+      "display": "3 Wide 4 Counting",
+      "name": "3 Wide 4 Counting",
+      "debug": "Wide Car 2",
+      "overworld": "LONG",
+      "island": "long_start",
+      "subtype": "Normal",
+      "silver": 48.0,
+      "gold": 40.0
+    },
+    {
+      "id": "56e83c37e7423da49ab9ee5058fe99ee",
+      "display": "Ac- Car- Dion",
+      "name": "Ac- Car- Dion",
+      "debug": "Accardion",
+      "overworld": "LONG",
+      "island": "long_parts",
+      "subtype": "Normal",
+      "silver": 30.0,
+      "gold": 23.0
+    },
+    {
+      "id": "4b4365cadbcc7d54d9d158170efc1491",
+      "display": "Car Is A- Maze- Ing",
+      "name": "Car Is A- Maze- Ing",
+      "debug": "Long Car 3",
+      "overworld": "LONG",
+      "island": "long_start",
+      "subtype": "Normal",
+      "silver": 55.0,
+      "gold": 30.0
+    },
+    {
+      "id": "bc1e672cefef5b7478403bfb878221cd",
+      "display": "Car Is Long",
+      "name": "Car Is Long",
+      "debug": "Long Car",
+      "overworld": "LONG",
+      "island": "long_start",
+      "subtype": "Normal",
+      "silver": 41.0,
+      "gold": 37.0
+    },
+    {
+      "id": "82ede39e6fd543a45a10731a256f8748",
+      "display": "Car Is Wide",
+      "name": "Car Is Wide",
+      "debug": "Wide Car",
+      "overworld": "LONG",
+      "island": "long_start",
+      "subtype": "Normal",
+      "silver": 27.0,
+      "gold": 24.0
+    },
+    {
+      "id": "29640b01fa3e4ce47ab0f8a273eec06b",
+      "display": "Car On Skateboard But Giraffe",
+      "name": "Car On Skateboard But Giraffe",
+      "debug": "LongBoard",
+      "overworld": "LONG",
+      "island": "giraffe",
+      "subtype": "Normal",
+      "silver": 29.0,
+      "gold": 24.0
+    },
+    {
+      "id": "4e9decb7ae4a5504da065a809e61cf4c",
+      "display": "Car On Stilts But Giraffes",
+      "name": "Car On Stilts But Giraffes",
+      "debug": "LongStilts",
+      "overworld": "LONG",
+      "island": "giraffe",
+      "subtype": "Normal",
+      "silver": 42.5,
+      "gold": 39.0
+    },
+    {
+      "id": "e1c113adf2adc0144a346bb7bb9fc6a0",
+      "display": "Car With Giraffes",
+      "name": "Car With Giraffes",
+      "debug": "Car With Giraffes",
+      "overworld": "LONG",
+      "island": "giraffe",
+      "subtype": "Normal",
+      "silver": 26.5,
+      "gold": 22.0
+    },
+    {
+      "id": "7b47d454e27523a45911b51d77e94050",
+      "display": "Car With Wheels But Giraffes",
+      "name": "Car With Wheels But Giraffes",
+      "debug": "Car with giraffe wheels",
+      "overworld": "LONG",
+      "island": "giraffe",
+      "subtype": "Normal",
+      "silver": 18.7,
+      "gold": 22.0
+    },
+    {
+      "id": "436a4c7a7ae8d48438226cee3db1f918",
+      "display": "Car- Lien: The Longth Passenger",
+      "name": "Car- Lien: The Longth Passenger",
+      "debug": "Long Car 2",
+      "overworld": "LONG",
+      "island": "long_start",
+      "subtype": "Normal",
+      "silver": 52.0,
+      "gold": 43.0
+    },
+    {
+      "id": "b26f3893294a25d49a47368a90dc8fec",
+      "display": "Car- Ter- Pillar",
+      "name": "Car- Ter- Pillar",
+      "debug": "WalrusCar",
+      "overworld": "LONG",
+      "island": "long_parts",
+      "subtype": "Normal",
+      "silver": 38.0,
+      "gold": 29.8
+    },
+    {
+      "id": "e7ad5a9e54bfb4f4d9dd7bfc5cfafd3e",
+      "display": "Do Cars Dream Of Giraffe Wheels?",
+      "name": "Do Cars Dream Of Giraffe Wheels?",
+      "debug": "Car with giraffe wheels 1",
+      "overworld": "LONG",
+      "island": "giraffe",
+      "subtype": "Normal",
+      "silver": 38.0,
+      "gold": 31.0
+    },
+    {
+      "id": "6957d173a8411924e9173ca8a6ba5d67",
+      "display": "I'm Longing It",
+      "name": "I'm Longing It",
+      "debug": "Long Car Hard 1",
+      "overworld": "LONG",
+      "island": "circus",
+      "subtype": "Hard",
+      "silver": 56.0,
+      "gold": 44.0
+    },
+    {
+      "id": "6d97e2cc7f4667b43ae39a8a24bba9c4",
+      "display": "It Was A Sk8ter Car",
+      "name": "It Was A Sk8ter Car",
+      "debug": "LongBoard HARD 1",
+      "overworld": "LONG",
+      "island": "circus",
+      "subtype": "Hard",
+      "silver": 52.0,
+      "gold": 44.0
+    },
+    {
+      "id": "a48108a86301aa547a4c6c369bbd2ecc",
+      "display": "It'sss Sssna- Car",
+      "name": "It'sss Sssna- Car",
+      "debug": "WheelsSnake",
+      "overworld": "LONG",
+      "island": "long_parts",
+      "subtype": "Normal",
+      "silver": 30.0,
+      "gold": 25.0
+    },
+    {
+      "id": "2933669bdeb031c4e86867f09f2d3404",
+      "display": "Looo- Ooo- Ng Car",
+      "name": "Looo- Ooo- Ng Car",
+      "debug": "SwingingCar",
+      "overworld": "LONG",
+      "island": "swinging_car",
+      "subtype": "Normal",
+      "silver": 48.5,
+      "gold": 39.5
+    },
+    {
+      "id": "9a5130d34fe31e84ebac8a993644ddfb",
+      "display": "Looo- Ooo- Ooo",
+      "name": "Looo- Ooo- Ooo",
+      "debug": "SwingingCarLong",
+      "overworld": "LONG",
+      "island": "swinging_car",
+      "subtype": "Normal",
+      "silver": 28.0,
+      "gold": 18.0
+    },
+    {
+      "id": "a8f67862c64ac7342bf4d665e358e895",
+      "display": "Roller Car- Ster",
+      "name": "Roller Car- Ster",
+      "debug": "LongBoard 2",
+      "overworld": "LONG",
+      "island": "giraffe",
+      "subtype": "Normal",
+      "silver": 42.0,
+      "gold": 34.0
+    },
+    {
+      "id": "05decf4708917574ba96c0c703371e50",
+      "display": "Toss The Giraffe",
+      "name": "Toss The Giraffe",
+      "debug": "GiraffeThrowing",
+      "overworld": "LONG",
+      "island": "giraffethrowing",
+      "subtype": "Intermezzo",
+      "silver": 16.0,
+      "gold": 9.0
+    },
+    {
+      "id": "d0aeac69d76c28c44b8ed4add95c8bb2",
+      "display": "Are We There Yeti?",
+      "name": "Are We There Yeti?",
+      "debug": "Longboard ice Sneaky Sasquatch",
+      "overworld": "SNEAKY",
+      "island": "bridgesisland",
+      "subtype": "Normal",
+      "silver": 40.0,
+      "gold": 36.0
+    },
+    {
+      "id": "08cc85bf751a76644ae44c3612783fa5",
+      "display": "Aye Aye Sas- Car- Ptain",
+      "name": "Aye Aye Sas- Car- Ptain",
+      "debug": "Cartamaran 1 Sasquatch Variant",
+      "overworld": "SNEAKY",
+      "island": "river",
+      "subtype": "Normal",
+      "silver": 50.0,
+      "gold": 43.0
+    },
+    {
+      "id": "e9ef449fa6bc2ad4eb418e2d198b149a",
+      "display": "Car Meets Sasquatch",
+      "name": "Car Meets Sasquatch",
+      "debug": "CarWithLegs jumping Sasquatch Variant",
+      "overworld": "SNEAKY",
+      "island": "entrance",
+      "subtype": "Normal",
+      "silver": 50.0,
+      "gold": 44.0
+    },
+    {
+      "id": "170c0b5b80c4fdc459f474348d8867df",
+      "display": "Fin- Tastic!",
+      "name": "Fin- Tastic!",
+      "debug": "FishingCar Sneaky Sasquatch Variant",
+      "overworld": "SNEAKY",
+      "island": "river",
+      "subtype": "Intermezzo",
+      "silver": 27.0,
+      "gold": 24.0
+    },
+    {
+      "id": "912a101287e4dd844b8b875249fda8f3",
+      "display": "It's A Sneak Not A Sprint",
+      "name": "It's A Sneak Not A Sprint",
+      "debug": "SneakyCar Sasquatch 3",
+      "overworld": "SNEAKY",
+      "island": "entrance",
+      "subtype": "Normal",
+      "silver": 47.0,
+      "gold": 39.0
+    },
+    {
+      "id": "d7e571a9cb20e4b4089e90e94ddc5474",
+      "display": "Nom Nom",
+      "name": "Nom Nom",
+      "debug": "SasquatchEating_Intermezzo",
+      "overworld": "SNEAKY",
+      "island": "river",
+      "subtype": "Intermezzo",
+      "silver": 19.0,
+      "gold": 15.0
+    },
+    {
+      "id": "cd6225cc2d852ec4c8ae1d27cec4837d",
+      "display": "Sasq- Watch Out For Rangers",
+      "name": "Sasq- Watch Out For Rangers",
+      "debug": "SneakyCar Sasquatch 2",
+      "overworld": "SNEAKY",
+      "island": "entrance",
+      "subtype": "Normal",
+      "silver": 47.0,
+      "gold": 39.0
+    },
+    {
+      "id": "f9fb43257a6d6dc43815b63ecdf01689",
+      "display": "Sasquatch Caught A Car-P",
+      "name": "Sasquatch Caught A Car-P",
+      "debug": "Carp Sneaky Sasquatch",
+      "overworld": "SNEAKY",
+      "island": "river",
+      "subtype": "Normal",
+      "silver": 37.0,
+      "gold": 33.0
+    },
+    {
+      "id": "9bdddd42b54755444af1937393a5defb",
+      "display": "Sasquatch Phone Home",
+      "name": "Sasquatch Phone Home",
+      "debug": "Bike with booster 2 Sasquatch Variant",
+      "overworld": "SNEAKY",
+      "island": "bridgesisland",
+      "subtype": "Normal",
+      "silver": 33.0,
+      "gold": 29.0
+    },
+    {
+      "id": "0f9633acfc9355149831165b0ef970b5",
+      "display": "Sneaky Sas- Car",
+      "name": "Sneaky Sas- Car",
+      "debug": "SneakyCar Sasquatch 1",
+      "overworld": "SNEAKY",
+      "island": "entrance",
+      "subtype": "Normal",
+      "silver": 32.0,
+      "gold": 27.0
+    },
+    {
+      "id": "a3307eaf8aa064749a486599d363528e",
+      "display": "The Picnic Is On Me",
+      "name": "The Picnic Is On Me",
+      "debug": "Wide Car Sasquatch Variant",
+      "overworld": "SNEAKY",
+      "island": "bridgesisland",
+      "subtype": "Normal",
+      "silver": 27.0,
+      "gold": 24.0
+    },
+    {
+      "id": "60d846fb80bb34b49809fa2dbf95f191",
+      "display": "Who's The Bigfoot Now?",
+      "name": "Who's The Bigfoot Now?",
+      "debug": "Jumping car large legs Sasquatch Variant",
+      "overworld": "SNEAKY",
+      "island": "bridgesisland",
+      "subtype": "Normal",
+      "silver": 30.0,
+      "gold": 21.0
+    },
+    {
+      "id": "004f12ff7a4f0d646b7f80902af8a525",
+      "display": "Advanced Tabletop Soccer",
+      "name": "Advanced Tabletop Soccer",
+      "debug": "Foosball 2",
+      "overworld": "SOCCER",
+      "island": "kicktheball",
+      "subtype": "Normal",
+      "silver": 160.0,
+      "gold": 110.0
+    },
+    {
+      "id": "befaf5547c0b23245ad7265faaaa2c9e",
+      "display": "Backflip's Back Alright",
+      "name": "Backflip's Back Alright",
+      "debug": "Rocket League Car HARD 1",
+      "overworld": "SOCCER",
+      "island": "rocket_leg_vs_bear_hard_variant",
+      "subtype": "Hard",
+      "silver": 44.5,
+      "gold": 39.0
+    },
+    {
+      "id": "50bfcd869debb984483ebbbf2ce2b814",
+      "display": "Car Is Ball",
+      "name": "Car Is Ball",
+      "debug": "Car is ball 1",
+      "overworld": "SOCCER",
+      "island": "betheball",
+      "subtype": "Normal",
+      "silver": 27.0,
+      "gold": 20.0
+    },
+    {
+      "id": "757ae04d5024808498d1f79b3733c09f",
+      "display": "Car On A Roll",
+      "name": "Car On A Roll",
+      "debug": "Car on ball 2",
+      "overworld": "SOCCER",
+      "island": "rideball",
+      "subtype": "Normal",
+      "silver": 43.0,
+      "gold": 37.0
+    },
+    {
+      "id": "27ccf11673b2f3445816a1502e135670",
+      "display": "Car On Ball",
+      "name": "Car On Ball",
+      "debug": "Car on ball 1",
+      "overworld": "SOCCER",
+      "island": "rideball",
+      "subtype": "Normal",
+      "silver": 33.0,
+      "gold": 27.0
+    },
+    {
+      "id": "bd1de8b5fedf74467bc8d64d3069bc35",
+      "display": "Car Strikes Goal",
+      "name": "Car Strikes Goal",
+      "debug": "Intermezzo Bowling",
+      "overworld": "SOCCER",
+      "island": "bowling",
+      "subtype": "Intermezzo",
+      "silver": 30.0,
+      "gold": 20.0
+    },
+    {
+      "id": "c72b6c0d1b5a868488957a768505670b",
+      "display": "Car Takes A Long Shot",
+      "name": "Car Takes A Long Shot",
+      "debug": "Car is ball 2",
+      "overworld": "SOCCER",
+      "island": "betheball",
+      "subtype": "Normal",
+      "silver": 34.0,
+      "gold": 29.0
+    },
+    {
+      "id": "0fc7b41702801a449a21c204e86d1119",
+      "display": "Car The Ball",
+      "name": "Car The Ball",
+      "debug": "PenaltyShot",
+      "overworld": "SOCCER",
+      "island": "kicktheball",
+      "subtype": "Intermezzo",
+      "silver": 30.0,
+      "gold": 22.0
+    },
+    {
+      "id": "fe37cf0de6dbf16478623b36aef1b535",
+      "display": "Car With Rocket Leg(Uae)",
+      "name": "Car With Rocket Leg(Uae)",
+      "debug": "Rocket League 1",
+      "overworld": "SOCCER",
+      "island": "kicktheball",
+      "subtype": "Normal",
+      "silver": 12.0,
+      "gold": 8.0
+    },
+    {
+      "id": "ac5355dafa8daeb4fbff93ef921ce16e",
+      "display": "Car With Soccer Cannon",
+      "name": "Car With Soccer Cannon",
+      "debug": "Car with soccer cannon 1",
+      "overworld": "SOCCER",
+      "island": "soccercannon",
+      "subtype": "Normal",
+      "silver": 42.0,
+      "gold": 32.0
+    },
+    {
+      "id": "e18eb7ad572323f47a8013a5eff8fd7e",
+      "display": "Car- Duous Cannonade",
+      "name": "Car- Duous Cannonade",
+      "debug": "Car with soccer cannon HARD 1",
+      "overworld": "SOCCER",
+      "island": "ballingoalchallenge",
+      "subtype": "Hard",
+      "silver": 68.0,
+      "gold": 48.0
+    },
+    {
+      "id": "48c7605c41555f54f87cc5d5718ba0fd",
+      "display": "Catch The Ball",
+      "name": "Catch The Ball",
+      "debug": "CarWithGoal",
+      "overworld": "SOCCER",
+      "island": "carisgoal",
+      "subtype": "Normal",
+      "silver": 20.0,
+      "gold": 10.0
+    },
+    {
+      "id": "0fdbd5c51172cdb4d9458a44a40181a7",
+      "display": "Catch The Goal",
+      "name": "Catch The Goal",
+      "debug": "Car on ball 3 - chase goal",
+      "overworld": "SOCCER",
+      "island": "rideball",
+      "subtype": "Normal",
+      "silver": 22.0,
+      "gold": 18.0
+    },
+    {
+      "id": "f170b018e14370f4fad5faa67e68cfea",
+      "display": "Hit The Ball Jack",
+      "name": "Hit The Ball Jack",
+      "debug": "Rocket League 3",
+      "overworld": "SOCCER",
+      "island": "kicktheball",
+      "subtype": "Normal",
+      "silver": 100.0,
+      "gold": 73.0
+    },
+    {
+      "id": "0528e5b227ad91249a93a93b049dc003",
+      "display": "It's Getting Messi",
+      "name": "It's Getting Messi",
+      "debug": "Car with legs - push giant ball",
+      "overworld": "SOCCER",
+      "island": "pushtheball",
+      "subtype": "Normal",
+      "silver": 28.0,
+      "gold": 19.0
+    },
+    {
+      "id": "f6df5a96014ead744b2e3e6e2b145a82",
+      "display": "It's The Soccer Bowl",
+      "name": "It's The Soccer Bowl",
+      "debug": "Intermezzo Bowling 0",
+      "overworld": "SOCCER",
+      "island": "bowling",
+      "subtype": "Intermezzo",
+      "silver": 18.0,
+      "gold": 11.0
+    },
+    {
+      "id": "adef9a990b7222d4c9ff96d28d2c9825",
+      "display": "Just Legging It",
+      "name": "Just Legging It",
+      "debug": "Rocket League 2",
+      "overworld": "SOCCER",
+      "island": "kicktheball",
+      "subtype": "Normal",
+      "silver": 28.0,
+      "gold": 18.0
+    },
+    {
+      "id": "8951d4a367a363f4da545e57d2f7ccc2",
+      "display": "Small Soccer Time",
+      "name": "Small Soccer Time",
+      "debug": "Foosball 1",
+      "overworld": "SOCCER",
+      "island": "kicktheball",
+      "subtype": "Intermezzo",
+      "silver": 16.0,
+      "gold": 8.0
+    },
+    {
+      "id": "015788d28cb7a644da46b75bea60aba0",
+      "display": "So- Ccar It Shoots Balls",
+      "name": "So- Ccar It Shoots Balls",
+      "debug": "Car with soccer cannon 2",
+      "overworld": "SOCCER",
+      "island": "soccercannon",
+      "subtype": "Normal",
+      "silver": 38.0,
+      "gold": 52.0
+    },
+    {
+      "id": "38455d288854f03468f157769c136a45",
+      "display": "Soccer The Ball",
+      "name": "Soccer The Ball",
+      "debug": "Car with legs - push ball",
+      "overworld": "SOCCER",
+      "island": "pushtheball",
+      "subtype": "Normal",
+      "silver": 4.25,
+      "gold": 5.0
+    },
+    {
+      "id": "f77f0b67167cfe948bfb211bceaedfa0",
+      "display": "Soccer Trick",
+      "name": "Soccer Trick",
+      "debug": "Car is ball - fake tv goal",
+      "overworld": "SOCCER",
+      "island": "betheball",
+      "subtype": "Normal",
+      "silver": 12.0,
+      "gold": 9.0
+    },
+    {
+      "id": "cb41ea70409cc5b4c99818d8413f2ce6",
+      "display": "Behold The Monster Car",
+      "name": "Behold The Monster Car",
+      "debug": "Monster Car 1",
+      "overworld": "STORM",
+      "island": "storm_branch_1_1_monster_car",
+      "subtype": "Normal",
+      "silver": 52.7,
+      "gold": 62.0
+    },
+    {
+      "id": "def9c833034a9134bbf9929a3f630d67",
+      "display": "Car- Illa Like Banana",
+      "name": "Car- Illa Like Banana",
+      "debug": "Carilla 1",
+      "overworld": "STORM",
+      "island": "storm_branch_2_1",
+      "subtype": "Normal",
+      "silver": 45.0,
+      "gold": 39.0
+    },
+    {
+      "id": "6268bedcb0567c441bce2e867d17266b",
+      "display": "Car- Illa Smash",
+      "name": "Car- Illa Smash",
+      "debug": "Carilla 2",
+      "overworld": "STORM",
+      "island": "storm_branch_2_1",
+      "subtype": "Normal",
+      "silver": 44.2,
+      "gold": 52.0
+    },
+    {
+      "id": "aa17c2a1b46eaf3448d28eee693d5be2",
+      "display": "Car- Kong King Of Cars",
+      "name": "Car- Kong King Of Cars",
+      "debug": "Carilla 3",
+      "overworld": "STORM",
+      "island": "storm_branch_2_1",
+      "subtype": "Normal",
+      "silver": 50.15,
+      "gold": 59.0
+    },
+    {
+      "id": "b15fdf05e04b04f4ea11d5ff3b6ee335",
+      "display": "Escape The Storm",
+      "name": "Escape The Storm",
+      "debug": "Car with legs Storm 0",
+      "overworld": "STORM",
+      "island": "storm_start",
+      "subtype": "Normal",
+      "silver": 29.75,
+      "gold": 35.0
+    },
+    {
+      "id": "42af04525166a964c8d3d4cdbe58dbeb",
+      "display": "Gonna Need A Bigger Car",
+      "name": "Gonna Need A Bigger Car",
+      "debug": "Monster Car Car",
+      "overworld": "STORM",
+      "island": "storm_branch_1_1_monster_car",
+      "subtype": "Normal",
+      "silver": 36.550003,
+      "gold": 43.0
+    },
+    {
+      "id": "5744606104ee81d4886431b202d2d6b7",
+      "display": "Got Honey?",
+      "name": "Got Honey?",
+      "debug": "Intermezzo_VendorPourHoney",
+      "overworld": "STORM",
+      "island": "storm_branch_1_1_monster_car",
+      "subtype": "Intermezzo",
+      "silver": 56.95,
+      "gold": 67.0
+    },
+    {
+      "id": "9ad5a65ef3819c74cb14b052838b6b12",
+      "display": "Gotta Go Fast",
+      "name": "Gotta Go Fast",
+      "debug": "Porcarpine 2",
+      "overworld": "STORM",
+      "island": "storm_branch_1_2_porcarpine",
+      "subtype": "Normal",
+      "silver": 39.95,
+      "gold": 47.0
+    },
+    {
+      "id": "545d4612473b42646aef69de54e654a7",
+      "display": "Gui- Car Hero",
+      "name": "Gui- Car Hero",
+      "debug": "Intermezzo_CannonShooter",
+      "overworld": "STORM",
+      "island": "storm_branch_1_2_porcarpine",
+      "subtype": "Intermezzo",
+      "silver": 42.5,
+      "gold": 50.0
+    },
+    {
+      "id": "7df8ecd0ea24eb24aacc97bd37cae8f0",
+      "display": "I'm Not Blue Dabadee- Dabadi",
+      "name": "I'm Not Blue Dabadee- Dabadi",
+      "debug": "Porcarpine 3",
+      "overworld": "STORM",
+      "island": "storm_branch_1_2_porcarpine",
+      "subtype": "Normal",
+      "silver": 39.95,
+      "gold": 47.0
+    },
+    {
+      "id": "f0672f04c8308f3499e9349951eb9eb2",
+      "display": "Is This A Por- Car- Pine?",
+      "name": "Is This A Por- Car- Pine?",
+      "debug": "Porcarpine 1",
+      "overworld": "STORM",
+      "island": "storm_branch_1_2_porcarpine",
+      "subtype": "Normal",
+      "silver": 41.65,
+      "gold": 49.0
+    },
+    {
+      "id": "c5e7ecb71aec0c24dab38ee8574a7447",
+      "display": "Look Mom Witness This",
+      "name": "Look Mom Witness This",
+      "debug": "Monster Car 3",
+      "overworld": "STORM",
+      "island": "storm_branch_1_1_monster_car",
+      "subtype": "Normal",
+      "silver": 43.350002,
+      "gold": 51.0
+    },
+    {
+      "id": "4a6f44d8f1f00984e8b59d182d2477b8",
+      "display": "Move Car Get Out The Way",
+      "name": "Move Car Get Out The Way",
+      "debug": "Monster Car 2",
+      "overworld": "STORM",
+      "island": "storm_branch_1_1_monster_car",
+      "subtype": "Normal",
+      "silver": 45.050003,
+      "gold": 53.0
+    },
+    {
+      "id": "a9d5aebb76d6a2f48be25c494daf71d5",
+      "display": "One Car Enters No Couch Leaves",
+      "name": "One Car Enters No Couch Leaves",
+      "debug": "Intermezzo_ThunderDome",
+      "overworld": "STORM",
+      "island": "storm_branch_2_2",
+      "subtype": "Intermezzo",
+      "silver": 23.800001,
+      "gold": 28.0
+    },
+    {
+      "id": "39a15b8ac7067aa4db26ed6941e6501c",
+      "display": "Put A Wing On It",
+      "name": "Put A Wing On It",
+      "debug": "Carchangel 1",
+      "overworld": "STORM",
+      "island": "storm_branch_2_2",
+      "subtype": "Normal",
+      "silver": 51.0,
+      "gold": 60.0
+    },
+    {
+      "id": "2be741fa4aa2999419905d72dec39a82",
+      "display": "Street Fighter",
+      "name": "Street Fighter",
+      "debug": "Intermezzo_StreetFighter",
+      "overworld": "STORM",
+      "island": "storm_branch_2_1",
+      "subtype": "Intermezzo",
+      "silver": 5.9500003,
+      "gold": 7.0
+    },
+    {
+      "id": "9d32c52847ccd4244bd56e4bddf54191",
+      "display": "Take That Da Vinci",
+      "name": "Take That Da Vinci",
+      "debug": "Carchangel 2",
+      "overworld": "STORM",
+      "island": "storm_branch_2_2",
+      "subtype": "Normal",
+      "silver": 25.5,
+      "gold": 30.0
+    },
+    {
+      "id": "ed3e5c2e4fdf2784896742c562d4052e",
+      "display": "The Rude Sandstorm",
+      "name": "The Rude Sandstorm",
+      "debug": "Monster Car HARD",
+      "overworld": "STORM",
+      "island": "storm_hard_1",
+      "subtype": "Hard",
+      "silver": 67.0,
+      "gold": 60.0
+    },
+    {
+      "id": "792b365716ae1b74da662ba790169c3d",
+      "display": "This Is Medio- Car",
+      "name": "This Is Medio- Car",
+      "debug": "Mediocar",
+      "overworld": "STORM",
+      "island": "storm_branch_1_1_monster_car",
+      "subtype": "Normal",
+      "silver": 56.95,
+      "gold": 67.0
+    },
+    {
+      "id": "b094fd736bb7a584aab9f31b0dafafe9",
+      "display": "Time To Worm It Up",
+      "name": "Time To Worm It Up",
+      "debug": "Autojumper Storm 1",
+      "overworld": "STORM",
+      "island": "storm_branch_2_1",
+      "subtype": "Normal",
+      "silver": 56.100002,
+      "gold": 66.0
+    },
+    {
+      "id": "a624c459f7e46c1478b1a816755448df",
+      "display": "Touch The Sun I- Car- Us",
+      "name": "Touch The Sun I- Car- Us",
+      "debug": "Carchangel 3",
+      "overworld": "STORM",
+      "island": "storm_branch_2_2",
+      "subtype": "Normal",
+      "silver": 38.25,
+      "gold": 45.0
+    },
+    {
+      "id": "beaec686845a8204e896c572bbe4c014",
+      "display": "Bike Me Up Before You Go Go",
+      "name": "Bike Me Up Before You Go Go",
+      "debug": "Bike With Jetpack 3",
+      "overworld": "WHEELS",
+      "island": "jetpack",
+      "subtype": "Normal",
+      "silver": 48.0,
+      "gold": 37.0
+    },
+    {
+      "id": "76937af4886015b4ab90324c3c8296cf",
+      "display": "Bike Me Up Inside",
+      "name": "Bike Me Up Inside",
+      "debug": "Bike With Jetpack HARD 1",
+      "overworld": "WHEELS",
+      "island": "jetpack_hard",
+      "subtype": "Hard",
+      "silver": 53.0,
+      "gold": 45.0
+    },
+    {
+      "id": "9f493d410ffc8194690c9f6c61c8ea95",
+      "display": "Break It Till You Make It",
+      "name": "Break It Till You Make It",
+      "debug": "Scarlextric 2",
+      "overworld": "WHEELS",
+      "island": "scarlextric",
+      "subtype": "Normal",
+      "silver": 25.0,
+      "gold": 15.0
+    },
+    {
+      "id": "f9f8b9ed5fc99734facfe0ef8679c6e1",
+      "display": "But This Time For Wheel",
+      "name": "But This Time For Wheel",
+      "debug": "Monowheel 1",
+      "overworld": "WHEELS",
+      "island": "more_wheels",
+      "subtype": "Normal",
+      "silver": 29.0,
+      "gold": 23.0
+    },
+    {
+      "id": "33d376906e51e234eb5aac0a7a2af8b8",
+      "display": "C.A.R Phone Home",
+      "name": "C.A.R Phone Home",
+      "debug": "Bike with booster 2",
+      "overworld": "WHEELS",
+      "island": "jetpack",
+      "subtype": "Normal",
+      "silver": 33.0,
+      "gold": 29.0
+    },
+    {
+      "id": "a3c8a612fa9aa3548aafc33b30915dbf",
+      "display": "Car In Hamster Wheel",
+      "name": "Car In Hamster Wheel",
+      "debug": "Hamster Wheel 1",
+      "overworld": "WHEELS",
+      "island": "more_wheels",
+      "subtype": "Normal",
+      "silver": 45.0,
+      "gold": 40.0
+    },
+    {
+      "id": "4e757c3bc4400c44a9d422fa8aa136fc",
+      "display": "Car In Wheel",
+      "name": "Car In Wheel",
+      "debug": "PoolDonut 1",
+      "overworld": "WHEELS",
+      "island": "more_wheels",
+      "subtype": "Normal",
+      "silver": 27.0,
+      "gold": 23.0
+    },
+    {
+      "id": "1f2d9e427e4d1b44eaf4373759616057",
+      "display": "Car Is Toy",
+      "name": "Car Is Toy",
+      "debug": "Scarlextric 1",
+      "overworld": "WHEELS",
+      "island": "scarlextric",
+      "subtype": "Normal",
+      "silver": 25.0,
+      "gold": 16.0
+    },
+    {
+      "id": "853f0350c6cf3b64dbca659402452b8c",
+      "display": "Car On Bike",
+      "name": "Car On Bike",
+      "debug": "Bike with booster 1",
+      "overworld": "WHEELS",
+      "island": "jetpack",
+      "subtype": "Normal",
+      "silver": 27.0,
+      "gold": 23.5
+    },
+    {
+      "id": "955d004d807122341802e41ad004bb31",
+      "display": "Car On Bike With Jetpack",
+      "name": "Car On Bike With Jetpack",
+      "debug": "Bike With Jetpack",
+      "overworld": "WHEELS",
+      "island": "jetpack",
+      "subtype": "Normal",
+      "silver": 37.0,
+      "gold": 32.0
+    },
+    {
+      "id": "756391ad1dfc0ec4c88d68c5c5964b2f",
+      "display": "Car With (W)Heels",
+      "name": "Car With (W)Heels",
+      "debug": "Car with heels",
+      "overworld": "WHEELS",
+      "island": "weird_wheels",
+      "subtype": "Normal",
+      "silver": 60.0,
+      "gold": 47.0
+    },
+    {
+      "id": "cb9c0611a6486cc449890109dcef1dda",
+      "display": "Car With Hot Wheels",
+      "name": "Car With Hot Wheels",
+      "debug": "Hot Wheels 1",
+      "overworld": "WHEELS",
+      "island": "hot_wheels",
+      "subtype": "Normal",
+      "silver": 49.300003,
+      "gold": 58.0
+    },
+    {
+      "id": "4bb0e1ceb5429c94f91b4f97039d76fc",
+      "display": "Car With Too Many Wheels",
+      "name": "Car With Too Many Wheels",
+      "debug": "Too many wheels",
+      "overworld": "WHEELS",
+      "island": "weird_wheels",
+      "subtype": "Normal",
+      "silver": 22.0,
+      "gold": 17.0
+    },
+    {
+      "id": "a19f37cc85fd4ef43b9c33aa3e72cefc",
+      "display": "Car With Wheels But They're Wrong",
+      "name": "Car With Wheels But They're Wrong",
+      "debug": "Plank wheel on beach",
+      "overworld": "WHEELS",
+      "island": "hot_wheels",
+      "subtype": "Normal",
+      "silver": 45.0,
+      "gold": 37.0
+    },
+    {
+      "id": "fab7e628e93a99a47bea0144ec2b8c84",
+      "display": "Drop It Like It's Hot Wheels",
+      "name": "Drop It Like It's Hot Wheels",
+      "debug": "Hot Wheels 2",
+      "overworld": "WHEELS",
+      "island": "hot_wheels",
+      "subtype": "Normal",
+      "silver": 80.0,
+      "gold": 70.0
+    },
+    {
+      "id": "3ee232560b44a664aa202a2b64f442ed",
+      "display": "It's Getting Hot In Wheels",
+      "name": "It's Getting Hot In Wheels",
+      "debug": "Hot Wheels 3",
+      "overworld": "WHEELS",
+      "island": "hot_wheels",
+      "subtype": "Normal",
+      "silver": 60.0,
+      "gold": 37.0
+    },
+    {
+      "id": "56b8e99d4d850784aae527065d2ae32a",
+      "display": "It's The Final Car Down",
+      "name": "It's The Final Car Down",
+      "debug": "Scarlextric 3",
+      "overworld": "WHEELS",
+      "island": "scarlextric",
+      "subtype": "Normal",
+      "silver": 48.0,
+      "gold": 32.0
+    },
+    {
+      "id": "4c42d29ec1ddab745aa54eb850c732eb",
+      "display": "One Wheel To Rule Them All",
+      "name": "One Wheel To Rule Them All",
+      "debug": "Monowheel 2",
+      "overworld": "WHEELS",
+      "island": "more_wheels",
+      "subtype": "Normal",
+      "silver": 48.0,
+      "gold": 43.0
+    },
+    {
+      "id": "54de5bb5341a7004ca8a92cc1ceba14e",
+      "display": "Racing Is Served",
+      "name": "Racing Is Served",
+      "debug": "Scarlextric HARD 1",
+      "overworld": "WHEELS",
+      "island": "scarlextric_hard",
+      "subtype": "Hard",
+      "silver": 57.0,
+      "gold": 49.0
+    },
+    {
+      "id": "3d146b987bcc70548bedf445a1b8432b",
+      "display": "Toxic Roads Bike Me Home",
+      "name": "Toxic Roads Bike Me Home",
+      "debug": "Bike with booster 3",
+      "overworld": "WHEELS",
+      "island": "jetpack",
+      "subtype": "Normal",
+      "silver": 36.0,
+      "gold": 30.0
+    },
+    {
+      "id": "769cef3e0b48162428270f5fde39166f",
+      "display": "Wheels On Fire Already Mom's Spaghetti",
+      "name": "Wheels On Fire Already Mom's Spaghetti",
+      "debug": "Hot Wheels HARD 1",
+      "overworld": "WHEELS",
+      "island": "hotwheels_hard",
+      "subtype": "Hard",
+      "silver": 66.0,
+      "gold": 59.0
+    }
+  ],
+  "shared_levels": {
+    "5d859d824da159d42b313e3a490cefb7": [
+      "GOAT",
+      "JOB"
+    ],
+    "9565d8b65d5a22b4b98327d33a0378fd": [
+      "GOAT",
+      "WHEELS"
+    ]
+  }
+}
